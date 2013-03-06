@@ -47,3 +47,20 @@ labs(title="American Jewish Population Estimates, 1776-1900", x =
      "Year", y="Population")
 makeFootnote("Data taken from Jonathan Sarna, American Judaism")
 dev.off
+
+# Population estimates with bars
+# documentation: http://docs.ggplot2.org/0.9.3/geom_linerange.html
+# I think I have to offer it the midpoint, plus and minus the distance
+midpoint <- (d$estimate.high - d$estimate.low)/2 + d$estimate.low
+error <- (d$estimate.high - d$estimate.low)/2
+png(file="jews.1660-2000.errors.png", width = 900, height=900, 
+    res=100, pointsize=9)
+plot3 <- ggplot(d)
+plot3 + 
+geom_line(aes(d$year, midpoint)) +
+geom_linerange(aes(x=d$year, ymin = midpoint - error, ymax = 
+                   midpoint + error))+ 
+labs(title="American Jewish Population Estimates, 1660-2000", x = 
+     "Year", y="Population")
+makeFootnote("Data taken from Jonathan Sarna, American Judaism")
+dev.off

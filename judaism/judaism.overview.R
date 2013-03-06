@@ -1,5 +1,3 @@
-#!/usr/bin/env Rscript
-
 # R script to chart demographic data on American Judaism
 
 # Lincoln Mullen <lincoln@lincolnmullen.com>

@@ -1,27 +1,13 @@
 # R script to chart demographic data on American Judaism
 
-# Lincoln Mullen <lincoln@lincolnmullen.com>
-# MIT License <http://lmullen.mit-license.org/> 
+# Lincoln A. Mullen | lincoln@lincolnmullen.com | http://lincolnmullen.com
+# MIT License <http://lmullen.mit-license.org/>
 
 library(ggplot2)
 
-makeFootnote <- function(footnoteText=
-                         format(Sys.time(), "%d %b %Y"),
-                         size= .7, color= grey(.5))
-{
-  require(grid)
-  pushViewport(viewport())
-  grid.text(label= footnoteText ,
-            x = unit(1,"npc") - unit(2, "mm"),
-            y= unit(2, "mm"),
-            just=c("right", "bottom"),
-            gp=gpar(cex= size, col=color))
-  popViewport()
-}
-
-credit <- function() {
-  return(makeFootnote("\nLincoln Mullen <http://lincolnmullen.com>"))
-}
+# Load functions for attribution
+# -------------------------------------------------------------------
+source("../attribution.R")
 
 # Data
 data <- read.csv("sarna.appendix.csv", comment.char = "#")
@@ -35,7 +21,7 @@ geom_line(aes(data$year, data$estimate.high)) +
 labs(title="American Jewish Population Estimates, 1660-2000",
      x = "Year",
      y="Population")
-makeFootnote("Data from Jonathan Sarna, American Judaism")
+credit("Data: Jonathan Sarna, American Judaism.")
 dev.off()
 
 # Population estimates with error bars
@@ -53,5 +39,5 @@ geom_errorbar(aes(
 labs(title="American Jewish Population Estimates, 1660-2000",
      x = "Year",
      y="Population")
-makeFootnote("Data from Jonathan Sarna, American Judaism")
+attribution("Data: Jonathan Sarna, American Judaism.")
 dev.off()

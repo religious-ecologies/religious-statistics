@@ -10,18 +10,18 @@ ROUT := $(patsubst %.R,%.Rout,$(shell find . -type f -name '*.R'))
 PNG := $(shell find . -type f -name '*.png')
 
 # The all rule makes the .Rout files corresponding to .R scripts
-.PHONY : all
+.PHONY: all
 all: $(ROUT)
 
 # A generic rule makes an .Rout target from the .R script
-%.Rout : %.R
+%.Rout: %.R
 	@echo "Running $<"
 	@cd $(@D) && R CMD BATCH $(<F)
 
-.PHONY : clean
-clean :
+.PHONY: clean
+clean:
 	rm $(ROUT)
 	rm $(PNG)
 
-.PHONY : rebuild
-rebuild : clean all
+.PHONY: rebuild
+rebuild: clean all

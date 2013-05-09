@@ -5,6 +5,7 @@
 
 library(ggplot2)
 
+
 # Load functions for attribution
 # -------------------------------------------------------------------
 source("../attribution.R")
@@ -15,12 +16,12 @@ data <- read.csv("sarna.appendix.csv", comment.char = "#")
 
 # Calculate mean/midpoint and the height of the range bars
 # -------------------------------------------------------------------
-midpoint.population <- (data$estimate.high + data$estimate.low)/2 
+midpoint.population <- (data$estimate.high + data$estimate.low)/2
 error.population    <- (data$estimate.high - data$estimate.low)/2
-midpoint.percentage <- (data$percentage.population.high + 
-                        data$percentage.population.low)/2 
-error.percentage    <- (data$percentage.population.high - 
-                        data$percentage.population.low)/2 
+midpoint.percentage <- (data$percentage.population.high +
+                        data$percentage.population.low)/2
+error.percentage    <- (data$percentage.population.high -
+                        data$percentage.population.low)/2
 
 # Population estimates with range bars
 # -------------------------------------------------------------------

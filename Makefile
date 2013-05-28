@@ -16,7 +16,7 @@ all: $(ROUT)
 # A generic rule makes an .Rout target from the .R script
 %.Rout: %.R
 	@echo "Running $<"
-	@cd $(@D) && R CMD BATCH $(<F)
+	R CMD BATCH $(<F)
 
 .PHONY: clean
 clean:

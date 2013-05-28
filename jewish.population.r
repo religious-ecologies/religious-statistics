@@ -8,11 +8,11 @@ library(ggplot2)
 
 # Load functions for attribution
 # -------------------------------------------------------------------
-source("../attribution.R")
+source("functions/attribution.r")
 
 # Data
 # -------------------------------------------------------------------
-data <- read.csv("sarna.appendix.csv", comment.char = "#")
+data <- read.csv("data/sarna.appendix.csv", comment.char = "#")
 
 # Calculate mean/midpoint and the height of the range bars
 # -------------------------------------------------------------------

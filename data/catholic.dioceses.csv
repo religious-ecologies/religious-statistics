@@ -1,0 +1,155 @@
+diocese,date.erected,date.metropolitan,rite
+Baltimore,"April 6, 1789","April 8, 1808",Latin
+New Orleans,"April 25, 1793","July 19, 1850",Latin
+Boston,"April 8, 1808","February 12, 1875",Latin
+Louisville,"April 8, 1808","December 10, 1937",Latin
+New York,"April 8, 1808","July 19, 1850",Latin
+Philadelphia,"April 8, 1808","February 12, 1875",Latin
+Richmond,"June 19, 1820",,Latin
+Charleston,"July 11, 1820",,Latin
+Cincinnati,"June 19, 1821","July 19, 1850",Latin
+St. Louis,"July 18, 1826","July 20, 1847",Latin
+Mobile-Birmingham,"May 15, 1829",,Latin
+Detroit,"March 8, 1833","May 22, 1937",Latin
+Indianapolis,"April 12, 1834","October 21, 1944",Latin
+Dubuque,"July 28, 1837","June 15, 1893",Latin
+Nashville,"July 28, 1837",,Latin
+Natchez-Jackson,"July 28, 1837",,Latin
+Los Angeles,"April 27, 1840","July 11, 1936",Latin
+Pittsburgh,"August 11, 1843",,Latin
+Hartford,"September 18, 1843","August 6, 1953",Latin
+Chicago,"November 28, 1843","September 10, 1880",Latin
+Little Rock,"November 28, 1843",,Latin
+Milwaukee,"November 28, 1843","February 12, 1875",Latin
+Portland in Oregon,"July 24, 1846","July 19, 1850",Latin
+Albany,"April 23, 1847",,Latin
+Buffalo,"April 23, 1847",,Latin
+Cleveland,"April 23, 1847",,Latin
+Galveston-Houston,"April 23, 1847",,Latin
+Seattle,"May 31, 1850","June 23, 1951",Latin
+Savannah,"July 3, 1850",,Latin
+St. Paul,"July 19, 1850","May 4, 1888",Latin
+Wheeling,"July 19, 1850",,Latin
+Erie,"July 15, 1853",,Latin
+Alexandria,"July 15, 1853",,Latin
+Brooklyn,"July 29, 1853",,Latin
+Burlington,"July 29, 1853",,Latin
+Covington,"July 29, 1853",,Latin
+Newark,"July 29, 1853","December 10, 1917",Latin
+"Portland, Maine","July 29, 1853",,Latin
+San Francisco,"July 29, 1853","July 29, 1853",Latin
+Santa Fe,"July 29, 1853","February 12, 1875",Latin
+Springfield in Illinois,"July 29, 1853",,Latin
+Marquette,"January 9, 1857",,Latin
+Fort Wayne-South Bend,"September 22, 1857",,Latin
+Sacramento,"February 3, 1868",,Latin
+La Crosse,"February 8, 1868",,Latin
+Columbus,"March 3, 1868",,Latin
+Green Bay,"March 3, 1868",,Latin
+Harrisburg,"March 3, 1868",,Latin
+Rochester,"March 3, 1868",,Latin
+Wilmington,"March 9, 1868",,Latin
+Scranton,"November 5, 1868",,Latin
+St. Augustine,"March 11, 1870",,Latin
+"Springfield, Massachusetts","June 14, 1870",,Latin
+Providence,"January 31, 1872",,Latin
+Ogdensburg,"February 15, 1872",,Latin
+San Antonio,"September 3, 1874","August 3, 1926",Latin
+Peoria,"February 12, 1875",,Latin
+Kansas City in Kansas,"May 22, 1877","August 9, 1952",Latin
+Kansas City-St. Joseph,"September 10, 1880",,Latin
+Davenport,"May 8, 1881",,Latin
+Trenton,"July 15, 1881",,Latin
+Grand Rapids,"May 19, 1882",,Latin
+Helena,"March 7, 1884",,Latin
+Manchester,"April 15, 1884",,Latin
+Omaha,"October 2, 1885","August 7, 1945",Latin
+Syracuse,"November 20, 1886",,Latin
+Belleville,"January 7, 1887",,Latin
+Lincoln,"August 2, 1887",,Latin
+Salina,"August 2, 1887",,Latin
+Wichita,"August 2, 1887",,Latin
+Denver,"August 8, 1887","November 15, 1941",Latin
+St. Cloud,"September 22, 1889",,Latin
+Duluth,"October 3, 1889",,Latin
+Fargo,"November 12, 1889",,Latin
+Sioux Falls,"November 12, 1889",,Latin
+Winona,"November 26, 1889",,Latin
+Dallas-Fort Worth,"July 15, 1890",,Latin
+Salt Lake City,"January 27, 1891",,Latin
+Boise,"August 25, 1893",,Latin
+Tucson,"May 8, 1897",,Latin
+Altoona-Johnstown,"May 30, 1901",,Latin
+Sioux City,"January 15, 1902",,Latin
+Rapid City,"August 4, 1902",,Latin
+Baker,"June 19, 1903",,Latin
+Fall River,"March 12, 1904",,Latin
+Great Falls,"May 18, 1904",,Latin
+Superior,"May 3, 1905",,Latin
+Oklahoma City-Tulsa,"August 17, 1905",,Latin
+Rockford,"September 27, 1908",,Latin
+Bismarck,"December 31, 1909",,Latin
+Crookston,"December 31, 1909",,Latin
+Toledo,"April 15, 1910",,Latin
+Des Moines,"August 12, 1911",,Latin
+Grand Island,"March 8, 1912",,Latin
+Corpus Christi,"March 23, 1912",,Latin
+Spokane,"December 17, 1913",,Latin
+El Paso,"March 3, 1914",,Latin
+Lafayette,"January 11, 1918",,Latin
+Monterey-Fresno,"June 1, 1922",,Latin
+Raleigh,"December 12, 1924",,Latin
+Amarillo,"August 3, 1926",,Latin
+Reno,"March 27, 1931",,Latin
+San Diego,"July 1, 1936",,Latin
+Lansing,"May 22, 1937",,Latin
+Camden,"December 9, 1937",,Latin
+Owensboro,"December 9, 1937",,Latin
+Paterson,"December 9, 1937",,Latin
+Saginaw,"February 26, 1938",,Latin
+Washington,"July 22, 1939","July 22, 1939",Latin
+Gallup,"December 16, 1939",,Latin
+Honolulu,"September 10, 1941",,Latin
+Pueblo,"November 15, 1941",,Latin
+Youngstown,"May 15, 1943",,Latin
+Evansville,"October 21, 1944",,Latin
+Lafayette in Indiana,"October 21, 1944",,Latin
+Steubenville,"October 21, 1944",,Latin
+Madison,"March 12, 1946",,Latin
+Austin,"November 15, 1947",,Latin
+Joliet,"December 11, 1948",,Latin
+Worcester,"January 14, 1950",,Latin
+Greensburg,"March 10, 1951",,Latin
+Dodge City ,"March 19, 1951",,Latin
+Juneau,"June 23, 1951",,Latin
+Yakima,"June 23, 1951",,Latin
+Bridgeport,"August 6, 1953",,Latin
+Norwich,"August 6, 1953",,Latin
+Atlanta,"July 2, 1956","February 21, 1962",Latin
+Jefferson City,"July 2, 1956",,Latin
+Springfield-Cape Girardeau,"July 2, 1956",,Latin
+Gary,"February 25, 1957",,Latin
+Rockville Centre,"April 6, 1957",,Latin
+New Ulm,"January 3, 1958",,Latin
+Miami,"August 13, 1958",,Latin
+Allentown,"January 28, 1961",,Latin
+Baton Rouge,"July 20, 1961",,Latin
+San Angelo,"October 16, 1961",,Latin
+Oakland,"February 21, 1962",,Latin
+Santa Rosa,"February 21, 1962",,Latin
+Stockton,"February 21, 1962",,Latin
+Fairbanks,"August 8, 1962",,Latin
+Philadelphia,"May 8, 1924","July 10, 1958",Byzantine
+Stamford,"July 10, 1958",,Byzantine
+St. Nicholas of Chicago,"August 14, 1961",,Byzantine
+Pittsburgh,"July 6, 1963",,Byzantine
+Passaic,"July 6, 1963",,Byzantine
+San Juan,"August 11, 1511","April 30, 1960",Latin
+Ponce,"November 21, 1924",,Latin
+Arecibo,"July 30, 1960",,Latin
+
+# Citation: Joseph Bernard Code, *Dictionary of the American Hierarchy (1789-1964)* (New York: Joseph F. Wagner, 1964), 425-26.
+#
+# Explanation: "Diocese" is the name of the diocese, with the name of the state when necessary to clear up ambiguity. "Date.erected" is the date that the diocese. "Date.metropolitan" is the date the diocese became a metropolitan see. "Rite" is the ritual observed in the diocese. Regions or institutions with ordinary jurisdiction but not episcopal character are not included. XXXXX data extends only to 1963. With the exception of Puerto Rico, Latin American dioceses, some of which are much older the United States dioceses, are not included.
+#
+# Data entry: Lincoln Mullen, Abby Mullen

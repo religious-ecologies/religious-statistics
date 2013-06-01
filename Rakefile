@@ -16,12 +16,12 @@ task :rscripts => ROUTS
 # Generic rule to run an R script
 rule '.Rout' => '.R' do |task|
   puts "Running #{task.source}"
-  sh "R CMD BATCH #{task.source}"
+  sh "R --no-restore CMD BATCH #{task.source}"
 end
 
 # Cleanup
 require "rake/clean"
-CLEAN.include("*.Rout," "*.RData")
+CLEAN.include("*.Rout")
 CLOBBER.include("*.png")
 
 desc "Rebuild all outputs from scratch."

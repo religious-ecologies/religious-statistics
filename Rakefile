@@ -22,7 +22,7 @@ end
 # Cleanup
 require "rake/clean"
 CLEAN.include("*.Rout")
-CLOBBER.include("*.png", "*.RData")
+CLOBBER.include("*.png", ".RData")
 
 desc "Rebuild all outputs from scratch."
 task :rebuild => [:clobber, :default] 

@@ -8,7 +8,7 @@
 library(ggmap)
 library(plyr)
 
-# Geocode the data, using the temp file if we haven't aleady 
+# Geocode the data if we haven't already; otherwise use the saved data
 if (file.exists("temp/catholic.dioceses.geocoded.csv")) {
   cat("We're using the already geocoded data.\n")
   cat("Delete temp/catholic.dioceses.geocoded.csv' to redo the geocoding.\n")
@@ -21,7 +21,7 @@ if (file.exists("temp/catholic.dioceses.geocoded.csv")) {
 
 # Get the map
 center <- "Lebanon, Kansas"
-png(filename = "map.catholic.dioceses.png")
+png(filename = "outputs/map.catholic.dioceses.png")
 map <- qmap(center, zoom = 4)
 map + geom_point(data = geo, aes(x = geo.lon, y = geo.lat))
 dev.off()

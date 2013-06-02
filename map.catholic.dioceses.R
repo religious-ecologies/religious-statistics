@@ -19,9 +19,15 @@ if (file.exists("temp/catholic.dioceses.geocoded.csv")) {
   write.csv(geo, "temp/catholic.dioceses.geocoded.csv")
 }
 
+# Only the continental United States
+geo <- subset(geo, 25 < geo.lat & geo.lat < 50)
+
 # Get the map
-center <- "Lebanon, Kansas"
-png(filename = "outputs/map.catholic.dioceses.png")
+center <- c(lon = -96.5, lat = 39.0911161) 
 map <- qmap(center, zoom = 4)
+
+# Plot the map with points
+png(filename = "outputs/map.catholic.dioceses.png",
+  width=2000, height=2000, res=300)
 map + geom_point(data = geo, aes(x = geo.lon, y = geo.lat))
 dev.off()

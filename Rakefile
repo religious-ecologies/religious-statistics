@@ -16,7 +16,7 @@ task :rscripts => ROUTS
 # Generic rule to run an R script
 rule '.Rout' => '.R' do |task|
   puts "Running #{task.source}"
-  sh "R --no-restore CMD BATCH #{task.source}"
+  sh "Rscript --vanilla #{task.source} | tee #{task.name}"
 end
 
 # Cleanup

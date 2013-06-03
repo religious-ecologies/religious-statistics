@@ -1,0 +1,78 @@
+diocese,date.erected,date.metropolitan,rite
+"Alexandria-Cornwall, Ontario","January 21, 1890",,Latin
+"Amos, Quebec","December 3, 1938",,Latin
+"Antigonish, Nova Scotia","August 23, 1886",,Latin
+"Baie-Comeau, Quebec","July 14, 1986",,Latin
+"Bathurst, New Brunswick","May 8, 1860",,Latin
+"Calgary, Alberta","November 30, 1912",,Latin
+"Charlottetown, Prince Edward Island","August 11, 1829",,
+"Chicoutimi, Québec","May 28, 1878",,Latin
+"Churchill-Baie d’Hudson, Manitoba","January 29, 1968",,Latin
+"Corner Brook and Labrador, Newfoundland","February 18, 1904",,Latin
+"Edmonton, Alberta","September 22, 1871","November 30, 1912",Latin
+"Edmonton, Alberta","January 19, 1948",,Byzantine
+"Edmundston, New Brunswick","December 16, 1944",,Latin
+"Gaspé, Québec","May 5, 1922",,Latin
+"Gatineau, Québec","April 27, 1963","October 31, 1990",Latin
+"Grand Falls, Newfoundland","February 29, 1856",,Latin
+"Grouard-McLennan, Alberta","July 13, 1967","July 13, 1967",Latin
+"Halifax-Yarmouth, Nova Scotia","February 15, 1842","May 4, 1852",Latin
+"Hamilton, Ontario","February 29, 1856",,Latin
+"Hearst, Ontario","December 3, 1938",,Latin
+"Joliette, Québec","January 27, 1904",,Latin
+"Kamloops, British Columbia","December 22, 1945",,Latin
+"Keewatin-Le Pas, Manitoba","July 13, 1967",,Latin
+"Kingston, Ontario","January 27, 1826","December 28, 1889",Latin
+"London, Ontario","February 21, 1855",,Latin
+"Mackenzie-Fort Smith, Northwest Territory","July 13, 1967",,Latin
+Mar Addai of Toronto,"June 10, 2011",,Chaldean
+"Moncton, New Brunswick","February 22, 1936","February 22, 1936",Latin
+"Mont-Laurier, Québec","April 21, 1913",,Latin
+"Montréal, Québec","May 13, 1836","June 8, 1886",Latin
+"Moosonee, Ontario","July 13, 1967",,Latin
+"Nelson, British Columbia","February 22, 1936",,Latin
+New Westminster (Ukrainian) (Eparchy),"June 27, 1974",,Byzantine
+"Nicolet, Québec","July 10, 1885",,Latin
+"Ottawa, Ontario","June 25, 1847","June 8, 1886",Latin
+"Pembroke, Ontario","May 4, 1898",,Latin
+"Peterborough, Ontario","July 11, 1882",,Latin
+"Prince-Albert, Saskatchewan","December 2, 1907",,Latin
+"Prince George, British Columbia","July 13, 1967",,Latin
+Québec,"October 1, 1674","January 12, 1819",Latin
+"Regina, Saskatchewan","March 4, 1910","December 4, 1915",Latin
+"Rimouski, Québec","January 15, 1867","February 9, 1846",Latin
+"Rouyn-Noranda, Québec","November 29, 1973",,Latin
+"Saint-Boniface, Manitoba","June 4, 1847",,Latin
+"Saint Catharines, Ontario","November 22, 1958",,Latin
+"Sainte-Anne-de-la-Pocatière, Québec","June 23, 1951",,Latin
+"Saint-Hyacinthe, Québec","June 8, 1852",,Latin
+"Saint-Jean-Longueuil, Québec","June 9, 1933",,Latin
+"Saint-Jérôme, Québec","June 23, 1951",,Latin
+"Saint John, New Brunswick","September 30, 1842",,Latin
+"Saint John’s, Newfoundland","June 4, 1847","February 8, 1904",Latin
+Saint-Maron de Montréal,"August 27, 1982",,Antiochian
+Saint Paul in Alberta,"July 17, 1948",,Latin
+Saint-Sauveur de Montréal,"September 1, 1984",,Byzantine
+Saints Cyril and Methodius of Toronto,"October 13, 1980",,Byzantine
+"Gravelbourg, Saskatchewan","January 31, 1930",,Latin
+"Saskatoon, Saskatchewan","June 9, 1933",,Latin
+Saskatoon (Ukrainian) (Eparchy),"November 3, 1956",,Byzantine
+"Sault Sainte Marie, Ontario","September 16, 1904",,Latin
+"Sherbrooke, Québec","August 28, 1874","March 2, 1951",Latin
+"Thunder Bay, Ontario","April 29, 1952",,Latin
+"Timmins, Ontario","December 31, 1915",,Latin
+"Toronto, Ontario","December 17, 1841","March 18, 1870",Latin
+"Toronto, Ontario","November 3, 1956",,Byzantine
+"Trois Rivières, Québec","June 8, 1852",,Latin
+"Valleyfield, Québec","April 5, 1892",,Latin
+"Vancouver, British Columbia","September 2, 1890","September 19, 1908",Latin
+"Victoria, British Columbia","July 24, 1846","June 19, 1903",Latin
+"Whitehorse, Yukon","July 13, 1967",,Latin
+"Winnipeg, Manitoba","December 4, 1915","December 4, 1915",Latin
+"Winnipeg, Manitoba","November 3, 1956",,Byzantine
+
+# Citation: http://www.catholic-hierarchy.org/country/dca2.html
+#
+# Explanation: "Diocese" is the name of the diocese, with the name of the province when necessary to clear up ambiguity. "Date.erected" is the date that the diocese was created. "Date.metropolitan" is the date the diocese became a metropolitan see or sometimes just an archdiocese. "Rite" is the ritual observed in the diocese. Regions or institutions with ordinary jurisdiction but not episcopal character are not included. In one case a diocese was suppressed, but that is not noted here, since it existed during the time to be mapped. The Diocese of Victoria was formerly the Diocese of Vancouver Island, in the disputed border territory.
+#
+# Data entry: Lincoln Mullen

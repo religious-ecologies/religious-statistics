@@ -1,155 +1,205 @@
 diocese,date.erected,date.metropolitan,rite
-Baltimore,"April 6, 1789","April 8, 1808",Latin
-New Orleans,"April 25, 1793","July 19, 1850",Latin
-Boston,"April 8, 1808","February 12, 1875",Latin
-Louisville,"April 8, 1808","December 10, 1937",Latin
-New York,"April 8, 1808","July 19, 1850",Latin
-Philadelphia,"April 8, 1808","February 12, 1875",Latin
-Richmond,"June 19, 1820",,Latin
-Charleston,"July 11, 1820",,Latin
-Cincinnati,"June 19, 1821","July 19, 1850",Latin
-St. Louis,"July 18, 1826","July 20, 1847",Latin
-Mobile-Birmingham,"May 15, 1829",,Latin
-Detroit,"March 8, 1833","May 22, 1937",Latin
-Indianapolis,"April 12, 1834","October 21, 1944",Latin
-Dubuque,"July 28, 1837","June 15, 1893",Latin
-Nashville,"July 28, 1837",,Latin
-Natchez-Jackson,"July 28, 1837",,Latin
-Los Angeles,"April 27, 1840","July 11, 1936",Latin
+"Baltimore, Maryland","April 6, 1789","April 8, 1808",Latin
+"New Orleans, Louisiana","April 25, 1793","July 19, 1850",Latin
+"Boston, Massachusetts","April 8, 1808","February 12, 1875",Latin
+"Louisville, Kentucky","April 8, 1808","December 10, 1937",Latin
+"New York, New York","April 8, 1808","July 19, 1850",Latin
+"Philadelphia, Pennsylvania","April 8, 1808","February 12, 1875",Latin
+"Richmond, Virginia","June 19, 1820",,Latin
+"Charleston, South Carolina","July 11, 1820",,Latin
+"Cincinnati, Ohio","June 19, 1821","July 19, 1850",Latin
+"St. Louis, Missouri","July 18, 1826","July 20, 1847",Latin
+"Mobile, Alabama","May 15, 1829","July 29, 1980",Latin
+"Birmingham, Alabama","June 28, 1969",,Latin
+"Detroit, Michigan","March 8, 1833","May 22, 1937",Latin
+"Indianapolis, Indiana","April 12, 1834","October 21, 1944",Latin
+"Dubuque, Iowa","July 28, 1837","June 15, 1893",Latin
+"Nashville, Tennessee","July 28, 1837",,Latin
+"Jackson, Mississippi","July 28, 1837",,Latin
+"Los Angeles, California","April 27, 1840","July 11, 1936",Latin
 Pittsburgh,"August 11, 1843",,Latin
-Hartford,"September 18, 1843","August 6, 1953",Latin
-Chicago,"November 28, 1843","September 10, 1880",Latin
-Little Rock,"November 28, 1843",,Latin
-Milwaukee,"November 28, 1843","February 12, 1875",Latin
-Portland in Oregon,"July 24, 1846","July 19, 1850",Latin
-Albany,"April 23, 1847",,Latin
-Buffalo,"April 23, 1847",,Latin
-Cleveland,"April 23, 1847",,Latin
-Galveston-Houston,"April 23, 1847",,Latin
-Seattle,"May 31, 1850","June 23, 1951",Latin
-Savannah,"July 3, 1850",,Latin
-St. Paul,"July 19, 1850","May 4, 1888",Latin
-Wheeling,"July 19, 1850",,Latin
-Erie,"July 15, 1853",,Latin
-Alexandria,"July 15, 1853",,Latin
-Brooklyn,"July 29, 1853",,Latin
-Burlington,"July 29, 1853",,Latin
-Covington,"July 29, 1853",,Latin
-Newark,"July 29, 1853","December 10, 1917",Latin
+"Hartford, Connecticut","September 18, 1843","August 6, 1953",Latin
+"Chicago, Illinois","November 28, 1843","September 10, 1880",Latin
+"Little Rock, Arkansas","November 28, 1843",,Latin
+"Milwaukee, Wisconsin","November 28, 1843","February 12, 1875",Latin
+"Portland, Oregon","July 24, 1846","July 19, 1850",Latin
+"Albany, New York","April 23, 1847",,Latin
+"Buffalo, New York","April 23, 1847",,Latin
+"Cleveland, Ohio","April 23, 1847",,Latin
+"Galveston-Houston, Texas","April 23, 1847","December 29, 2004",Latin
+"Seattle, Washington","May 31, 1850","June 23, 1951",Latin
+"Savannah, Georgia","July 3, 1850",,Latin
+"St. Paul-Minneapolis, Minnesota","July 19, 1850","May 4, 1888",Latin
+"Wheeling-Charleston, West Virginia","July 19, 1850",,Latin
+"Erie, Pennsylvania","July 15, 1853",,Latin
+"Alexandria, Louisiana","July 15, 1853",,Latin
+"Brooklyn, New York","July 29, 1853",,Latin
+"Burlington, Vermont","July 29, 1853",,Latin
+"Covington, Kentucky","July 29, 1853",,Latin
+"Newark, New Jersey","July 29, 1853","December 10, 1917",Latin
 "Portland, Maine","July 29, 1853",,Latin
-San Francisco,"July 29, 1853","July 29, 1853",Latin
-Santa Fe,"July 29, 1853","February 12, 1875",Latin
-Springfield in Illinois,"July 29, 1853",,Latin
-Marquette,"January 9, 1857",,Latin
-Fort Wayne-South Bend,"September 22, 1857",,Latin
-Sacramento,"February 3, 1868",,Latin
-La Crosse,"February 8, 1868",,Latin
-Columbus,"March 3, 1868",,Latin
-Green Bay,"March 3, 1868",,Latin
-Harrisburg,"March 3, 1868",,Latin
-Rochester,"March 3, 1868",,Latin
-Wilmington,"March 9, 1868",,Latin
-Scranton,"November 5, 1868",,Latin
-St. Augustine,"March 11, 1870",,Latin
+"San Francisco, California","July 29, 1853","July 29, 1853",Latin
+"Santa Fe, New Mexico","July 29, 1853","February 12, 1875",Latin
+"Springfield, Illinois","July 29, 1853",,Latin
+"Marquette, Michigan","January 9, 1857",,Latin
+"Fort Wayne-South Bend, Indiana","September 22, 1857",,Latin
+"Sacramento, California","February 3, 1868",,Latin
+"La Crosse, Wisconsin","February 8, 1868",,Latin
+"Columbus, Ohio","March 3, 1868",,Latin
+"Green Bay, Wisconsin","March 3, 1868",,Latin
+"Harrisburg, Pennsylvania","March 3, 1868",,Latin
+"Rochester, New York","March 3, 1868",,Latin
+"Wilmington, Delaware","March 9, 1868",,Latin
+"Scranton, Pennsylvania","November 5, 1868",,Latin
+"St. Augustine, Florida","March 11, 1870",,Latin
 "Springfield, Massachusetts","June 14, 1870",,Latin
-Providence,"January 31, 1872",,Latin
-Ogdensburg,"February 15, 1872",,Latin
-San Antonio,"September 3, 1874","August 3, 1926",Latin
-Peoria,"February 12, 1875",,Latin
-Kansas City in Kansas,"May 22, 1877","August 9, 1952",Latin
-Kansas City-St. Joseph,"September 10, 1880",,Latin
-Davenport,"May 8, 1881",,Latin
-Trenton,"July 15, 1881",,Latin
-Grand Rapids,"May 19, 1882",,Latin
-Helena,"March 7, 1884",,Latin
-Manchester in New Hampshire,"April 15, 1884",,Latin
-Omaha,"October 2, 1885","August 7, 1945",Latin
-Syracuse,"November 20, 1886",,Latin
-Belleville,"January 7, 1887",,Latin
-Lincoln,"August 2, 1887",,Latin
-Salina,"August 2, 1887",,Latin
-Wichita,"August 2, 1887",,Latin
-Denver,"August 8, 1887","November 15, 1941",Latin
-St. Cloud,"September 22, 1889",,Latin
-Duluth,"October 3, 1889",,Latin
-Fargo,"November 12, 1889",,Latin
-Sioux Falls,"November 12, 1889",,Latin
-Winona,"November 26, 1889",,Latin
-Dallas-Fort Worth,"July 15, 1890",,Latin
-Salt Lake City,"January 27, 1891",,Latin
-Boise,"August 25, 1893",,Latin
-Tucson,"May 8, 1897",,Latin
-Altoona-Johnstown,"May 30, 1901",,Latin
-Sioux City,"January 15, 1902",,Latin
-Rapid City,"August 4, 1902",,Latin
-Baker,"June 19, 1903",,Latin
-Fall River,"March 12, 1904",,Latin
-Great Falls,"May 18, 1904",,Latin
-Superior,"May 3, 1905",,Latin
-Oklahoma City-Tulsa,"August 17, 1905",,Latin
-Rockford,"September 27, 1908",,Latin
-Bismarck,"December 31, 1909",,Latin
-Crookston,"December 31, 1909",,Latin
-Toledo,"April 15, 1910",,Latin
-Des Moines,"August 12, 1911",,Latin
-Grand Island,"March 8, 1912",,Latin
-Corpus Christi,"March 23, 1912",,Latin
-Spokane,"December 17, 1913",,Latin
-El Paso,"March 3, 1914",,Latin
-Lafayette,"January 11, 1918",,Latin
-Monterey-Fresno,"June 1, 1922",,Latin
-Raleigh,"December 12, 1924",,Latin
-Amarillo,"August 3, 1926",,Latin
-Reno,"March 27, 1931",,Latin
-San Diego,"July 1, 1936",,Latin
-Lansing,"May 22, 1937",,Latin
-Camden in New Jersey,"December 9, 1937",,Latin
-Owensboro,"December 9, 1937",,Latin
-Paterson,"December 9, 1937",,Latin
-Saginaw,"February 26, 1938",,Latin
-Washington,"July 22, 1939","July 22, 1939",Latin
-Gallup,"December 16, 1939",,Latin
-Honolulu,"September 10, 1941",,Latin
-Pueblo in Colorado,"November 15, 1941",,Latin
-Youngstown,"May 15, 1943",,Latin
-Evansville,"October 21, 1944",,Latin
-Lafayette in Indiana,"October 21, 1944",,Latin
-Steubenville,"October 21, 1944",,Latin
-Madison,"March 12, 1946",,Latin
-Austin,"November 15, 1947",,Latin
-Joliet,"December 11, 1948",,Latin
-Worcester,"January 14, 1950",,Latin
-Greensburg,"March 10, 1951",,Latin
-Dodge City ,"March 19, 1951",,Latin
-Juneau,"June 23, 1951",,Latin
-Yakima,"June 23, 1951",,Latin
-Bridgeport,"August 6, 1953",,Latin
-Norwich in Connecticut,"August 6, 1953",,Latin
-Atlanta,"July 2, 1956","February 21, 1962",Latin
-Jefferson City,"July 2, 1956",,Latin
-Springfield-Cape Girardeau in Missouri,"July 2, 1956",,Latin
-Gary,"February 25, 1957",,Latin
-Rockville Centre,"April 6, 1957",,Latin
-New Ulm,"January 3, 1958",,Latin
-Miami,"August 13, 1958",,Latin
-Allentown,"January 28, 1961",,Latin
-Baton Rouge,"July 20, 1961",,Latin
-San Angelo,"October 16, 1961",,Latin
-Oakland,"February 21, 1962",,Latin
-Santa Rosa,"February 21, 1962",,Latin
-Stockton,"February 21, 1962",,Latin
-Fairbanks,"August 8, 1962",,Latin
-Philadelphia,"May 8, 1924","July 10, 1958",Byzantine
-Stamford,"July 10, 1958",,Byzantine
-St. Nicholas of Chicago,"August 14, 1961",,Byzantine
-Pittsburgh,"July 6, 1963",,Byzantine
-Passaic,"July 6, 1963",,Byzantine
-San Juan,"August 11, 1511","April 30, 1960",Latin
-Ponce,"November 21, 1924",,Latin
-Arecibo,"July 30, 1960",,Latin
+"Providence, Rhode Island","January 31, 1872",,Latin
+"Ogdensburg, New York","February 15, 1872",,Latin
+"San Antonio, Texas","September 3, 1874","August 3, 1926",Latin
+"Peoria, Illinois","February 12, 1875",,Latin
+"Kansas City, Kansas","May 22, 1877","August 9, 1952",Latin
+"Kansas City-St. Joseph, Missouri","September 10, 1880",,Latin
+"Davenport, Iowa","May 8, 1881",,Latin
+"Trenton, New Jersey","July 15, 1881",,Latin
+"Grand Rapids, Michigan","May 19, 1882",,Latin
+"Helena, Montana","March 7, 1884",,Latin
+"Manchester, New Hampshire","April 15, 1884",,Latin
+"Omaha, Nebraska","October 2, 1885","August 7, 1945",Latin
+"Syracuse, New York","November 20, 1886",,Latin
+"Belleville, Illinois","January 7, 1887",,Latin
+"Lincoln, Nebraska","August 2, 1887",,Latin
+"Salina, Kansas","August 2, 1887",,Latin
+"Wichita, Kansas","August 2, 1887",,Latin
+"Denver, Colorado","August 8, 1887","November 15, 1941",Latin
+"St. Cloud, Minnesota","September 22, 1889",,Latin
+"Duluth, Minnesota","October 3, 1889",,Latin
+"Fargo, North Dakota","November 12, 1889",,Latin
+"Sioux Falls, South Dakota","November 12, 1889",,Latin
+"Winona, Minnesota","November 26, 1889",,Latin
+"Dallas, Texas","July 15, 1890",,Latin
+"Fort Worth, Texas","August 9, 1969",,Latin
+"Salt Lake City, Utah","January 27, 1891",,Latin
+"Boise City, Idaho","August 25, 1893",,Latin
+"Tucson, Arizona","May 8, 1897",,Latin
+"Altoona-Johnstown, Pennsylvania","May 30, 1901",,Latin
+"Sioux City, Iowa","January 15, 1902",,Latin
+"Rapid City, South Dakota","August 4, 1902",,Latin
+"Baker, Oregon","June 19, 1903",,Latin
+"Fall River, Massachusetts","March 12, 1904",,Latin
+"Great Falls-Billings, Montana","May 18, 1904",,Latin
+"Superior, Wisconsin","May 3, 1905",,Latin
+"Oklahoma City, Oklahoma","August 23, 1905","December 13, 1972",Latin
+"Tulsa, Oklahoma","December 13, 1972",,Latin
+"Rockford, Illinois","September 27, 1908",,Latin
+"Bismarck, North Dakota","December 31, 1909",,Latin
+"Crookston, Minnesota","December 31, 1909",,Latin
+"Toledo, Ohio","April 15, 1910",,Latin
+"Des Moines, Iowa","August 12, 1911",,Latin
+"Grand Island, Nebraska","March 8, 1912",,Latin
+"Corpus Christi, Texas","March 23, 1912",,Latin
+"Spokane, Washington","December 17, 1913",,Latin
+"El Paso, Texas","March 3, 1914",,Latin
+"Lafayette, Louisiana","January 11, 1918",,Latin
+"Monterey, California","April 27, 1840",,Latin
+"Fresno, California","October 6, 1967",,Latin
+"Raleigh, North Carolina","December 12, 1924",,Latin
+"Amarillo, Texas","August 3, 1926",,Latin
+"Reno, Nevada","March 27, 1931",,Latin
+"San Diego, California","July 1, 1936",,Latin
+"Lansing, Michigan","May 22, 1937",,Latin
+"Camden, New Jersey","December 9, 1937",,Latin
+"Owensboro, Kentucky","December 9, 1937",,Latin
+"Paterson, New Jersey","December 9, 1937",,Latin
+"Saginaw, Michigan","February 26, 1938",,Latin
+"Washington, District of Columbia","July 22, 1939","July 22, 1939",Latin
+"Gallup, New Mexico","December 16, 1939",,Latin
+"Honolulu, Hawaii","September 10, 1941",,Latin
+"Pueblo, Colorado","November 15, 1941",,Latin
+"Youngstown, Ohio","May 15, 1943",,Latin
+"Evansville, Indiana","October 21, 1944",,Latin
+"Lafayette, Indiana","October 21, 1944",,Latin
+"Steubenville, Ohio","October 21, 1944",,Latin
+"Madison, Wisconsin","March 12, 1946",,Latin
+"Austin, Texas","November 15, 1947",,Latin
+"Joliet, Illinois","December 11, 1948",,Latin
+"Worcester, Massachusetts","January 14, 1950",,Latin
+"Greensburg, Pennsylvania","March 10, 1951",,Latin
+"Dodge City, Kansas","March 19, 1951",,Latin
+"Juneau, Alaska","June 23, 1951",,Latin
+"Yakima, Washington","June 23, 1951",,Latin
+"Bridgeport, Connecticut","August 6, 1953",,Latin
+"Norwich, Connecticut","August 6, 1953",,Latin
+"Atlanta, Georgia","July 2, 1956","February 21, 1962",Latin
+"Jefferson City, Missouri","July 2, 1956",,Latin
+"Springfield-Cape Girardeau, Missouri","July 2, 1956",,Latin
+"Gary, Indiana","February 25, 1957",,Latin
+"Rockville Centre, New York","April 6, 1957",,Latin
+"New Ulm, Minnesota","January 3, 1958",,Latin
+"Miami, Florida","August 13, 1958","May 25, 1958",Latin
+"Allentown, Pennsylvania","January 28, 1961",,Latin
+"Baton Rouge, Louisiana","July 20, 1961",,Latin
+"San Angelo, Texas","October 16, 1961",,Latin
+"Oakland, California","February 21, 1962",,Latin
+"Santa Rosa, California","February 21, 1962",,Latin
+"Stockton, California","February 21, 1962",,Latin
+"Fairbanks, Alaska","August 8, 1962",,Latin
+"Philadelphia, Pennsylvania","May 8, 1924","July 10, 1958",Byzantine
+"Stamford, Connecticut","July 10, 1958",,Byzantine
+"Chicago, Illinois","August 14, 1961",,Byzantine
+"Pittsburgh, Pennsylvania","July 6, 1963","February 21, 1969",Byzantine
+"Passaic, New Jersey","July 6, 1963",,Byzantine
+"San Juan, Puerto Rico","August 11, 1511","April 30, 1960",Latin
+"Ponce, Puerto Rico","November 21, 1924",,Latin
+"Arecibo, Puerto Rico","July 30, 1960",,Latin
+"Anchorage, Alaska","January 22, 1966","January 22, 1966",Latin
+"Arlington, Virginia","May 28, 1974",,Latin
+"Beaumont, Texas","June 25, 1966",,Latin
+"Biloxi, Mississippi","March 1, 1977",,Latin
+"Brownsville, Texas","July 10, 1965",,Latin
+"Charlotte, North Carolina","November 12, 1971",,Latin
+"Cheyenne, Wyoming","August 2, 1887",,Latin
+"Colorado Springs, Colorado","10 November 1983",,Latin
+"Gaylord, Michigan","December 19, 1970",,Latin
+"Phoenix, Arizona","December 3, 1981",,Byzantine
+"Houma-Thibodaux, Louisiana","March 2, 1977",,Latin
+"Kalamazoo, Michigan","December 19, 1970",,Latin
+"Knoxville, Tennessee", "May 27, 1988",,Latin
+"Lake Charles, Louisiana","January 29, 1980",,Latin
+"Laredo, Texas","July 3, 2000",,Latin
+"Las Cruces","August 17, 1982",,Latin
+"Las Vegas, Nevada", "March 21, 1995",,Latin
+"Lexington, Kentucky", "January 14, 1988",,Latin
+"Lubbock, Texas","March 25, 1983",,Latin
+"Memphis, Tennessee","June 20, 1970",,Latin
+"Metuchen, New Jersey","November 19, 1981",,Latin
+"Newton, Massachusetts","June 28, 1976",,Byzantine
+"Orange, California","March 24, 1976",,Latin
+"Newark, New Jersey","November 6, 1995",,Antiochian
+"Los Angeles","February 19, 1994",,Antiochian
+"New York, New York", "September 12, 2005",,Armenian
+"Palm Beach, Florida","June 16, 1984",,Latin
+"Parma, Ohio","February 21, 1969",,Byzantine
+"Pensacola, Tallahassee","October 1, 1975",,Latin
+"Phoenix, Arizona","June 28, 1969",,Latin
+"Canton, Ohio","March 26, 1987",,Byzantine
+"Parma, Ohio","December 5, 1983",,Byzantine
+"Brooklyn, New York","January 10, 1966",,Antiochian
+"St. Petersburg, Florida","March 2, 1968",,Latin
+"San Diego, California", "May 21, 2002",,Chaldean
+"Virgin Islands", "April 20, 1977",,Latin
+"Chicago, Illinois", "March 13, 2001",,Chaldean
+"Detroit, Michigan","August 3, 1985",,Chaldean
+"San Bernardino, California","July 14, 1978",,Latin
+"San Jose, California","January 27, 1981",,Latin
+"Shreveport, Louisiana","June 16, 1986",,Latin
+"Tyler, Texas","December 12, 1986",,Latin
+"Venice, Florida","June 16, 1984",,Latin
+"Victoria, Texas","April 13, 1982",,Latin
 
 # Citation: Joseph Bernard Code, *Dictionary of the American Hierarchy (1789-1964)* (New York: Joseph F. Wagner, 1964), 425-26.
 #
-# Explanation: "Diocese" is the name of the diocese, with the name of the state when necessary to clear up ambiguity. "Date.erected" is the date that the diocese was created. "Date.metropolitan" is the date the diocese became a metropolitan see or sometimes just an archdiocese. "Rite" is the ritual observed in the diocese. Regions or institutions with ordinary jurisdiction but not episcopal character are not included. Code's data extends only to 1963. With the exception of Puerto Rico, Latin American dioceses, some of which are much older the United States dioceses, are not included. I have corrected some errors in Code's list.
+# Citation: http://www.catholic-hierarchy.org/country/dus2.html
+#
+# Explanation: "Diocese" is the name of the diocese, with the name of the state when necessary to clear up ambiguity. "Date.erected" is the date that the diocese was created. "Date.metropolitan" is the date the diocese became a metropolitan see or sometimes just an archdiocese. "Rite" is the ritual observed in the diocese. Regions or institutions with ordinary jurisdiction but not episcopal character are not included. Code's data extends only to 1963. Date after 1963 comes from the Catholic Hierarchy website cited. With the exception of Puerto Rico, Latin American dioceses, some of which are much older the United States dioceses, are not included. I have corrected some errors in Code's list.
 #
 # Data entry: Lincoln Mullen, Abby Mullen

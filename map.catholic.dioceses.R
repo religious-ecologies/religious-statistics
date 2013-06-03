@@ -22,11 +22,8 @@ if (file.exists("temp/catholic.dioceses.geocoded.csv")) {
   write.csv(geo, "temp/catholic.dioceses.geocoded.csv")
 }
 
-# Only the continental United States
-geo <- subset(geo, 25 < geo.lat & geo.lat < 50)
-
 # Get the map
-center <- c(lon = -96.5, lat = 39.0911161) 
+center <- c(lon = -96.1, lat = 47) 
 map <- qmap(center, zoom = 4)
 
 # Function to get the year from our data, using lubridate
@@ -45,19 +42,19 @@ PlotDioceses <- function(plot.year) {
   # Map the dioceses. Dots for archdioceses will cover dioceses
   png(filename =
    paste("outputs/map.catholic.dioceses.", plot.year, ".png", sep = ""),
-   width=1000, height=1000, res=300)
+   width=1200, height=1200, res=300)
   plot <- map + 
-  geom_point(data = dioceses, colour="red", size = 2,
+  geom_point(data = dioceses, colour="red", size = 1,
+   aes(x = geo.lon, y = geo.lat)) + 
+  geom_point(data = metropolitans, colour="purple", size = 2,
    aes(x = geo.lon, y = geo.lat)) +
-  geom_point(data = metropolitans, colour="purple", size = 4,
-   aes(x = geo.lon, y = geo.lat)) +
-  ggtitle(paste("Catholic Dioceses and Archdioceses,", plot.year))
+  ggtitle(paste("Catholic Dioceses,", plot.year))
     print(plot)
     dev.off()
 
   }
 
-# Plot every decade since 1790, plus 1963 (the last year with data)
+# # Plot every decade since 1790
 years <- seq(1790, 2010, 10)
 for (year in years) {
   PlotDioceses(year)

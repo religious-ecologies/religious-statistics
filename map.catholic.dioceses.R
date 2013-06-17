@@ -10,16 +10,15 @@ library(lubridate)
 library(plyr)
 
 # Geocode the data if we haven't already; otherwise use the saved data
-if (file.exists("temp/catholic.dioceses.geocoded.csv")) {
+if (file.exists("data-generated/catholic.dioceses.geocoded.csv")) {
   cat("We're using the already geocoded data.\n")
-  cat("Delete temp/catholic.dioceses.geocoded.csv' to redo the geocoding.\n")
-  geo <- read.csv("temp/catholic.dioceses.geocoded.csv")
+  geo <- read.csv("data-generated/catholic.dioceses.geocoded.csv")
 } else {
   raw.us <- read.csv("data/catholic.dioceses.us.csv", comment.char = "#")
   raw.canada <- read.csv("data/catholic.dioceses.canada.csv", comment.char = "#")
   raw <- rbind(raw.us, raw.canada)
   geo <- transform(raw, geo = geocode(as.character(diocese)))
-  write.csv(geo, "temp/catholic.dioceses.geocoded.csv")
+  write.csv(geo, "data-generated/catholic.dioceses.geocoded.csv")
 }
 
 # Get the map

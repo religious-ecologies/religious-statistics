@@ -150,7 +150,7 @@
 "149","Passaic, New Jersey","July 6, 1963","","Byzantine",-74.1284764,40.8567662
 "150","San Juan, Puerto Rico","August 11, 1511","April 30, 1960","Latin",-66.1057217,18.4663338
 "151","Ponce, Puerto Rico","November 21, 1924","","Latin",-66.6140616,18.0110768
-"152","Arecibo, Puerto Rico","July 30, 1960","","Latin",-66.7525632,18.3462632
+"152","Arecibo, Puerto Rico","July 30, 1960","","Latin",-66.7524469,18.3462618
 "153","Anchorage, Alaska","January 22, 1966","January 22, 1966","Latin",-149.9002778,61.2180556
 "154","Arlington, Virginia","May 28, 1974","","Latin",-77.1067698,38.8799697
 "155","Beaumont, Texas","June 25, 1966","","Latin",-94.1265562,30.080174
@@ -266,3 +266,91 @@
 "265","Whitehorse, Yukon","July 13, 1967","","Latin",-135.0568449,60.7211871
 "266","Winnipeg, Manitoba","December 4, 1915","December 4, 1915","Latin",-97.1374937,49.8997541
 "267","Winnipeg, Manitoba","November 3, 1956","","Byzantine",-97.1374937,49.8997541
+"268","Acapulco, Guerrero","March 18, 1958","February 10, 1983","Latin",-99.881614,16.863794
+"269","Aguascalientes, Aguascalientes","August 27, 1899","","Latin",-102.2912701,21.8817964
+"270","Antequera, Oaxaca","June 21, 1535","June 23, 1891","Latin",-96.7158111,17.0691891
+"271","Apatzingan, Michoacan","April 30, 1962","","Latin",-102.35,19.0833333
+"272","Atlacomulco, Mexico","November 3, 1984","","Latin",-99.8817429,19.7974612
+"273","Autlan, Jalisco","January 28, 1961","","Latin",-104.3666667,19.7666667
+"274","Campeche, Campeche","March 24, 1895","","Latin",-90.5236731,19.8454459
+"275","Chihuahua, Chihuahua","June 23, 1891","November 22, 1958","Latin",-106.0737,28.630581
+"276","Chilpancingo-Chilapa, Guerrero","March 16, 1863","","Latin",-99.3895893,17.5817939
+"277","Ciudad Altamirano, Guerrero","October 27, 1964","","Latin",-100.6666667,18.3583333
+"278","Ciudad Guzman, Jalisco","March 25, 1972","","Latin",-103.4666563,19.7015486
+"279","Ciudad Juarez, Chihuahua","April 10, 1957","","Latin",-106.473027,31.736784
+"280","Ciudad Lázaro Cárdenas, Michoacán","October 11, 1985","","Latin",-102.1747077,17.9587155
+"281","Ciudad Obregón, Sonora","June 20, 1959","","Latin",-109.9388889,27.4938889
+"282","Ciudad Valles, San Luís Potosí","November 27, 1960","","Latin",-99.0105954,21.9978297
+"283","Ciudad Victoria, Tamaulipas","December 21, 1964","","Latin",-99.1411154,23.7369164
+"284","Tampico, Tamaulipas","March 12, 1870","","Latin",-97.8534153,22.2944797
+"285","Coatzacoalcos, Veracruz","March 14, 1984","","Latin",-94.4333333,18.15
+"286","Colima, Colima","December 11, 1881","","Latin",-103.7247534,19.2433112
+"287","Córdoba, Veracruz","April 15, 2000","","Latin",-96.9237751,18.8838909
+"288","Cuauhtémoc-Madera, Chihuahua","November 17, 1995","","Latin",-106.060762,28.611885
+"289","Cuautitlán, México","February 5, 1979","","Latin",-99.1809685,19.6721809
+"290","Cuernavaca, Morelos","June 23, 1891","","Latin",-99.2314826,18.9340199
+"291","Culiacán, Sinaloa","February 16, 1959","","Latin",-107.385498,24.8048499
+"292","Durango, Durango","September 28, 1620","June 23, 1891","Latin",-104.6531759,24.0277202
+"293","Ecatepec, México","June 28, 1995","","Latin",-99.0506744,19.601841
+"294","Ensenada, Baja California Norte","January 26, 2007","","Latin",-116.606428,31.859577
+"295","Gómez Palacio, Durango","November 25, 2008","","Latin",-103.491798,25.56815
+"296","Guadalajara, Jalisco","July 13, 1548","January 26, 1863","Latin",-103.3496251,20.6596492
+"297","Hermosillo, Sonora","May 7, 1779","July 13, 1963","Latin",-110.9613299,29.0891857
+"298","Huajuapan de León, Oaxaca","April 25, 1902","","Latin",-97.7807647,17.8047448
+"299","Huautla, Oaxaca","October 8, 1972","","Latin",-96.8436739,18.130831
+"300","Huejutla, Hidalgo","November 24, 1922","","Latin",-98.4189061,21.1392412
+"301","Irapuato, Guanajuato","January 3, 2004","","Latin",-101.3544964,20.6786652
+"302","Jalapa, Veracruz","March 19, 1863","June 29, 1951","Latin",-96.909131,19.530476
+"303","La Paz en la Baja California Sur","March 21, 1988","","Latin",-110.3101261,24.1451037
+"304","León, Guanajuato","January 26, 1863","November 25, 2006","Latin",-101.6782926,21.1326654
+"305","Linares, Nuevo León","April 30, 1962","","Latin",-99.5666667,24.8597222
+"306","Matamoros, Tamaulipas","February 16, 1958","","Latin",-97.5027376,25.8690294
+"307","Matehuala, San Luís Potosí","May 28, 1997","","Latin",-100.6444444,23.6527778
+"308","Mazatlán, Sinaloa","November 22, 1958","","Latin",-106.4076183,23.2266877
+"309","Mexicali, Baja California Norte","March 25, 1966","","Latin",-115.4677778,32.6633333
+"310","México, Federal District","September 2, 1530","February 12, 1546","Latin",-99.133208,19.4326077
+"311","Monterrey, Nuevo León","December 15, 1777","June 23, 1891","Latin",-100.309201,25.6732109
+"312","Morelia, Michoacán","August 11, 1536","January 26, 1863","Latin",-101.1949825,19.7059504
+"313","Netzahualcóyotl, México","February 5, 1979","","Latin",-99.024786,19.403793
+"314","Eparchy of Nuestra Señora de los Mártires del Libano en México","November 6, 1995","","Antiochian",-102.552784,23.634501
+"315","Eparchy of Nuestra Señora del Paraíso en México","February 27, 1988","","Byzantine",-102.552784,23.634501
+"316","Nuevo Casas Grandes, Chihuahua","June 3, 2000","","Latin",-107.9140329,30.4125959
+"317","Nuevo Laredo, Tamaulipas","November 6, 1989","","Latin",-99.5562219,27.4669967
+"318","Orizaba, Veracruz","April 15, 2000","","Latin",-97.1,18.85
+"319","Papantla, Puebla","November 24, 1922","","Latin",-98.1291132,19.0380467
+"320","Parral, Chihuahua","May 11, 1992","","Latin",-105.6666667,26.9333333
+"321","Piedras Negras, Coahuila","January 8, 2003","","Latin",-100.5246969,28.6978762
+"322","Puebla de los Ángeles, Puebla","October 13, 1525","August 11, 1903","Latin",-98.2061996,19.0412967
+"323","Puerto Escondido, Oaxaca","November 8, 2003","","Latin",-97.0694471,15.8655354
+"324","Querétaro, Querétaro","January 26, 1863","","Latin",-100.3898881,20.5887932
+"325","Saltillo, Coahuila","June 23, 1891","","Latin",-100.9954254,25.4267244
+"326","San Andrés Tuxtla, Veracruz","May 23, 1959","","Latin",-95.2132694,18.4440354
+"327","San Cristóbal de Las Casas, Chiapas","March 19, 1539","","Latin",-92.6332806,16.7385777
+"328","San Juan de los Lagos, Jalisco","March 25, 1972","","Latin",-102.3316999,21.2474689
+"329","San Luis Potosí, San Luis Potosí","August 31, 1854","November 5, 1988","Latin",-100.9855409,22.1564699
+"330","Tabasco, Tabasco","May 25, 1880","","Latin",-102.9130144,21.8643824
+"331","Tacámbaro, Michoacán","July 26, 1913","","Latin",-101.4569444,19.2355556
+"332","Tapachula, Chiapas","June 19, 1957","","Latin",-92.2666667,14.9
+"333","Tarahumara, Chihuahua","December 20, 1993","","Latin",-106.1127038,28.7348522
+"334","Tehuacán, Puebla","January 13, 1962","","Latin",-97.4,18.4666667
+"335","Tehuantepec, Oaxaca","June 23, 1891","","Latin",-95.2388889,16.3244444
+"336","Tenancingo, México","November 26, 2009","","Latin",-99.819809,18.94459
+"337","Teotihuacán, México","December 3, 2008","","Latin",-98.8494851,19.68294
+"338","Tepic, Nayarit","June 23, 1891","","Latin",-104.8945887,21.5041651
+"339","Texcoco, México","April 30, 1960","","Latin",-99.1333333,19.4194444
+"340","Tijuana, Baja California Norte","July 13, 1963","November 25, 2006","Latin",-117.0382471,32.5149469
+"341","Tlalnepantla, México","January 13, 1964","June 17, 1989","Latin",-98.9982534,19.0094874
+"342","Tlapa, Guerrero","January 4, 1992","","Latin",-98.5763889,17.5461111
+"343","Tlaxcala, Tlaxcala","May 23, 1959","","Latin",-98.24,19.3
+"344","Toluca, México","June 4, 1950","","Latin",-99.6557224,19.2827542
+"345","Torreón, Coahuila","June 19, 1957","","Latin",-103.4067861,25.5428443
+"346","Tula, Hidalgo","February 27, 1961","","Latin",-99.3395636,20.0535516
+"347","Tulancingo, Hidalgo","January 26, 1863","November 25, 2006","Latin",-98.367993,20.084376
+"348","Tuxpan, Veracruz","June 9, 1962","","Latin",-97.4044961,20.9645689
+"349","Tuxtepec, Oaxaca","January 8, 1979","","Latin",-96.1231999,18.0882429
+"350","Tuxtla Gutiérrez, Chiapas","October 27, 1964","November 25, 2006","Latin",-93.1125826,16.7478677
+"351","Valle de Chalco, México","July 8, 2003","","Latin",-100.2318555,25.792654
+"352","Veracruz, Veracruz","June 9, 1962","","Latin",-96.1533333,19.1902778
+"353","Yucatán, Yucatán","November 19, 1561","November 11, 1906","Latin",-89.0943377,20.7098786
+"354","Zacatecas, Zacatecas","January 26, 1863","","Latin",-102.5832539,22.7709249
+"355","Zamora, Michoacán","January 26, 1863","","Latin",-102.2833333,20

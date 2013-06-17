@@ -16,13 +16,14 @@ if (file.exists("data-generated/catholic.dioceses.geocoded.csv")) {
 } else {
   raw.us <- read.csv("data/catholic.dioceses.us.csv", comment.char = "#")
   raw.canada <- read.csv("data/catholic.dioceses.canada.csv", comment.char = "#")
-  raw <- rbind(raw.us, raw.canada)
+  raw.mexico <- read.csv("data/catholic.dioceses.mexico.csv", comment.char = "#")
+  raw <- rbind(raw.us, raw.canada, raw.mexico)
   geo <- transform(raw, geo = geocode(as.character(diocese)))
   write.csv(geo, "data-generated/catholic.dioceses.geocoded.csv")
 }
 
 # Get the map
-center <- c(lon = -96.1, lat = 47) 
+center <- c(lon = -96.1, lat = 40) 
 map <- qmap(center, zoom = 4)
 
 # Function to get the year from our data, using lubridate

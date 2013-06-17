@@ -54,7 +54,7 @@ PlotDioceses <- function(plot.year) {
 
   }
 
-# # Plot every decade since 1790
+# Plot every decade since 1790
 years <- seq(1790, 2010, 10)
 for (year in years) {
   PlotDioceses(year)

@@ -21,8 +21,8 @@ end
 
 # Cleanup
 require "rake/clean"
-CLEAN.include("*.Rout")
-CLOBBER.include("outputs/*", "temp/*")
+CLEAN.include("*.Rout", "temp/*")
+CLOBBER.include("outputs/*", "data-generated/*")
 
 desc "Rebuild all outputs from scratch."
 task :rebuild => [:clobber, :default] 

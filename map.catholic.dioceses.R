@@ -8,6 +8,7 @@
 library(ggmap)
 library(lubridate)
 library(plyr)
+source("functions/get.year.R")
 
 # Geocode the data if we haven't already; otherwise use the saved data
 if (file.exists("data-generated/catholic.dioceses.geocoded.csv")) {
@@ -26,18 +27,12 @@ if (file.exists("data-generated/catholic.dioceses.geocoded.csv")) {
 center <- c(lon = -96.1, lat = 40) 
 map <- qmap(center, zoom = 4)
 
-# Function to get the year from our data, using lubridate
-GetYear <- function(date.string) {
- result <- year(mdy(as.character(date.string)))
- return(result)
-}
-
 # Given a year, plot the dioceses in existence that year
 PlotDioceses <- function(plot.year) {
 
   # Select the data for this year
-  dioceses <- subset(geo, GetYear(date.erected) <= plot.year)
-  metropolitans <- subset(geo, GetYear(date.metropolitan) <= plot.year) 
+  dioceses <- subset(geo, get.year(date.erected) <= plot.year)
+  metropolitans <- subset(geo, get.year(date.metropolitan) <= plot.year) 
 
   # Map the dioceses. Dots for archdioceses will cover dioceses
   png(filename =
@@ -59,3 +54,4 @@ years <- seq(1790, 2010, 10)
 for (year in years) {
   PlotDioceses(year)
 }
+

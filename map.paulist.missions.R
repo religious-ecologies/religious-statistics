@@ -8,6 +8,7 @@
 library(ggmap)
 library(lubridate)
 library(plyr)
+source("functions/get.year.R")
 
 # Download and geocode the data or use the cache
 if (file.exists("data-generated/paulist.missions.csv")) {
@@ -24,4 +25,23 @@ if (file.exists("data-generated/paulist.missions.csv")) {
   write.csv(missions, "data-generated/paulist.missions.csv")
 } 
 
+# Clean up the data
+missions <- transform(missions, year = get.year(start.date))
+missions <- subset(missions, !is.na(year))
+
+# Get the map
+center <- "Lexington, KY"
+map <- qmap(center, zoom = 5)
+
+# Map the missions
+png(filename = "outputs/map.paulist.missions.png",
+    width=11, height=8.5, units="in", res=300)
+plot <- map + 
+geom_point(data = missions, 
+           aes(x = geo.lon, y = geo.lat, size = converts)) + 
+ggtitle("Paulist Missions") +
+theme(legend.position = "none") +
+facet_wrap(~ year, 3, 6)
+print(plot)
+dev.off()
 

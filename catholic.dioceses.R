@@ -11,16 +11,16 @@ library(plyr)
 source("functions/get.year.R")
 
 # Geocode the data if we haven't already; otherwise use the saved data
-if (file.exists("data-generated/catholic.dioceses.geocoded.csv")) {
+if (file.exists("data/clean/catholic.dioceses.geocoded.csv")) {
   cat("We're using the already geocoded data.\n")
-  geo <- read.csv("data-generated/catholic.dioceses.geocoded.csv")
+  geo <- read.csv("data/clean/catholic.dioceses.geocoded.csv")
 } else {
-  raw.us <- read.csv("data/catholic.dioceses.us.csv", comment.char = "#")
-  raw.canada <- read.csv("data/catholic.dioceses.canada.csv", comment.char = "#")
-  raw.mexico <- read.csv("data/catholic.dioceses.mexico.csv", comment.char = "#")
+  raw.us <- read.csv("data/csv/catholic.dioceses.us.csv", comment.char = "#")
+  raw.canada <- read.csv("data/csv/catholic.dioceses.canada.csv", comment.char = "#")
+  raw.mexico <- read.csv("data/csv/catholic.dioceses.mexico.csv", comment.char = "#")
   raw <- rbind(raw.us, raw.canada, raw.mexico)
   geo <- transform(raw, geo = geocode(as.character(diocese)))
-  write.csv(geo, "data-generated/catholic.dioceses.geocoded.csv")
+  write.csv(geo, "data/clean/catholic.dioceses.geocoded.csv")
 }
 
 # Get the map
@@ -36,7 +36,7 @@ PlotDioceses <- function(plot.year) {
 
   # Map the dioceses. Dots for archdioceses will cover dioceses
   png(filename =
-   paste("outputs/map.catholic.dioceses.", plot.year, ".png", sep = ""),
+   paste("outputs/catholic-dioceses/dioceses.", plot.year, ".png", sep = ""),
    width=1200, height=1200, res=300)
   plot <- map + 
   geom_point(data = dioceses, colour="red", size = 1,

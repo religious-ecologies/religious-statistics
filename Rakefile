@@ -21,8 +21,15 @@ end
 
 # Cleanup
 require "rake/clean"
-CLEAN.include("*.Rout", "temp/*")
-CLOBBER.include("outputs/*", "data-generated/*")
+CLEAN.include("*.Rout", "temp/*", "ggmapTemp.png")
+CLOBBER.include("outputs/*", "data/clean/*")
 
 desc "Rebuild all outputs from scratch."
 task :rebuild => [:clobber, :default] 
+
+# Run only individual projects
+desc "Map Catholic dioceses"
+task :dioceses => ["catholic.dioceses.Rout"]
+
+desc "Chart Jewish population"
+task :jewishpopulation => "jews.population.Rout"

@@ -12,7 +12,7 @@ source("functions/attribution.r")
 
 # Data
 # -------------------------------------------------------------------
-data <- read.csv("data/sarna.appendix.csv", comment.char = "#")
+data <- read.csv("data/csv/sarna.appendix.csv", comment.char = "#")
 
 # Calculate mean/midpoint and the height of the range bars
 # -------------------------------------------------------------------
@@ -25,7 +25,7 @@ error.percentage    <- (data$percentage.population.high -
 
 # Population estimates with range bars
 # -------------------------------------------------------------------
-png(filename = "outputs/jewish-population.png", 
+png(filename = "outputs/jewish-population/jewish-population.png", 
     width=2000, height=1200, res=300)
 ggplot(data) +
 geom_line(aes(data$year, midpoint.population)) +
@@ -43,7 +43,7 @@ dev.off()
 
 # Population estimates for early 19th century
 # -------------------------------------------------------------------
-png(filename = "outputs/jewish-population.early-19c.png",
+png(filename = "outputs/jewish-population/jewish-population.early-19c.png",
     width=2000, height=1200, res=300)
 ggplot(data[3:8,]) +
 geom_line(aes(data$year[3:8], midpoint.population[3:8])) +
@@ -61,7 +61,7 @@ dev.off()
 
 # Population estimates late 19th century
 # -------------------------------------------------------------------
-png(filename = "outputs/jewish-population.late-19c.png",
+png(filename = "outputs/jewish-population/jewish-population.late-19c.png",
     width=2000, height=1200, res=300)
 ggplot(data[9:13,]) +
 geom_line(aes(data$year[9:13], midpoint.population[9:13])) +
@@ -79,7 +79,7 @@ dev.off()
 
 # Population percentage with error bars
 # -------------------------------------------------------------------
-png(filename = "outputs/jewish-population.percentage.png",
+png(filename = "outputs/jewish-population/jewish-population.percentage.png",
     width=2000, height=1200, res=300)
 ggplot(data[3:23,]) +
 geom_line(aes(data$year[3:23], midpoint.percentage[3:23])) +

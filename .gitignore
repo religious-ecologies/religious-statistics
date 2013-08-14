@@ -4,5 +4,5 @@
 *.png
 temp/
 functions/api-keys.R
-data-downloaded/
-data-generated/
+data/downloads/
+data/clean/

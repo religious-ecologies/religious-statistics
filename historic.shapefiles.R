@@ -36,8 +36,7 @@ shapefile.from.zip <- function(zipfile) {
   # Returns:
   #   The path to the unzipped .shp file
   #
-  zipdir <- tempfile()
-  dir.create(zipdir)
+  zipdir <- tempdir()
   unzip(zipfile, exdir=zipdir)
   filename <- list.files(zipdir, "*.shp$")
   path     <- paste(zipdir, filename, sep="/")
@@ -46,7 +45,7 @@ shapefile.from.zip <- function(zipfile) {
 
 convert.shapefile <- function(shapefile, outdir, name, proj.in,
                               proj.out = "+proj=longlat +datum=WGS84" ) {
-  # Convert a shapefile from one projection to another projection as an R object
+  # Convert a shapefile from one projection to another as an R object
   #
   # Args:
   #   shapefile: The path to a .shp shapefile
@@ -54,7 +53,7 @@ convert.shapefile <- function(shapefile, outdir, name, proj.in,
   #   name:      The name of both the file to be saved and the R data frame
   #   proj.in:   The proj4string for the shapefile to be converted
   #   proj.out:  The proj4string for the shapefile to be saved. Defaults to 
-  #              the value used by ggmaps.
+  #   the value used by ggmaps.
   #
   # Returns:
   #   Returns nothing, but saves an .Rdata object with an R object suitable 
@@ -67,11 +66,18 @@ convert.shapefile <- function(shapefile, outdir, name, proj.in,
   saveObject(get(name), file = paste(name, ".Rdata", sep = ""), path = outdir)
 }
 
-# The original projection and paths to the zip files containing the shapefiles
-projection <- "+proj=aea +lat_1=29.5 +lat_2=45.5 +lat_0=37.5 +lon_0=-96 +x_0=0 +y_0=0 +datum=NAD83 +units=m +no_defs"
-dir.in     <- "data/downloads/shapefiles"
-dir.out    <- "data/clean/shapefiles"
-files      <- list.files(path = dir.in, pattern = "*.zip", full.names = T)
+# Original projection and path to zip file containing zips of shapefiles
+projection <- paste("+proj=aea +lat_1=29.5 +lat_2=45.5 +lat_0=37.5"
+                    "+lon_0=-96 +x_0=0 +y_0=0 +datum=NAD83 +units=m +no_defs")
+zip.in     <- "data/downloads/nhgis0003_shape.zip"
+dir.out    <- "data/clean"
+
+# Unzip the downloaded file containing zips of shapefiles
+unzipped <- tempdir()
+cat(paste("Unzipping", zip.in, "\n"))
+unzip(zip.in, exdir=unzipped)
+files <- list.files(path = paste(unzipped, "nhgis0003_shape", sep="/"),
+                    pattern = "*.zip", full.names = T)
 
 # Convert each shapefile
 for (f in files) {

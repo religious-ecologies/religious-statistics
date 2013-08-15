@@ -5,14 +5,14 @@
 # The shapefiles for the states were downloaded from the
 #
 #   Minnesota Population Center. National Historical Geographic Information 
-#   System: Version 2.0. Minneapolis, MN: University of Minnesota 2011.  
+#   System: Version 2.0. Minneapolis, MN: University of Minnesota 2011.
 #   <http://www.nhgis.org>
 #
 # This script will perform two transformations. First, it will convert those 
 # NHGIS shapefiles into R objects. These R objects can be loaded for use in 
-# future projects. For example, one file will be created us.state.1790.Rdata.  
+# future projects. For example, one file will be created us.state.1790.Rdata.
 # To load that file for use in a plot, one would use these commands:
-#     
+#
 #    library(R.utils)
 #    states.1790 <- loadObject("path/to/us.state.1790.Rdata")
 #
@@ -24,7 +24,7 @@
 
 library(R.utils)
 library(maptools)
-library(rgdal)
+library(rgdal)                        # Requires binary dependencies
 library(ggplot2)
 
 shapefile.from.zip <- function(zipfile) {

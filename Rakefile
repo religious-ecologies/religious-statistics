@@ -29,7 +29,11 @@ task :rebuild => [:clobber, :default]
 
 # Run only individual projects
 desc "Map Catholic dioceses"
-task :dioceses => ["catholic.dioceses.Rout"]
+task :dioceses => "catholic.dioceses.Rout"
 
 desc "Chart Jewish population"
 task :jewishpopulation => "jews.population.Rout"
+
+desc "Convert historic state shapefiles"
+task :shapefiles => "historic.shapefiles.Rout"
+

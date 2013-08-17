@@ -26,6 +26,9 @@ library(R.utils)
 library(maptools)
 library(rgdal)                        # Requires binary dependencies
 library(ggplot2)
+library(doMC)
+
+registerDoMC(detectCores())           # Use all the cores
 
 shapefile.from.zip <- function(zipfile) {
   # Unzip the archive to a temporary file and return the path to the shapefile
@@ -67,7 +70,7 @@ convert.shapefile <- function(shapefile, outdir, name, proj.in,
 }
 
 # Original projection and path to zip file containing zips of shapefiles
-projection <- paste("+proj=aea +lat_1=29.5 +lat_2=45.5 +lat_0=37.5"
+projection <- paste("+proj=aea +lat_1=29.5 +lat_2=45.5 +lat_0=37.5",
                     "+lon_0=-96 +x_0=0 +y_0=0 +datum=NAD83 +units=m +no_defs")
 zip.in     <- "data/downloads/nhgis0003_shape.zip"
 dir.out    <- "data/clean"
@@ -80,7 +83,7 @@ files <- list.files(path = paste(unzipped, "nhgis0003_shape", sep="/"),
                     pattern = "*.zip", full.names = T)
 
 # Convert each shapefile
-for (f in files) {
+foreach(f=files) %dopar% {
   cat(paste("Unzipping", f, "\n"))
   shapefile <- shapefile.from.zip(f)
   name      <- sub(".*(us_.+_\\d+).zip", "\\1", f)

@@ -8,8 +8,8 @@ http://lincolnmullen.com
 
 ## Description of Directories
 
--   The `data` directory contains only historical data.
--   The `data-generated` contains data that has been modified or munged,
+-   The `data/csv` directory contains only historical data.
+-   The `data/clean` contains data that has been modified or munged,
     for example, by geocoding place names.
 -   The `functions` directory contains R code that has been abstracted
     from the individual analysis scripts.

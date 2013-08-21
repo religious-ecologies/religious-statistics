@@ -28,7 +28,7 @@ library(rgdal)                        # Requires binary dependencies
 library(ggplot2)
 library(doMC)
 
-registerDoMC(detectCores())           # Use all the cores
+registerDoMC()
 
 shapefile.from.zip <- function(zipfile) {
   # Unzip the archive to a temporary file and return the path to the shapefile
@@ -39,7 +39,8 @@ shapefile.from.zip <- function(zipfile) {
   # Returns:
   #   The path to the unzipped .shp file
   #
-  zipdir <- tempdir()
+  zipdir <- tempfile()
+  dir.create(zipdir)
   unzip(zipfile, exdir=zipdir)
   filename <- list.files(zipdir, "*.shp$")
   path     <- paste(zipdir, filename, sep="/")
@@ -79,8 +80,8 @@ dir.out    <- "data/clean"
 unzipped <- tempdir()
 cat(paste("Unzipping", zip.in, "\n"))
 unzip(zip.in, exdir=unzipped)
-files <- list.files(path = paste(unzipped, "nhgis0003_shape", sep="/"),
-                    pattern = "*.zip", full.names = T)
+# files <- list.files(path = paste(unzipped, "nhgis0003_shape", sep="/"),
+pattern = "*.zip", full.names = T)
 
 # Convert each shapefile
 foreach(f=files) %dopar% {

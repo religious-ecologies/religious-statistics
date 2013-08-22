@@ -6,6 +6,17 @@ other historical scholarship.
 Lincoln A. Mullen | <lincoln@lincolnmullen.com> |
 http://lincolnmullen.com
 
+## Citation
+
+If you use data or analysis from this project, please provide a proper 
+citation. The following format is suggested:
+
+> Mullen, Lincoln A. The Demographics of American Religion. 2013--.
+> <http://lincolnmullen.com>
+
+You may also need to cite data used in this project but draft from other
+sources.
+
 ## Description of Directories
 
 -   The `data/csv` directory contains only historical data.

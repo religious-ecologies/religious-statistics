@@ -1,90 +1,101 @@
 #!/usr/bin/env Rscript --vanilla
 
 # Map missions of the Paulist Fathers over time
-
 # Lincoln A. Mullen | lincoln@lincolnmullen.com | http://lincolnmullen.com
 # MIT License <http://lmullen.mit-license.org/>
 
 library(ggmap)
+library(ggplot2)
 library(lubridate)
 library(plyr)
-source("functions/get.year.R")
+library(RCurl)
+library(R.utils)
+library(RColorBrewer)
+source("functions/get.year.r")
+source("functions/geocode-and-cache.r")
 
-# Download and geocode the data or use the cache
 
-
-
-if (file.exists("data/clean/paulist.missions.csv")) {
-  missions <- read.csv("data/clean/paulist.missions.csv",
-                       comment.char = "#", stringsAsFactors = F)
-} else {
-  if (! file.exists("data/downloads/paulist.missions.csv")) {
-    system("curl 'https://docs.google.com/spreadsheet/pub?key=0AtQHB1QuuzwldEVScGphLWMtVjZHNDRnR2ZaMW1Lamc&single=true&gid=0&output=csv' -o data-downloaded/paulist.missions.csv")
-  } 
-  raw <- read.csv("data/downloads/paulist.missions.csv",
-                  comment.char = "#", stringsAsFactors = F)
-  raw <- transform(raw, location = paste(city, state, sep = ", "))
-  missions <- transform(raw, geo = geocode(as.character(location)))
-  write.csv(missions, "data/clean/paulist.missions.csv")
+# Data preparation
+# -------------------------------------------------------------------
+if (!file.exists("data/downloads/paulist-missions.csv")) {
+  cat("Downloading the Paulist mission data from Google spreadsheets.\n")
+  download <- getURL("https://docs.google.com/spreadsheet/pub?key=0AtQHB1QuuzwldEVScGphLWMtVjZHNDRnR2ZaMW1Lamc&single=true&gid=0&output=csv")
+  dataset <- read.csv(textConnection(download), stringsAsFactors = F)
+  dataset <- transform(dataset, location = paste(city, state))
+  write.csv(dataset, file = "data/downloads/paulist-missions.csv")
 } 
 
-# Clean up the data
-missions <- transform(missions, year = get.year(start.date))
-missions <- subset(missions, !is.na(year))
+missions <- geocode_and_cache("data/downloads/paulist-missions.csv", 
+                              "data/clean/paulist-missions.geocoded.csv",
+                              "location")
 
-# Get the map
-center <- "Lexington, KY"
-map <- qmap(center, zoom = 5)
+missions <- transform(missions, year = get_year(start.date))
 
-# Map the missions
-png(filename = "outputs/map.paulist.missions.png",
-    width=11, height=8.5, units="in", res=300)
-plot <- map + 
-stat_density2d(aes(x = geo.lon, y = geo.lat, fill = ..level.., alpha = 
-                   ..level..), size = 2, bins = 20, data = missions, geom = 
-"polygon") +
-ggtitle("Paulist Missions") +
-theme(legend.position = "none")
-print(plot)
-dev.off()
+# Give approximations of the values "several" and "many"
+missions$converts[missions$converts == "several"] <- 3
+missions$converts[missions$converts == "many"]    <- 7
+missions$converts <- as.integer(missions$converts)
 
-# With shapefiles
+# Map of missions before Civil War
+# -------------------------------------------------------------------
+missions_cw <- subset(missions, year < 1866)
+map_1860    <- loadObject("data/clean/us.state.1860.Rdata")
 
-# library(maptools)
-# library(gpclib)
-# library(sp)
-# library(rgeos)
-# gpclibPermit()
-
-
-# unzip('census.zip'); library(maptools); library(gpclib); library(sp); gpclibPermit()
-# shapefile <- readShapeSpatial('tr48_d00.shp', proj4string = CRS("+proj=longlat +datum=WGS84"))
-# data <- fortify(shapefile)
-# qmap('texas', zoom = 6, maptype = 'satellite') +
-# geom_polygon(aes(x = long, y = lat, group = group), data = dat
-
-# shapefile <- readShapeSpatial('data-downloaded/shapefiles/US_state_1870.shp',
-#                               proj4string = CRS("+proj=aea +lat_1=29.5 +lat_2=45.5 +lat_0=37.5 +lon_0=-96 +x_0=0 +y_0=0 +datum=NAD83 +units=m +no_defs"))
-# states.1870 <- fortify(shapefile)
-# png(filename = "outputs/map.paulist.missions.borders.png",
+# png(filename = "outputs/map.paulist.missions.png",
 #     width=11, height=8.5, units="in", res=300)
-# plot <- map + 
-# geom_point(data = missions, 
-#            aes(x = geo.lon, y = geo.lat, size = converts)) + 
-# ggtitle("Paulist Missions") +
-# theme(legend.position = "none") +
-# geom_polygon(data = states.1870, aes(x = long, y = lat, group = group),
-#              colour = 'white', fill = 'black', alpha = 
-#              .4, size = .3)
-# print(plot)
+plot <- ggplot() +
+geom_path(data = map_1860, 
+          aes(x = long, y = lat, group = group),
+          color = 'gray', fill = 'white', size = .5) +
+coord_map() +
+xlim(-96, -65) +
+geom_point(data = missions_cw,
+           aes(x = geo.lon, y=geo.lat, size = communion.general),
+           alpha = 0.5) +
+geom_density2d(data = missions_cw,
+               aes(x = geo.lon, y=geo.lat),
+               color = 'black', alpha = 0.4)+
+ggtitle("Redemptorist and Paulist Missions, 1852-1865 ") +
+theme_bw() 
+print(plot)
 # dev.off()
 
+ggsave(filename = paste(date(), ".png", sep=""))
 
-# read.csv("data-generated/paulist.missions.csv", stringAsFactors = F)
+# Map of missions after Civil War
+missions_post <- subset(missions, year >= 1866)
+map_1880    <- loadObject("data/clean/us.state.1880.Rdata")
 
-# library(maptools)
+# png(filename = "outputs/map.paulist.missions.png",
+#     width=11, height=8.5, units="in", res=300)
+plot <- ggplot() +
+geom_polygon(data = map_1880, 
+             aes(x = long, y = lat, group = group),
+             color = 'gray', fill = 'white', size = .5) +
+coord_map() +
+xlim(-125,-66) +
+ylim(24, 50) +
+geom_point(data = missions_post,
+           aes(x = geo.lon, y=geo.lat, size = communion.general),
+           alpha = 0.5) +
+geom_density2d(data = missions_post,
+               aes(x = geo.lon, y=geo.lat),
+               color = 'black', alpha = 0.4)+
+ggtitle("Paulist Missions after 1865")
+print(plot)
+# dev.off()
 
-# shapefile <- readShapeSpatial('data-downloaded/shapefiles/US_state_1790.shp', proj4string = CRS("+proj=aea +lat_1=29.5 +lat_2=45.5 +lat_0=37.5 +lon_0=-96 +x_0=0 +y_0=0 +datum=NAD83 +units=m +no_defs"))
-# shp <- spTransform(shapefile, CRS("+proj=longlat +datum=WGS84"))
-# shape <- fortify(shp)
-# ggplot() + geom_polygon(aes(x = long, y = lat, group = group), data = shape, color = 'gray', fill = 'red', alpha = .4) + geom_jitter(data = missions, aes(x = geo.lon, y = geo.lat))
+# Map of missions in Minnesota
+# -------------------------------------------------------------------
+
+
+# Map of missions in greater New York 
+# -------------------------------------------------------------------
+
+# Misc ideas 
+# -------------------------------------------------------------------
+
+# theme(legend.position = "none")
+# geom_hex(data = missions_cw,
+#            aes(x = geo.lon, y = geo.lat, size=communion.general),
+#            bins = 100, alpha = 0.90) +

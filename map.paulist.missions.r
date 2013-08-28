@@ -10,7 +10,7 @@ library(lubridate)
 library(plyr)
 library(RCurl)
 library(R.utils)
-library(RColorBrewer)
+library(ggthemes)
 source("functions/get.year.r")
 source("functions/geocode-and-cache.r")
 
@@ -31,69 +31,90 @@ missions <- geocode_and_cache("data/downloads/paulist-missions.csv",
 
 missions <- transform(missions, year = get_year(start.date))
 
-# Give approximations of the values "several" and "many"
+# Give approximations of the values "several" and "many"; replace NA with 0
 missions$converts[missions$converts == "several"] <- 3
 missions$converts[missions$converts == "many"]    <- 7
 missions$converts <- as.integer(missions$converts)
+missions$converts[is.na(missions$converts)]       <- 0
+
+# File management
+# -------------------------------------------------------------------
+if (!file.exists("outputs/paulists")) {
+  dir.create("outputs/paulists")
+}
+
+# Defaults for maps 
+# -------------------------------------------------------------------
+my_theme <- theme_tufte() +
+  theme(panel.border = element_blank(),
+        axis.ticks   = element_blank(),
+        axis.text    = element_blank())
+        axis.title   = element_blank())
 
 # Map of missions before Civil War
 # -------------------------------------------------------------------
 missions_cw <- subset(missions, year < 1866)
 map_1860    <- loadObject("data/clean/us.state.1860.Rdata")
 
-# png(filename = "outputs/map.paulist.missions.png",
-#     width=11, height=8.5, units="in", res=300)
+pdf(filename = "outputs/paulists/paulist-missions.pre-civil-war.pdf",
+    width=8.5, height=11, units="in", res=300)
+
 plot <- ggplot() +
 geom_path(data = map_1860, 
           aes(x = long, y = lat, group = group),
-          color = 'gray', fill = 'white', size = .5) +
+          color = 'gray', fill = 'white', size = .3) +
 coord_map() +
-xlim(-96, -65) +
+xlim(-92,-66) +
+ylim(24, 48) +
 geom_point(data = missions_cw,
-           aes(x = geo.lon, y=geo.lat, size = communion.general),
+           aes(x = geo.lon, y=geo.lat, size = converts),
            alpha = 0.5) +
 geom_density2d(data = missions_cw,
                aes(x = geo.lon, y=geo.lat),
                color = 'black', alpha = 0.4)+
-ggtitle("Redemptorist and Paulist Missions, 1852-1865 ") +
-theme_bw() 
+ggtitle("Redemptorist and Paulist Missions, 1852–1865 ") +
+my_theme +
+scale_size(range = c(2, 10))
 print(plot)
-# dev.off()
 
-ggsave(filename = paste(date(), ".png", sep=""))
+dev.off()
 
 # Map of missions after Civil War
+# -------------------------------------------------------------------
 missions_post <- subset(missions, year >= 1866)
-map_1880    <- loadObject("data/clean/us.state.1880.Rdata")
+map_1880      <- loadObject("data/clean/us.state.1880.Rdata")
 
-# png(filename = "outputs/map.paulist.missions.png",
-#     width=11, height=8.5, units="in", res=300)
+pdf(filename = "outputs/paulists/paulist-missions.post-civil-war.pdf",
+    width=11, height=8.5, units="in", res=300)
+
 plot <- ggplot() +
-geom_polygon(data = map_1880, 
+geom_path(data = map_1880, 
              aes(x = long, y = lat, group = group),
-             color = 'gray', fill = 'white', size = .5) +
+             color = 'gray', fill = 'white', size = .3) +
 coord_map() +
 xlim(-125,-66) +
 ylim(24, 50) +
 geom_point(data = missions_post,
-           aes(x = geo.lon, y=geo.lat, size = communion.general),
+           aes(x = geo.lon, y=geo.lat, size = converts),
            alpha = 0.5) +
 geom_density2d(data = missions_post,
                aes(x = geo.lon, y=geo.lat),
-               color = 'black', alpha = 0.4)+
+               color = 'black', alpha = 0.4) +
+my_theme +
+guides(size=guide_legend(title="Converts\nper mission")) +
 ggtitle("Paulist Missions after 1865")
 print(plot)
-# dev.off()
 
-# Map of missions in Minnesota
-# -------------------------------------------------------------------
-
+dev.off()
 
 # Map of missions in greater New York 
 # -------------------------------------------------------------------
 
-# Misc ideas 
+
+# Misc code 
 # -------------------------------------------------------------------
+
+# ggsave(filename = paste(date(), ".png", sep=""))
 
 # theme(legend.position = "none")
 # geom_hex(data = missions_cw,

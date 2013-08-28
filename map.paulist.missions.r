@@ -22,11 +22,12 @@ if (!file.exists("data/downloads/paulist-missions.csv")) {
   download <- getURL("https://docs.google.com/spreadsheet/pub?key=0AtQHB1QuuzwldEVScGphLWMtVjZHNDRnR2ZaMW1Lamc&single=true&gid=0&output=csv")
   dataset <- read.csv(textConnection(download), stringsAsFactors = F)
   dataset <- transform(dataset, location = paste(city, state))
+  dataset <- transform(dataset, location_precise = paste(church, city, state))
   write.csv(dataset, file = "data/downloads/paulist-missions.csv")
 } 
 
 missions <- geocode_and_cache("data/downloads/paulist-missions.csv", 
-                              "data/clean/paulist-missions.geocoded.csv",
+                              "data/clean/paulist-missions.geocoded.csv", 
                               "location")
 
 missions <- transform(missions, year = get_year(start.date))
@@ -56,8 +57,8 @@ my_theme <- theme_tufte() +
 missions_cw <- subset(missions, year < 1866)
 map_1860    <- loadObject("data/clean/us.state.1860.Rdata")
 
-pdf(filename = "outputs/paulists/paulist-missions.pre-civil-war.pdf",
-    width=8.5, height=11, units="in", res=300)
+pdf(file = "outputs/paulists/paulist-missions.pre-civil-war.pdf",
+    width = 8.5, height = 11)
 
 plot <- ggplot() +
 geom_path(data = map_1860, 
@@ -71,9 +72,10 @@ geom_point(data = missions_cw,
            alpha = 0.5) +
 geom_density2d(data = missions_cw,
                aes(x = geo.lon, y=geo.lat),
-               color = 'black', alpha = 0.4)+
-ggtitle("Redemptorist and Paulist Missions, 1852–1865 ") +
+               color = 'black', alpha = 0.4, bins = 5)+
+ggtitle("Redemptorist and Paulist Missions, 1852-1865 ") +
 my_theme +
+guides(size=guide_legend(title="Converts\nper mission")) +
 scale_size(range = c(2, 10))
 print(plot)
 
@@ -84,8 +86,8 @@ dev.off()
 missions_post <- subset(missions, year >= 1866)
 map_1880      <- loadObject("data/clean/us.state.1880.Rdata")
 
-pdf(filename = "outputs/paulists/paulist-missions.post-civil-war.pdf",
-    width=11, height=8.5, units="in", res=300)
+pdf(file = "outputs/paulists/paulist-missions.post-civil-war.pdf",
+    width = 11, height = 8.5)
 
 plot <- ggplot() +
 geom_path(data = map_1880, 
@@ -99,17 +101,120 @@ geom_point(data = missions_post,
            alpha = 0.5) +
 geom_density2d(data = missions_post,
                aes(x = geo.lon, y=geo.lat),
-               color = 'black', alpha = 0.4) +
+               color = 'black', alpha = 0.4, bins = 5) +
 my_theme +
+theme(legend.position="bottom") +
+scale_size(range = c(2, 10)) +
 guides(size=guide_legend(title="Converts\nper mission")) +
-ggtitle("Paulist Missions after 1865")
+ggtitle("Paulist Missions, 1871-1879")
 print(plot)
 
 dev.off()
 
-# Map of missions in greater New York 
+# Converts per year
 # -------------------------------------------------------------------
 
+pdf(file = "outputs/paulists/paulist-missions.converts-per-year.pdf",
+    width = 11, height = 8.5)
+
+plot <- ggplot(data = missions, 
+               aes(x = year, y = converts)) +
+theme_tufte() +
+geom_bar(stat = "identity") +
+ggtitle("Converts per Year at Paulist Missions") +
+ylab("Converts") +
+xlab("Year") 
+print(plot)
+
+dev.off()
+
+
+# Communions per year
+# -------------------------------------------------------------------
+
+pdf(file = "outputs/paulists/paulist-missions.communions-per-year.pdf",
+    width = 11, height = 8.5)
+
+plot <- ggplot(data = missions, 
+               aes(x = year, y = communion.general)) +
+theme_tufte() +
+geom_bar(stat = "identity") +
+ggtitle("Communions/Confessions per Year at Paulist Missions") +
+ylab("Communions or Confessions") +
+xlab("Year") 
+print(plot)
+
+dev.off()
+
+# Converts per state
+# -------------------------------------------------------------------
+
+pdf(file = "outputs/paulists/paulist-missions.converts-by-state.pdf",
+    width = 11, height = 8.5)
+
+plot <- ggplot(data = missions, 
+               aes(x = state, y = converts)) +
+theme_tufte() +
+geom_bar(stat = "identity") +
+ggtitle("Converts per State or Province at Paulist Missions") +
+ylab("Converts") +
+xlab(NULL)
+print(plot)
+
+dev.off()
+
+# Communions vs Converts
+# -------------------------------------------------------------------
+
+pdf(file = "outputs/paulists/paulist-missions.communions-vs-converts.pdf",
+    width = 11, height = 8.5)
+
+plot <- ggplot(data = missions, 
+               aes(x = communion.general, y = converts)) +
+theme_tufte() +
+geom_point() +
+geom_smooth() +
+ggtitle("Converts by Size of Paulist Missions") +
+ylab("Converts") +
+xlab("Communions or Confessions")
+print(plot)
+
+dev.off()
+
+# Histogram of converts
+# -------------------------------------------------------------------
+
+pdf(file = "outputs/paulists/paulist-missions.converts-histogram.pdf",
+    width = 11, height = 8.5)
+
+breaks <- c( 0,1, seq(5, 60, 5))
+plot <- ggplot(data = missions, aes(x = converts)) +
+theme_tufte() +
+geom_histogram(breaks = breaks) +
+scale_x_discrete(breaks = breaks) +
+ggtitle("Typical Number of Converts at Paulist Missions") +
+ylab("Number of missions") +
+xlab("Converts")
+print(plot)
+
+dev.off()
+
+# Histogram of converts
+# -------------------------------------------------------------------
+
+pdf(file = "outputs/paulists/paulist-missions.communions-histogram.pdf",
+    width = 11, height = 8.5)
+
+breaks <- seq(0, 10000, 1000)
+plot <- ggplot(data = missions, aes(x = communion.general)) +
+geom_histogram(binwidth = 1000) +
+theme_tufte() +
+ggtitle("Typical Size of Paulist Missions") +
+ylab("Number of missions") +
+xlab("Confessions or Communions")
+print(plot)
+
+dev.off()
 
 # Misc code 
 # -------------------------------------------------------------------

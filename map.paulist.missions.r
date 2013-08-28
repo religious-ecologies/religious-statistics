@@ -22,7 +22,6 @@ if (!file.exists("data/downloads/paulist-missions.csv")) {
   download <- getURL("https://docs.google.com/spreadsheet/pub?key=0AtQHB1QuuzwldEVScGphLWMtVjZHNDRnR2ZaMW1Lamc&single=true&gid=0&output=csv")
   dataset <- read.csv(textConnection(download), stringsAsFactors = F)
   dataset <- transform(dataset, location = paste(city, state))
-  dataset <- transform(dataset, location_precise = paste(church, city, state))
   write.csv(dataset, file = "data/downloads/paulist-missions.csv")
 } 
 
@@ -199,7 +198,7 @@ print(plot)
 
 dev.off()
 
-# Histogram of converts
+# Histogram of communions
 # -------------------------------------------------------------------
 
 pdf(file = "outputs/paulists/paulist-missions.communions-histogram.pdf",

@@ -48,7 +48,7 @@ if (!file.exists("outputs/paulists")) {
 my_theme <- theme_tufte() +
   theme(panel.border = element_blank(),
         axis.ticks   = element_blank(),
-        axis.text    = element_blank())
+        axis.text    = element_blank(),
         axis.title   = element_blank())
 
 # Map of missions before Civil War

@@ -14,7 +14,7 @@ task :default => [:rscripts]
 task :rscripts => ROUTS
 
 # Generic rule to run an R script
-rule '.Rout' => '.R' do |task|
+rule '.Rout' => '.r' do |task|
   puts "Running #{task.source}"
   sh "Rscript --vanilla #{task.source} | tee #{task.name}"
 end
@@ -36,4 +36,7 @@ task :jewishpopulation => "jews.population.Rout"
 
 desc "Convert historic state shapefiles"
 task :shapefiles => "historic.shapefiles.Rout"
+
+desc "Map Paulist missions"
+task :paulists => "map.paulist.missions.Rout"
 

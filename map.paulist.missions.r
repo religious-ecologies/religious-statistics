@@ -37,6 +37,11 @@ missions$converts[missions$converts == "many"]    <- 7
 missions$converts <- as.integer(missions$converts)
 missions$converts[is.na(missions$converts)]       <- 0
 
+# Count converts and those left under instruction together
+missions$under.instruction <- as.integer(missions$under.instruction)
+missions$under.instruction[is.na(missions$under.instruction)]       <- 0
+missions$converts <- missions$converts + missions$under.instruction
+
 # File management
 # -------------------------------------------------------------------
 if (!file.exists("outputs/paulists")) {

@@ -7,3 +7,6 @@ functions/api-keys.R
 data/downloads/
 data/clean/
 outputs/
+.Rproj.user
+demographics-religion.Rproj
+.Rhistory

@@ -15,8 +15,7 @@ source("functions/get.year.r")
 source("functions/geocode-and-cache.r")
 
 
-# Data preparation
-# -------------------------------------------------------------------
+# Data preparation --------------------------------------------------------
 if (!file.exists("data/downloads/paulist-missions.csv")) {
   cat("Downloading the Paulist mission data from Google spreadsheets.\n")
   download <- getURL("https://docs.google.com/spreadsheet/pub?key=0AtQHB1QuuzwldEVScGphLWMtVjZHNDRnR2ZaMW1Lamc&single=true&gid=0&output=csv")
@@ -59,7 +58,7 @@ my_theme <- theme_tufte() +
 # Map of missions before Civil War
 # -------------------------------------------------------------------
 missions_cw <- subset(missions, year < 1866)
-map_1860    <- loadObject("data/clean/us.state.1860.Rdata")
+map_1860    <- loadObject("data/clean/us.state.1860.low-res.Rdata")
 
 pdf(file = "outputs/paulists/paulist-missions.pre-civil-war.pdf",
     width = 8.5, height = 11)
@@ -88,7 +87,7 @@ dev.off()
 # Map of missions after Civil War
 # -------------------------------------------------------------------
 missions_post <- subset(missions, year >= 1866)
-map_1880      <- loadObject("data/clean/us.state.1880.Rdata")
+map_1880      <- loadObject("data/clean/us.state.1880.low-res.Rdata")
 
 pdf(file = "outputs/paulists/paulist-missions.post-civil-war.pdf",
     width = 11, height = 8.5)

@@ -75,7 +75,7 @@ convert.shapefile <- function(shapefile, outdir, name, proj.in,
   saveObject(get(name), file=paste(name, ".Rdata", sep=""), path=outdir)
   
   # Save a low resolution version
-  shp <- gSimplify(shp, tol=0.02, topologyPreserve=TRUE)
+  shp <- gSimplify(shp, tol=0.05, topologyPreserve=TRUE)
   frame <- fortify(shp)
   assign(name, frame)
   saveObject(get(name), file=paste(name, ".low-res.Rdata", sep=""), path=outdir)

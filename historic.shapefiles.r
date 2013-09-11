@@ -25,6 +25,7 @@
 library(R.utils)
 library(maptools)
 library(rgdal)                        # Requires binary dependencies
+library(rgeos)
 library(ggplot2)
 library(doMC)
 
@@ -63,11 +64,21 @@ convert.shapefile <- function(shapefile, outdir, name, proj.in,
   #   Returns nothing, but saves an .Rdata object with an R object suitable 
   #   for plotting in ggplot2.
   #
+  
+  # Change the projection of the shapefile
   shp <- readShapeSpatial(shapefile, proj4string = CRS(proj.in))
   shp <- spTransform(shp, CRS(proj.out))
-  shp <- fortify(shp)
-  assign(name, shp)
-  saveObject(get(name), file = paste(name, ".Rdata", sep = ""), path = outdir)
+  
+  # Save a high resolution version
+  frame <- fortify(shp)
+  assign(name, frame)
+  saveObject(get(name), file=paste(name, ".Rdata", sep=""), path=outdir)
+  
+  # Save a low resolution version
+  shp <- gSimplify(shp, tol=0.02, topologyPreserve=TRUE)
+  frame <- fortify(shp)
+  assign(name, frame)
+  saveObject(get(name), file=paste(name, ".low-res.Rdata", sep=""), path=outdir)
 }
 
 # Original projection and path to zip file containing zips of shapefiles
@@ -80,7 +91,7 @@ dir.out    <- "data/clean"
 unzipped <- tempdir()
 cat(paste("Unzipping", zip.in, "\n"))
 unzip(zip.in, exdir=unzipped)
-# files <- list.files(path = paste(unzipped, "nhgis0003_shape", sep="/"),
+files <- list.files(path = paste(unzipped, "nhgis0003_shape", sep="/"),
 pattern = "*.zip", full.names = T)
 
 # Convert each shapefile

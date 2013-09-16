@@ -51,7 +51,7 @@ if (!file.exists("data/downloads/paulist-summary.csv")) {
   write.csv(summary, file = "data/downloads/paulist-summary.csv")
 } 
 
-summary <- read.csv("data/downloads/paulist-summary.csv",
+missions_summary <- read.csv("data/downloads/paulist-summary.csv",
                     stringsAsFactors = F,
                     comment.char="#")
 
@@ -243,3 +243,18 @@ dev.off()
 # geom_hex(data = missions_cw,
 #            aes(x = geo.lon, y = geo.lat, size=communion.general),
 #            bins = 100, alpha = 0.90) +
+
+# Summary of missions ----------------------------------------------
+
+ggplot(missions_summary, aes(x=year.start, y=converts)) +
+  geom_bar(stat="identity") +
+  theme_tufte(base_size=14) +
+  xlab("") +
+  ylab("Converts") +
+  ggtitle("Converts at Paulist Missions, 1851-1907") +
+  scale_x_discrete(breaks=seq(1850, 1910, 5)) +
+  scale_y_discrete(breaks=seq(0, 600, 50)) 
+ggsave(filename="outputs/paulists/paulist-converts-summary.png")
+
+  
+

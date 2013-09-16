@@ -41,6 +41,21 @@ missions$under.instruction <- as.integer(missions$under.instruction)
 missions$under.instruction[is.na(missions$under.instruction)]       <- 0
 missions$converts <- missions$converts + missions$under.instruction
 
+# Download the summary data
+if (!file.exists("data/downloads/paulist-summary.csv")) {
+  cat("Downloading the Paulist summary data from Google spreadsheets.\n")
+  download <- getURL("https://docs.google.com/spreadsheet/pub?key=0AtQHB1QuuzwldDlEZUZNZzYtazV1aVk0aGsxRkN4OWc&output=csv")
+  summary <- read.csv(textConnection(download),
+                      stringsAsFactors = F,
+                      comment.char="#")
+  write.csv(summary, file = "data/downloads/paulist-summary.csv")
+} 
+
+summary <- read.csv("data/downloads/paulist-summary.csv",
+                    stringsAsFactors = F,
+                    comment.char="#")
+
+
 # File management
 # -------------------------------------------------------------------
 if (!file.exists("outputs/paulists")) {

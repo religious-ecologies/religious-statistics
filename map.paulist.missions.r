@@ -11,8 +11,10 @@ library(plyr)
 library(RCurl)
 library(R.utils)
 library(ggthemes)
+library(reshape2)
 source("functions/get.year.r")
 source("functions/geocode-and-cache.r")
+source("functions/multiplot.r")
 
 
 # Data preparation --------------------------------------------------------
@@ -53,7 +55,7 @@ if (!file.exists("data/downloads/paulist-summary.csv")) {
 
 missions_summary <- read.csv("data/downloads/paulist-summary.csv",
                     stringsAsFactors = F,
-                    comment.char="#")
+                    comment.char = "#")
 
 
 # File management
@@ -244,17 +246,62 @@ dev.off()
 #            aes(x = geo.lon, y = geo.lat, size=communion.general),
 #            bins = 100, alpha = 0.90) +
 
+
+# How many converts average per year per decade did the Paulists make?
+
+decade <- subset(missions_summary, year.start > 1850 & year.end < 1866)
+mean(decade$converts)
+decade <- subset(missions_summary, year.start > 1870 & year.end < 1880)
+mean(decade$converts, na.rm=T)
+decade <- subset(missions_summary, year.start > 1880 & year.end < 1890)
+mean(decade$converts)
+decade <- subset(missions_summary, year.start > 1890 & year.end < 1900)
+mean(decade$converts)
+decade <- subset(missions_summary, year.start > 1900 & year.end < 1910)
+mean(decade$converts)
+
 # Summary of missions ----------------------------------------------
 
-ggplot(missions_summary, aes(x=year.start, y=converts)) +
+conversions_chart <- ggplot(missions_summary, aes(x=year.start, y=converts)) +
   geom_bar(stat="identity") +
-  theme_tufte(base_size=14) +
+  theme_tufte(base_size=10) +
   xlab("") +
   ylab("Converts") +
   ggtitle("Converts at Paulist Missions, 1851-1907") +
-  scale_x_discrete(breaks=seq(1850, 1910, 5)) +
-  scale_y_discrete(breaks=seq(0, 600, 50)) 
-ggsave(filename="outputs/paulists/paulist-converts-summary.png")
+  scale_x_continuous(breaks=seq(1850, 1920, 5)) +
+  scale_y_discrete(breaks=seq(0, 600, 100)) 
 
-  
+# How many missions did the Paulists have each year?
 
+missions_melted <- melt(missions_summary, id="year.start", variable.name="mission.type", measure.vars=c("missions.noncatholic", "missions.catholic"))
+
+
+missions_chart <- ggplot(missions_melted, aes(x=year.start)) +
+  geom_bar(aes(y = value, fill=mission.type), stat="identity") +
+  theme_tufte(base_size=10) +
+  scale_fill_grey(start = 0.1, end = .4,
+                  name = "Type of Mission",
+                  breaks=c("missions.noncatholic","missions.catholic"),
+                  labels=c("to Protestants", "to Catholics")) +
+  theme(legend.position=c(.2, .7)) +
+  xlab("") +
+  ylab("Missions") +
+  ggtitle("Number of Paulist Missions, 1851-1907") +
+  scale_x_continuous(breaks=seq(1850, 1920, 5)) +
+  scale_y_discrete(breaks=seq(0, 100, 20)) 
+
+# How many confessions or commnunions
+confessions_chart <- ggplot(missions_summary, aes(x=year.start, y=confessions)) +
+  geom_bar(stat="identity") +
+  theme_tufte(base_size=10) +
+  xlab("") +
+  ylab("Confessions or Communions") +
+  ggtitle("Confessions or Communnions per Year at Paulist Missions, 1851-1907") +
+  scale_x_continuous(breaks=seq(1850, 1920, 5)) +
+  scale_y_discrete(breaks=seq(0, 125e3, 25e3)) 
+
+
+pdf(file = "outputs/paulists/paulist-summaries.pdf",
+    height = 11, width = 8.5)
+multiplot(conversions_chart, confessions_chart, missions_chart, cols=1)
+dev.off()

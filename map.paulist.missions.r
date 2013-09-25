@@ -77,8 +77,8 @@ my_theme <- theme_tufte() +
 missions_cw <- subset(missions, year < 1866)
 map_1860    <- loadObject("data/clean/us.state.1860.low-res.Rdata")
 
-pdf(file = "outputs/paulists/paulist-missions.pre-civil-war.pdf",
-    width = 8.5, height = 11)
+pdf(file = "outputs/paulists/paulists-map-pre-civil-war.pdf",
+    height = 8.5, width = 11)
 
 plot <- ggplot() +
 geom_path(data = map_1860, 
@@ -106,7 +106,7 @@ dev.off()
 missions_post <- subset(missions, year >= 1866)
 map_1880      <- loadObject("data/clean/us.state.1880.low-res.Rdata")
 
-pdf(file = "outputs/paulists/paulist-missions.post-civil-war.pdf",
+pdf(file = "outputs/paulists/paulists-map-post-civil-war.pdf",
     width = 11, height = 8.5)
 
 plot <- ggplot() +
@@ -264,7 +264,7 @@ mean(decade$converts)
 
 conversions_chart <- ggplot(missions_summary, aes(x=year.start, y=converts)) +
   geom_bar(stat="identity") +
-  theme_tufte(base_size=10) +
+  theme_tufte() +
   xlab("") +
   ylab("Converts") +
   ggtitle("Converts at Paulist Missions, 1851-1907") +
@@ -278,8 +278,8 @@ missions_melted <- melt(missions_summary, id="year.start", variable.name="missio
 
 missions_chart <- ggplot(missions_melted, aes(x=year.start)) +
   geom_bar(aes(y = value, fill=mission.type), stat="identity") +
-  theme_tufte(base_size=10) +
-  scale_fill_grey(start = 0.1, end = .4,
+  theme_tufte() +
+  scale_fill_grey(start = 0.1, end = .3,
                   name = "Type of Mission",
                   breaks=c("missions.noncatholic","missions.catholic"),
                   labels=c("to Protestants", "to Catholics")) +
@@ -293,7 +293,7 @@ missions_chart <- ggplot(missions_melted, aes(x=year.start)) +
 # How many confessions or commnunions
 confessions_chart <- ggplot(missions_summary, aes(x=year.start, y=confessions)) +
   geom_bar(stat="identity") +
-  theme_tufte(base_size=10) +
+  theme_tufte() +
   xlab("") +
   ylab("Confessions or Communions") +
   ggtitle("Confessions or Communnions per Year at Paulist Missions, 1851-1907") +

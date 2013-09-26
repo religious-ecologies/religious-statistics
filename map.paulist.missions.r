@@ -103,23 +103,22 @@ dev.off()
 
 # Map of missions after Civil War
 # -------------------------------------------------------------------
-missions_post <- subset(missions, year >= 1866)
-map_1880      <- loadObject("data/clean/us.state.1880.low-res.Rdata")
+missions_1870s <- subset(missions, year >= 1866 & year <= 1879)
+missions_1880s <- subset(missions, year >= 1880 & year <= 1889)
+map_1870       <- loadObject("data/clean/us.state.1870.low-res.Rdata")
+map_1880       <- loadObject("data/clean/us.state.1880.low-res.Rdata")
 
-pdf(file = "outputs/paulists/paulists-map-post-civil-war.pdf",
-    width = 11, height = 8.5)
-
-plot <- ggplot() +
-geom_path(data = map_1880, 
+map_missions_1870s <- ggplot() +
+geom_path(data = map_1870, 
              aes(x = long, y = lat, group = group),
              color = 'gray', fill = 'white', size = .3) +
 coord_map() +
 xlim(-125,-66) +
 ylim(24, 50) +
-geom_point(data = missions_post,
+geom_point(data = missions_1870s,
            aes(x = geo.lon, y=geo.lat, size = converts),
            alpha = 0.5) +
-geom_density2d(data = missions_post,
+geom_density2d(data = missions_1870s,
                aes(x = geo.lon, y=geo.lat),
                color = 'black', alpha = 0.4, bins = 5) +
 my_theme +
@@ -127,8 +126,29 @@ theme(legend.position="bottom") +
 scale_size(range = c(2, 10)) +
 guides(size=guide_legend(title="Converts\nper mission")) +
 ggtitle("Paulist Missions, 1871-1879")
-print(plot)
 
+map_missions_1880s <- ggplot() +
+geom_path(data = map_1880, 
+             aes(x = long, y = lat, group = group),
+             color = 'gray', fill = 'white', size = .3) +
+coord_map() +
+xlim(-125,-66) +
+ylim(24, 50) +
+geom_point(data = missions_1880s,
+           aes(x = geo.lon, y=geo.lat, size = converts),
+           alpha = 0.5) +
+geom_density2d(data = missions_1880s,
+               aes(x = geo.lon, y=geo.lat),
+               color = 'black', alpha = 0.4, bins = 5) +
+my_theme +
+theme(legend.position="bottom") +
+scale_size(range = c(2, 10)) +
+guides(size=guide_legend(title="Converts\nper mission")) +
+ggtitle("Paulist Missions, 1880-1889")
+
+pdf(file = "outputs/paulists/paulists-map-post-civil-war.pdf",
+    height = 11, width = 8.5)
+multiplot(map_missions_1870s, map_missions_1880s, cols=1)
 dev.off()
 
 # Converts per year

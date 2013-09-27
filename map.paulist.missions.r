@@ -299,7 +299,7 @@ missions_melted <- melt(missions_summary, id="year.start", variable.name="missio
 missions_chart <- ggplot(missions_melted, aes(x=year.start)) +
   geom_bar(aes(y = value, fill=mission.type), stat="identity") +
   theme_tufte() +
-  scale_fill_grey(start = 0.1, end = .3,
+  scale_fill_grey(start = 0.1, end = .6,
                   name = "Type of Mission",
                   breaks=c("missions.noncatholic","missions.catholic"),
                   labels=c("to Protestants", "to Catholics")) +

@@ -284,12 +284,13 @@ mean(decade$converts)
 
 conversions_chart <- ggplot(missions_summary, aes(x=year.start, y=converts)) +
   geom_bar(stat="identity") +
-  theme_tufte() +
+  theme_tufte(ticks=F) +
   xlab("") +
   ylab("Converts") +
   ggtitle("Converts at Paulist Missions, 1851-1907") +
   scale_x_continuous(breaks=seq(1850, 1920, 5)) +
-  scale_y_discrete(breaks=seq(0, 600, 100)) 
+  scale_y_discrete(breaks=seq(0, 600, 100)) +
+  geom_hline(yintercept=seq(0, 500, 100), color="white", lwd=.75)
 
 # How many missions did the Paulists have each year?
 
@@ -298,7 +299,7 @@ missions_melted <- melt(missions_summary, id="year.start", variable.name="missio
 
 missions_chart <- ggplot(missions_melted, aes(x=year.start)) +
   geom_bar(aes(y = value, fill=mission.type), stat="identity") +
-  theme_tufte() +
+  theme_tufte(ticks=F) +
   scale_fill_grey(start = 0.1, end = .6,
                   name = "Type of Mission",
                   breaks=c("missions.noncatholic","missions.catholic"),
@@ -308,17 +309,19 @@ missions_chart <- ggplot(missions_melted, aes(x=year.start)) +
   ylab("Missions") +
   ggtitle("Number of Paulist Missions, 1851-1907") +
   scale_x_continuous(breaks=seq(1850, 1920, 5)) +
-  scale_y_discrete(breaks=seq(0, 100, 20)) 
+  scale_y_discrete(breaks=seq(0, 80, 20)) +
+  geom_hline(yintercept=seq(0, 80, 20), color="white", lwd=.75)
 
 # How many confessions or commnunions
 confessions_chart <- ggplot(missions_summary, aes(x=year.start, y=confessions)) +
   geom_bar(stat="identity") +
-  theme_tufte() +
+  theme_tufte(ticks=F) + 
   xlab("") +
   ylab("Confessions or Communions") +
   ggtitle("Confessions or Communnions per Year at Paulist Missions, 1851-1907") +
   scale_x_continuous(breaks=seq(1850, 1920, 5)) +
-  scale_y_discrete(breaks=seq(0, 125e3, 25e3)) 
+  scale_y_discrete(breaks=seq(0, 125e3, 25e3)) +
+  geom_hline(yintercept=seq(0, 100e3, 25e3), color="white", lwd=.75)
 
 
 pdf(file = "outputs/paulists/paulist-summaries.pdf",

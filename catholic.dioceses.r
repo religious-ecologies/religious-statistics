@@ -50,7 +50,7 @@ PlotDioceses <- function(plot.year) {
 
   # Map the dioceses. Dots for archdioceses will cover dioceses
   png(filename =
-      paste("outputs/catholic-dioceses/dioceses.", plot.year, ".png", sep=""),
+      paste("outputs/catholic-dioceses/dioceses-", plot.year, ".png", sep=""),
       width = 1500, height = 800, units = "px", res = 300)
   plot <- ggplot(data = dioceses, aes(x = geo.lon, y = geo.lat)) +
   coord_map() +
@@ -84,5 +84,5 @@ for(year in years) {
 }
 
 # Make an animated GIF
-system("convert -delay 100 outputs/catholic-dioceses/*.png outputs/catholic-dioceses/dioceses.animation.gif")
+system("convert -delay 100 outputs/catholic-dioceses/*.png outputs/catholic-dioceses/dioceses-animation.gif")
 

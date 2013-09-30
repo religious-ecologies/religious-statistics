@@ -58,16 +58,16 @@ PlotDioceses <- function(plot.year) {
   ylim(24, 50) +
   my_theme + 
   geom_path(data = us, aes(x = long, y = lat, group = group),
-            color = 'gray', fill = 'white', size = 0.2) +
+            color = 'gray', fill = 'white', size = 0.3) +
   geom_path(data = canada, aes(x = long, y = lat, group = group),
-            color = 'gray', fill = 'white', size = 0.2) +
+            color = 'gray', fill = 'white', size = 0.3) +
   geom_path(data = mexico, aes(x = long, y = lat, group = group),
-            color = 'gray', fill = 'white', size = 0.2) +
+            color = 'gray', fill = 'white', size = 0.3) +
   geom_path(data = states, aes(x = long, y = lat, group = group),
-          color = 'gray', fill = 'white', size = 0.2) +
-  geom_point(data = dioceses, colour="red", size = 1,
+          color = 'gray', fill = 'white', size = 0.3) +
+  geom_point(data = dioceses, colour="red", size = 2,
              aes(x = geo.lon, y = geo.lat)) + 
-  geom_point(data = metropolitans, colour="purple", size = 2,
+  geom_point(data = metropolitans, colour="purple", size = 4,
            aes(x = geo.lon, y = geo.lat)) +
   ggtitle(paste("Catholic Dioceses,", plot.year))
   cat("Printing the plot for ", plot.year, ".\n", sep = "")

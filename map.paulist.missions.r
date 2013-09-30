@@ -12,6 +12,8 @@ library(RCurl)
 library(R.utils)
 library(ggthemes)
 library(reshape2)
+library(maps)
+library(rgdal)
 source("functions/get.year.r")
 source("functions/geocode-and-cache.r")
 source("functions/multiplot.r")
@@ -72,6 +74,11 @@ my_theme <- theme_tufte() +
         axis.text    = element_blank(),
         axis.title   = element_blank())
 
+# Maps of Canada and Mexico
+# -------------------------------------------------------------------
+canada <- map_data("world", "Canada")
+mexico <- map_data("world", "Mexico")
+
 # Map of missions before Civil War
 # -------------------------------------------------------------------
 missions_cw <- subset(missions, year < 1866)
@@ -81,75 +88,123 @@ pdf(file = "outputs/paulists/paulists-map-pre-civil-war.pdf",
     height = 8.5, width = 11)
 
 plot <- ggplot() +
+coord_map() +
 geom_path(data = map_1860, 
           aes(x = long, y = lat, group = group),
           color = 'gray', fill = 'white', size = .3) +
-coord_map() +
-xlim(-92,-66) +
-ylim(24, 48) +
+geom_path(data = canada, aes(x = long, y = lat, group = group),
+          color = 'gray', fill = 'white', size = .3) +
+geom_path(data = mexico, aes(x = long, y = lat, group = group),
+          color = 'gray', fill = 'white', size = .3) +
+xlim(-93,-65) +
+ylim(23, 49) +
 geom_point(data = missions_cw,
            aes(x = geo.lon, y=geo.lat, size = converts),
            alpha = 0.5) +
-geom_density2d(data = missions_cw,
-               aes(x = geo.lon, y=geo.lat),
-               color = 'black', alpha = 0.4, bins = 5)+
+# geom_density2d(data = missions_cw,
+#                aes(x = geo.lon, y=geo.lat),
+#                color = 'black', alpha = 0.4, bins = 5)+
 ggtitle("Redemptorist and Paulist Missions, 1852-1865 ") +
 my_theme +
 guides(size=guide_legend(title="Converts\nper mission")) +
-scale_size(range = c(2, 10))
+scale_size(range = c(3, 8))
 print(plot)
 
 dev.off()
 
 # Map of missions after Civil War
 # -------------------------------------------------------------------
-missions_1870s <- subset(missions, year >= 1866 & year <= 1879)
-missions_1880s <- subset(missions, year >= 1880 & year <= 1889)
-map_1870       <- loadObject("data/clean/us.state.1870.low-res.Rdata")
-map_1880       <- loadObject("data/clean/us.state.1880.low-res.Rdata")
+# missions_1870s <- subset(missions, year >= 1866 & year <= 1879)
+# missions_1880s <- subset(missions, year >= 1880 & year <= 1889)
+# map_1870       <- loadObject("data/clean/us.state.1870.low-res.Rdata")
+# map_1880       <- loadObject("data/clean/us.state.1880.low-res.Rdata")
+# 
+# map_missions_1870s <- ggplot() +
+# coord_map() +
+# geom_path(data = map_1870, 
+#              aes(x = long, y = lat, group = group),
+#              color = 'gray', fill = 'white', size = .3) +
+# geom_path(data = canada, aes(x = long, y = lat, group = group),
+#           color = 'gray', fill = 'white', size = .3) +
+# geom_path(data = mexico, aes(x = long, y = lat, group = group),
+#           color = 'gray', fill = 'white', size = .3) +
+# xlim(-126,-65) +
+# ylim(23, 51) +
+# geom_point(data = missions_1870s,
+#            aes(x = geo.lon, y=geo.lat, size = converts),
+#            alpha = 0.5) +
+# geom_density2d(data = missions_1870s,
+#                aes(x = geo.lon, y=geo.lat),
+#                color = 'black', alpha = 0.4, bins = 5) +
+# my_theme +
+# theme(legend.position="bottom") +
+# scale_size(range = c(2, 10)) +
+# guides(size=guide_legend(title="Converts\nper mission")) +
+# ggtitle("Paulist Missions, 1871-1879")
+# 
+# map_missions_1880s <- ggplot() +
+# coord_map() +
+# geom_path(data = map_1880, 
+#              aes(x = long, y = lat, group = group),
+#              color = 'gray', fill = 'white', size = .3) +
+# geom_path(data = canada, aes(x = long, y = lat, group = group),
+#           color = 'gray', fill = 'white', size = .3) +
+# geom_path(data = mexico, aes(x = long, y = lat, group = group),
+#           color = 'gray', fill = 'white', size = .3) +
+# xlim(-126,-65) +
+# ylim(23, 51) +
+# geom_point(data = missions_1880s,
+#            aes(x = geo.lon, y=geo.lat, size = converts),
+#            alpha = 0.5) +
+# geom_density2d(data = missions_1880s,
+#                aes(x = geo.lon, y=geo.lat),
+#                color = 'black', alpha = 0.4, bins = 5) +
+# my_theme +
+# theme(legend.position="bottom") +
+# scale_size(range = c(2, 10)) +
+# guides(size=guide_legend(title="Converts\nper mission")) +
+# ggtitle("Paulist Missions, 1880-1889")
+# 
+# pdf(file = "outputs/paulists/paulists-map-post-civil-war.pdf",
+#     height = 11, width = 8.5)
+# multiplot(map_missions_1870s, map_missions_1880s, cols=1)
+# dev.off()
 
-map_missions_1870s <- ggplot() +
+# Map with railroads
+rr <- readOGR("data/downloads/USrailshps/RR1870/", "RR1870WGS84")
+rail <- fortify(rr)
+map_1870       <- loadObject("data/clean/us.state.1870.low-res.Rdata")
+missions_post <- subset(missions, year >= 1866 )
+
+map_rr <- ggplot() +
+coord_map() +
 geom_path(data = map_1870, 
              aes(x = long, y = lat, group = group),
-             color = 'gray', fill = 'white', size = .3) +
-coord_map() +
-xlim(-125,-66) +
-ylim(24, 50) +
-geom_point(data = missions_1870s,
+             color = 'gray', fill = 'white', size = .2) +
+geom_path(data = canada, aes(x = long, y = lat, group = group),
+          color = 'gray', fill = 'white', size = .2) +
+geom_path(data = mexico, aes(x = long, y = lat, group = group),
+          color = 'gray', fill = 'white', size = .2) +
+geom_path(data = rail, aes(x = long, y= lat, group = group),
+          color = 'black', alpha = .5, size = .3) +
+xlim(-126,-65) +
+ylim(23, 51) +
+geom_point(data = missions_post,
            aes(x = geo.lon, y=geo.lat, size = converts),
            alpha = 0.5) +
-geom_density2d(data = missions_1870s,
-               aes(x = geo.lon, y=geo.lat),
-               color = 'black', alpha = 0.4, bins = 5) +
 my_theme +
 theme(legend.position="bottom") +
-scale_size(range = c(2, 10)) +
+scale_size(range = c(3, 8)) +
 guides(size=guide_legend(title="Converts\nper mission")) +
-ggtitle("Paulist Missions, 1871-1879")
-
-map_missions_1880s <- ggplot() +
-geom_path(data = map_1880, 
-             aes(x = long, y = lat, group = group),
-             color = 'gray', fill = 'white', size = .3) +
-coord_map() +
-xlim(-125,-66) +
-ylim(24, 50) +
-geom_point(data = missions_1880s,
-           aes(x = geo.lon, y=geo.lat, size = converts),
-           alpha = 0.5) +
-geom_density2d(data = missions_1880s,
-               aes(x = geo.lon, y=geo.lat),
-               color = 'black', alpha = 0.4, bins = 5) +
-my_theme +
-theme(legend.position="bottom") +
-scale_size(range = c(2, 10)) +
-guides(size=guide_legend(title="Converts\nper mission")) +
-ggtitle("Paulist Missions, 1880-1889")
+ggtitle("Paulist Missions 1871-1886, with Railroads in 1870")
 
 pdf(file = "outputs/paulists/paulists-map-post-civil-war.pdf",
-    height = 11, width = 8.5)
-multiplot(map_missions_1870s, map_missions_1880s, cols=1)
+    height = 8.5, width= 11)
+print(map_rr)
 dev.off()
+
+system("pdftk /outputs/paulists/paulists-map-post-civil-war.pdf cat 1west
+       output /outputs/paulists/paulists-map-post-civil-war.pdf")
 
 # Converts per year
 # -------------------------------------------------------------------
@@ -162,8 +217,8 @@ plot <- ggplot(data = missions,
 theme_tufte() +
 geom_bar(stat = "identity") +
 ggtitle("Converts per Year at Paulist Missions") +
-ylab("Converts") +
-xlab("Year") 
+# ylab("Converts") +
+# xlab("Year") 
 print(plot)
 
 dev.off()
@@ -180,8 +235,8 @@ plot <- ggplot(data = missions,
 theme_tufte() +
 geom_bar(stat = "identity") +
 ggtitle("Communions/Confessions per Year at Paulist Missions") +
-ylab("Communions or Confessions") +
-xlab("Year") 
+# ylab("Communions or Confessions") +
+# xlab("Year") 
 print(plot)
 
 dev.off()
@@ -284,13 +339,13 @@ mean(decade$converts)
 
 conversions_chart <- ggplot(missions_summary, aes(x=year.start, y=converts)) +
   geom_bar(stat="identity") +
-  theme_tufte(ticks=F) +
+  theme_tufte(ticks=F) + 
   xlab("") +
-  ylab("Converts") +
+  ylab(" ") +
   ggtitle("Converts at Paulist Missions, 1851-1907") +
   scale_x_continuous(breaks=seq(1850, 1920, 5)) +
   scale_y_discrete(breaks=seq(0, 600, 100)) +
-  geom_hline(yintercept=seq(0, 500, 100), color="white", lwd=.75)
+  geom_hline(yintercept=seq(0, 500, 100), color="white", lwd=.5)
 
 # How many missions did the Paulists have each year?
 
@@ -306,22 +361,22 @@ missions_chart <- ggplot(missions_melted, aes(x=year.start)) +
                   labels=c("to Protestants", "to Catholics")) +
   theme(legend.position=c(.2, .7)) +
   xlab("") +
-  ylab("Missions") +
+  ylab("") +
   ggtitle("Number of Paulist Missions, 1851-1907") +
   scale_x_continuous(breaks=seq(1850, 1920, 5)) +
   scale_y_discrete(breaks=seq(0, 80, 20)) +
-  geom_hline(yintercept=seq(0, 80, 20), color="white", lwd=.75)
+  geom_hline(yintercept=seq(0, 80, 20), color="white", lwd=.5)
 
 # How many confessions or commnunions
 confessions_chart <- ggplot(missions_summary, aes(x=year.start, y=confessions)) +
   geom_bar(stat="identity") +
   theme_tufte(ticks=F) + 
   xlab("") +
-  ylab("Confessions or Communions") +
+  ylab("") +
   ggtitle("Confessions or Communnions per Year at Paulist Missions, 1851-1907") +
   scale_x_continuous(breaks=seq(1850, 1920, 5)) +
   scale_y_discrete(breaks=seq(0, 125e3, 25e3)) +
-  geom_hline(yintercept=seq(0, 100e3, 25e3), color="white", lwd=.75)
+  geom_hline(yintercept=seq(0, 100e3, 25e3), color="white", lwd=.5)
 
 
 pdf(file = "outputs/paulists/paulist-summaries.pdf",

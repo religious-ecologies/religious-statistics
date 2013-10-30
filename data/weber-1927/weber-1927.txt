@@ -1,0 +1,16 @@
+Data in this directory is from this source:
+
+Weber, Herman C. *Presbyterian Statistics Through One Hundred Year, 
+1826--1926: Tabulated, Visualized, and Interpreted*. Philadelphia: The 
+General Council, Presbyterian Church in the U.S.A., 1927. 
+<http://catalog.hathitrust.org/Record/007109885>.
+
+Weber includes two sections, one of raw data compiled from the Minutes 
+of the General Assembly, which apparently includes the foreign 
+membership of the Presbyterian churches. The second section contains the 
+data that Weber used for his visualizations, which excludes the foreign 
+membership and makes various calculations on the data. 
+
+Not all of the data in Weber is reproduced here.
+
+

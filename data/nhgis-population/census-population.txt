@@ -1,0 +1,2 @@
+Calculate the national population from the decennial census using the 
+state populations in NHGIS data.

@@ -1,0 +1,118 @@
+volume,page,mission.number,type,church,city,state,start.date,end.date,communion.general,converts,under.instruction,diocese,communion.adults,communion.children,communion.men,communion.women,order,notes,converts.adult,converts.children,location,confirmed,pledges
+4,52,,mission,St. Rose's Church,Chelsea,MA,9/8/1889,9/23/1889,4006,2,,,,,2302,1704,,,,,,180,
+4,55,,mission,St. Peter's Church,Belleville,NJ,9/15/1889,9/22/1889,1205,,,,,,,,,,,,,,
+4,56,,mission,,Irvington,NJ,9/22/1889,9/26/1889,300,,,,,,,,,,,,,,
+4,58,,mission,,Tarrytown,NY,9/29/1889,10/6/1889,1277,,,,,,,,,,,,,,600
+4,60,,mission,St. Mary's Church,Ticonderoga,NY,9/30/1889,10/6/1889,475,,,,,,,,,,,,,,
+4,61,,mission,St. Augustine's Church,Sing Sing,NY,10/6/1889,10/13/1889,1493,,,,,,,,,,,,,,500
+4,62,,mission,St. Bernard's Church,Rockville,CT,10/20/1889,11/3/1889,2004,1,,,,,,,,,,,,,
+4,64,,mission,St. John's Church,Concord,MA,9/29/1889,10/7/1889,1665,,1,,,,,,,,,,,216,
+4,66,,mission,St. James's Church,Boston,MA,10/13/1889,11/10/1889,8200,,,,,,3550,4650,,,,,,150,2200
+4,69,,mission,Church of the Assumption,Evansville,IN,10/13/1889,10/21/1889,700,,,,,,,,,,,,,,
+4,73,,mission,Church of St. Lawrence,Muncie,IN,10/27/1889,11/3/1889,2125,3,3,,,,,,,,,,,,
+4,77,,mission,St. Paul's Church,Noblesville,IN,11/10/1889,11/17/1889,83,,,,,,,,,,,,,,
+4,81,,mission,St. Mary's Church,Anderson,IN,11/17/1889,11/22/1889,525,6,,,,,,,,,,,,,120
+4,83,,mission,,North Warren,MA,11/17/1889,11/25/1889,1450,,,,,,,,,,,,,,
+4,85,,mission,St. Mary's Church,Charlestown,MA,11/17/1889,12/1/1889,4466,,,,,675,1680,2100,,,,,,70,1600
+4,87,,mission,St. Patrick's Church,Washington,DC,12/1/1889,12/10/1889,1250,5,,,,,,,,,,,,,
+4,90,,mission,St. Agnes's Church,Pittsburgh,PA,1/1/1890,1/19/1890,2720,3,,,,450,1070,1200,,,,,,,
+4,93,,mission,,Rye,NY,11/10/1889,11/17/1889,450,,,,,,,,,,,,,,
+4,94,,mission,Church of the Transfiguration,Brooklyn,NY,12/8/1889,12/22/1889,2972,,,,,,,,,,,,,,
+4,96,,mission,Church of St. Rose of Lima,New York,NY,1/5/1890,1/19/1890,4192,5,,,,450,1840,1902,,,,,,,1450
+4,98,,mission,St. Mary's Church,Genesee,NY,1/26/1890,2/2/1890,535,,3,,,,,,,,,,,,
+4,99,,mission,St. Patrick's Church,Augusta,GA,1/12/1890,1/26/1890,1235,1,,,,,,,,,,,,,
+4,102,,mission,,Washington,GA,1/26/1890,1/26/1890,150,,,,,,,,,,,,,,
+4,103,,mission,St. Joseph's Church,Springfield,IL,1/26/1890,2/2/1890,930,3,,,,,,,,,,,,,
+4,105,,mission,Church of the Immaculate Conception,Springfield,IL,2/2/1890,2/11/1890,2900,2,,,,,,,,,,,,,
+4,108,,mission,Cathedral of Our Lady of Perpetual Help,Savannah,GA,2/2/1890,2/16/1890,2343,3,,,,,,,,,,,,,
+4,110,,mission,St. Gabriel's Church,New York,NY,2/9/1890,3/9/1890,9520,11,,,,,,,,,,,,234,3260
+4,112,,mission,St. Michael's Church,Pensacola,FL,2/23/1890,3/4/1890,770,,,,,,,,,,,,,,
+4,114,,mission,Cathedral,Mobile,AL,3/9/1890,3/17/1890,1230,,,,,,,,,,,,,,
+4,115,,mission,St. John's Church,Canton,MA,3/16/1890,3/30/1890,1875,,,,,,,,,,,,,,
+4,117,,mission,St. Cecilia's Church,New York,NY,3/16/1890,3/30/1890,6420,5,,,,,,,,,,,,,
+4,118,,mission,,Birmingham,AL,3/23/1890,3/30/1890,870,,,,,,,,,,,,,,
+4,119,,mission,St. Patrick's Church,Brooklyn,NY,4/13/1890,4/28/1890,5613,,,,,230,2450,2933,,,,,,,550
+4,121,,mission,St. John's Church,Schenectady,NY,4/13/1890,4/27/1890,2337,,,,,,,,,,,,,,
+4,122,,mission,St. Michael's Church,Springfield,MA,5/4/1890,5/18/1890,5151,5,,,,,,,,,,,,193,
+4,123,,mission,St. John's Church,Pittsburgh,PA,5/4/1890,5/18/1890,1900,,,,,250,850,800,,,,,,,
+4,126,,mission,St. Vincent de Paul's Church,Mt. Vernon,OH,5/25/1890,6/1/1890,630,1,,,,,,,,,,,,,
+4,127,,mission,St. Jarlath's Church,Chicago,IL,5/25/1890,6/1/1890,1413,1,,,,,,,,,,,,,
+4,128,,mission,Church of the Blessed Sacrament,Providence,RI,5/25/1890,6/1/1890,1300,,,,,,,,,,,,,,
+4,129,,mission,,Livingston,NJ,6/1/1890,6/11/1890,30,,,,,,,,,,,,,,
+4,130,,mission,Church of St. Vincent de Paul,Sterling,NJ,6/11/1890,6/15/1890,49,,,,,,,,,,,,,,
+4,130,,mission,St. Patrick's Church,Chatham,NJ,6/15/1890,6/18/1890,152,,,,,,,,,,,,,,
+4,133,,mission,St. Anne's Church,Manchester,NH,9/14/1890,9/28/1890,3559,,,,,271,1235,2053,,,,,,,1600
+4,135,,mission,,Ridgway,PA,9/14/1890,9/30/1890,505,,,,,,,,,,,,,,
+4,135,,mission,,Emporium,PA,9/14/1890,9/30/1890,410,,,,,,,,,,,,,,
+4,135,,mission,,Cameron,PA,9/14/1890,9/30/1890,45,,,,,,,,,,,,,,
+4,136,,mission,,Torrington,CT,9/21/1890,9/28/1890,1136,2,,,,,,,,,,,,,
+4,137,,mission,Ss. Peter and Paul's Cathedral,Philadelphia,PA,10/5/1890,10/19/1890,9800,25,,,,1400,3750,4650,,,,,,175,1346
+4,139,,mission,Church of the Annunciation,Danvers,MA,10/26/1890,11/9/1890,1418,,,,,,796,622,,,,,,,
+4,140,,mission,Church of the Sacred Heart,New Haven,CT,10/26/1890,11/9/1890,3540,2,,,,340,1400,1800,,,,,,,
+4,141,,mission,St. Joseph's Church,Terre Haute,IN,11/2/1890,11/9/1890,1250,9,,,,,,,,,,,,,
+4,142,,mission,,Rockville,IN,11/10/1890,11/13/1890,80,,,,,,,,,,,,,,
+4,143,,retreat,,South Bend,IN,10/1/1890,11/30/1890,600,,,,,,,,,,,,,,
+4,144,,mission,St. James's Church,Chicago,IL,11/16/1890,11/30/1890,4780,4,,,,,1800,2980,,,,,,,
+4,146,,mission,St. Mary's Star of the Sea,East Boston,MA,11/16/1890,11/30/1890,1440,1,,,,270,530,640,,,,,,,
+4,148,,mission,,Portland,CT,11/16/1890,11/27/1890,1023,,,,,,,,,,,,,,
+4,148,,mission,,East Hampton,CT,11/16/1890,11/27/1890,228,,,,,,,,,,,,,,
+4,149,,mission,Church of the Annunciation,Manhattanville,NY,12/7/1890,12/21/1890,1720,,,,,220,750,750,,,,,,,
+4,150,,mission,St. James's Church,Boston,MA,12/14/1890,12/21/1890,2500,,,,,,,,,,,,,,
+4,151,,mission,St. Mary's Cathedral,Ogdensburg,NY,12/7/1890,12/21/1890,2495,14,,,,180,1075,1240,,,,,,,
+4,153,,mission,Church of Our Lady of Victory,Brooklyn,NY,1/4/1891,1/18/1891,2495,6,,,,250,760,1485,,,,,,,1000
+4,154,,mission,Church of St. Paul the Apostle,New York,NY,1/41891,2/1/1891,11650,7,,,,650,4550,6450,,,,,,,
+4,156,,mission,Church of the Sacred Heart,Brooklyn,NY,1/25/1891,2/1/1891,5088,8,,,,,2560,2528,,,,,,,1900
+4,157,,mission,St. Augustine's Church,Union Hill,NJ,2/1/1891,2/8/1891,801,,,,,,,,,,,,,,
+4,158,,mission,Church of St. Francis de Sales,Geneva,NY,2/15/1891,3/1/1891,2470,2,,,,325,1025,1120,,,,,,,
+4,160,,mission,St. Matthew's Church,Washington,DC,2/15/1891,2/23/1891,1300,,,,,,,,,,,,,,
+4,161,,mission,St. Stephen's Church,Pittsburgh,PA,2/15/1891,3/1/1891,1582,,,,,200,732,650,,,,,,,585
+4,162,,mission,Church of St. Columbkille,Brighton,MA,2/15/1891,3/1/1891,3300,,,,,480,1395,1425,,,,,,,
+4,163,,mission,St. Patrick's Church,Valley Falls,RI,3/8/1891,3/22/1891,2905,1,,,,,,,,,,,,,
+4,164,,mission,St. Veronica's Church,New York,NY,3/8/1891,3/22/1891,3650,4,,,,,,,,,,,,350,
+4,165,,mission,Sacred Heart Church,Pittsburgh,PA,3/8/1891,3/22/1891,2453,2,,,,340,871,1242,,,,,,,260
+4,166,,mission,Sacred Heart Church,Worcester,MA,4/5/1891,4/19/1891,2573,,,,,,1200,1375,,,,,,600,
+4,167,,mission,St. Anne's Church,Baltimore,MD,4/5/1891,4/12/1891,1300,4,,,,,,,,,,,,,
+4,169,,mission,St. Louis' Church,Webster,MA,4/5/1891,4/19/1891,1665,,,,,,790,875,,,,,,99,
+4,170,,mission,Church of the Sacred Heart,Mt. Vernon,NY,4/12/1891,4/21/1891,1050,,,,,,,,,,,,,,
+4,172,,mission,Immaculate Conception Church,Birmingham,CT,4/26/1891,5/10/1891,2801,,,,,,1201,1610,,,,,,,900
+4,173,,mission,St. Charles' Church,Adams,MA,4/26/1891,5/10/1891,1622,2,,,,,,,,,,,,,
+4,174,,mission,Holy Cross Church,Lynchburg,VA,4/26/1891,5/5/1891,700,1,,,,,,,,,,,,,
+4,175,,mission,St. Cecilia's Church,Coatesville,PA,5/10/1891,5/17/1891,625,,,,,,,,,,,,,,
+4,176,,renewal,St. Michael's Cathedral,Springfield,MA,5/10/1891,5/17/1891,1400,,,,,,,,,,,,,,
+4,177,,mission,St. Leo's Church,Leominster,MA,5/17/1891,5/24/1891,1260,,,,,,,,,,,,,,
+4,178,,renewal,St. John's Church,Canton,MA,5/17/1891,5/24/1891,1400,,,,,,,,,,,,,,500
+4,179,,mission,St. Thomas's Church,West Farms,NY,5/17/1891,5/24/1891,493,,,,390,103,,,,,,,,,
+4,180,,mission,Sacred Heart Church,Valesburg,NJ,5/31/1891,6/7/1891,265,1,,,,,,,,,,,,,
+4,181,,retreat,Church of the Assumption,Ansonia,CT,8/16/1891,8/20/1891,400,,,,,,,,,,,,,,
+4,185,,mission,St. Michael's Church,Westerly,CT,9/6/1891,9/13/1891,980,,,,,,,,,,,,,,450
+4,186,,mission,Holy Cross Church,Ovid,NY,9/6/1891,9/16/1891,993,,,,,,,,,,,,,,
+4,187,,mission,,Lyons,NY,9/6/1891,9/20/1891,795,3,,,,,,,,,,,,,
+4,189,,mission,,Sodus Point,NY,9/21/1891,9/24/1891,,,,,,,,,,,,,,,
+4,191,,mission,St. Catherine's Church,Norwood,MA,9/13/1891,9/20/1891,1110,,,,,,,,,,,,,,
+4,192,,mission,,Bayonne,NJ,9/6/1891,9/13/1891,640,,,,,,,,,,,,,,
+4,193,,mission,,Greenfield,MA,9/6/1891,9/13/1891,962,,,,,,,,,,,,,,
+4,194,,mission,,South Deerfield,MA,9/13/1891,9/17/1891,300,,,,,,,,,,,,,,
+4,195,,mission,,Dover,NH,9/20/1891,10/4/1891,2705,,,,,,1095,1610,,,,,,,1275
+4,197,,mission,St. Mary's Church,Biddeford,ME,9/27/1891,10/11/1891,1821,,,,,211,707,903,,,,,,,
+4,198,,mission,Holy Family Church,Auburn,NY,9/27/1891,10/11/1891,3480,5,,,,,1800,1680,,,,,,,
+4,200,,mission,St. Mary's Church,Cambridgeport,MA,10/11/1891,10/25/1891,5165,,,,,,2440,2725,,,,,,300,3200
+4,203,,mission,St. Patrick's Church,Denver,CO,10/18/1891,10/25/1891,755,,,,,,,,,,,,,40,136
+4,205,,mission,St. Matthew's Church,Brooklyn,NY,10/18/1891,11/1/1891,1500,,,,,120,730,650,,,,,,,
+4,207,,mission,St. Joseph's Church,Denver,CO,11/1/1891,11/8/1891,750,3,,,,,,,,,,,,,200
+4,209,,mission,St. Peter Claver's Church,Baltimore,MD,11/1/1891,11/8/1891,270,,,,,,,,,,,,,,
+4,210,,mission,Corpus Christi Church,Baltimore,MD,11/8/1891,11/22/1891,1400,,,,,90,410,800,,,,,,,
+4,211,,mission,Immaculate Conception Church,Marlboro,MA,11/8/1891,11/22/1891,3770,3,,,,,1580,2190,,,,,,,2100
+4,212,,mission,St. Francis's Cathedral,Vincennes,IN,11/15/1891,11/24/1891,1018,7,,,,,,,,,,,,,200
+4,213,,mission,St. Colman's Church,Turtle Creek,PA,11/29/1891,12/6/1891,640,3,,,,,,,,,,,,,
+4,214,,mission,St. Cecilia's Church,Boston,MA,11/22/1891,11/29/1891,2600,,,,,,,,,,,,,,
+4,215,,mission,St. Bridget's Church,Indianapolis,IN,11/29/1891,12/9/1891,1300,9,,,,,,,,,,,,,
+4,216,,mission,St. Thomas's Church,Brooklyn,NY,12/6/1891,12/20/1891,3375,11,,,,,1370,2005,,,,,,,
+4,218,,mission,St. Patrick's Church,Cleveland,OH,12/6/1891,12/20/1891,3550,,,,,200,1440,1910,,,,,,,
+4,220,,mission,St. Stephen's Church,New York,NY,1/3/1892,1/26/1892,6500,6,,,,450,2000,4050,,,,,,,1240
+4,223,,mission,St. Jerome's Church,Mott Haven,NY,1/17/1892,1/31/1892,3980,3,,,,610,1592,1778,,,,,,,
+4,225,,mission,St. Francis de Sales' Church,Brooklyn,NY,1/31/1892,2/14/1892,2055,,,,,,980,1075,,,,,,,675
+4,227,,mission,St. John the Evangelist's Church,Brooklyn,NY,2/7/1892,2/21/1892,4925,,,,,,2240,2685,,,,,,,
+4,229,,mission,St. Jerome's Church,Baltimore,MD,2/14/1892,2/23/1892,960,5,,,,,,,,,,,,120,
+4,231,,mission,St. Aloysius's Church,Detroit,MI,2/7/1892,2/15/1892,1100,3,,,,,,,,,,,,,
+4,232,,mission,St. Patrick's Church,"Ottawa, Canada",,3/6/1892,3/20/1892,2516,,,,,280,886,1350,,,,,,140,1322
+4,234,,mission,St. John's Church,Worcester,MA,3/6/1892,3/20/1892,7200,6,,,,3520,3680,,,,,,,,

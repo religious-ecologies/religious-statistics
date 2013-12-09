@@ -1,4 +1,4 @@
-volume,page,mission.number,type,church,city,state,start.date,end.date,communion.general,converts,under.instruction,diocese,communion.adults,communion.children,communion.men,communion.women,order,notes,converts.adult,converts.children,pledges,confirmed
+volume,page,mission_number,type,church,city,state,start_date,end_date,confessions_total,converts,under_instruction,diocese,confessions_adults,confessions_children,confessions_men,confessions_women,order,notes,converts_adult,converts_children,temperance_pledges,confirmed
 1,1,1,mission,St. Joseph's Church,New York,NY,4/6/1851,4/20/1851,6000,,,New York,5600,400,,,Redemptorist,,,,,
 1,6,2,mission,St. Michael's Church,Loretto,PA,4/27/1851,5/11/1851,1700,,,Pittsburgh,,100,,,Redemptorist,,,,,
 1,11,3,mission,St. Mary's Church,Hollidaysburg,PA,5/18/1851,5/28/1851,1000,,,Pittsburgh,,,,,Redemptorist,,,,,

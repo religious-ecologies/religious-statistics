@@ -54,7 +54,7 @@
 1,84,53,"mission","Church of the Holy Angels","Sandusky","OH","12/2/1855","12/12/1855",1100,0,0,"Cleveland",NA,NA,NA,NA,"Redemptorist","",NA,NA,NA,NA,"Sandusky OH",1855,0,-82.7079605,41.4489396
 1,85,54,"mission","St. John's Cathedral","Cleveland","OH","12/16/1855","12/25/1855",3300,0,0,"Cleveland",NA,NA,NA,NA,"Redemptorist","",NA,NA,NA,NA,"Cleveland OH",1855,0,-81.6954088,41.4994954
 1,86,55,"mission","St. Stephen's Church","New York","NY","1/6/1856","1/18/1856",4000,0,0,"New York",NA,NA,NA,NA,"Redemptorist","",NA,NA,NA,NA,"New York NY",1856,0,-74.0059731,40.7143528
-1,87,56,"mission","Church of OUr Lady Start of the Sea","Brooklyn","NY","2/3/1856","2/17/1856",2800,1,0,"New York",NA,NA,NA,NA,"Redemptorist","",NA,NA,NA,NA,"Brooklyn NY",1856,1,-73.95,40.65
+1,87,56,"mission","Church of Our Lady Start of the Sea","Brooklyn","NY","2/3/1856","2/17/1856",2800,1,0,"New York",NA,NA,NA,NA,"Redemptorist","",NA,NA,NA,NA,"Brooklyn NY",1856,1,-73.95,40.65
 1,89,57,"mission","St. Patrick's Church","Newburgh","NY","3/2/1856","3/13/1856",1350,3,0,"New York",NA,NA,NA,NA,"Redemptorist","",NA,NA,NA,NA,"Newburgh NY",1856,3,-74.0104178,41.5034271
 1,91,58,"mission","St. Patrick's Church","Norfolk","VA","3/30/1856","4/6/1856",400,0,0,"Richmond",NA,NA,NA,NA,"Redemptorist","",NA,NA,NA,NA,"Norfolk VA",1856,0,-76.2858726,36.8507689
 1,95,59,"mission","","Portsmouth","VA","3/30/1856","4/8/1856",520,9,0,"Richmond",NA,NA,NA,NA,"Redemptorist","",NA,NA,NA,NA,"Portsmouth VA",1856,9,-76.2982742,36.8354258
@@ -271,7 +271,7 @@
 2,189,NA,"mission","St. James Church","Chicago","IL","10/21/1877","11/7/1877",3086,8,0,"",NA,NA,NA,NA,"Paulist","",NA,NA,NA,NA,"Chicago IL",1877,8,-87.6297982,41.8781136
 2,191,NA,"mission","St. Aloysius Church","Detroit","MI","11/18/1877","12/4/1877",2000,0,0,"",NA,NA,NA,NA,"Paulist","",NA,NA,NA,NA,"Detroit MI",1877,0,-83.0457538,42.331427
 2,193,NA,"mission","St. John's Church","Indianapolis","IN","12/9/1877","12/22/1877",3790,4,0,"",NA,NA,NA,NA,"Paulist","",NA,NA,NA,NA,"Indianapolis IN",1877,4,-86.158068,39.768403
-2,196,NA,"mission","Church of OUr Lady of Perpetual Help","Defiance","OH","9/30/1877","10/10/1877",450,1,0,"",NA,NA,NA,NA,"Paulist","",NA,NA,NA,NA,"Defiance OH",1877,1,-84.3557802,41.2844933
+2,196,NA,"mission","Church of Our Lady of Perpetual Help","Defiance","OH","9/30/1877","10/10/1877",450,1,0,"",NA,NA,NA,NA,"Paulist","",NA,NA,NA,NA,"Defiance OH",1877,1,-84.3557802,41.2844933
 2,197,NA,"mission","St Stephen's Church","Flora","IL","10/14/1877","10/21/1887",150,4,0,"Alton",NA,NA,NA,NA,"Paulist","",NA,NA,NA,NA,"Flora IL",1877,4,-88.4856042,38.6689364
 2,198,NA,"mission","Church of St. Charles Borromeo","Charleston","IL","10/28/1877","11/4/1877",160,0,0,"Alton",NA,NA,NA,NA,"Paulist","",NA,NA,NA,NA,"Charleston IL",1877,0,-88.1761521,39.4961458
 2,199,NA,"mission","Church Regina Coeli","Marshall","IL","11/4/1877","11/13/1877",340,7,0,"Alton",NA,NA,NA,NA,"Paulist","",NA,NA,NA,NA,"Marshall IL",1877,7,-87.6936384,39.3914252

@@ -1,4 +1,4 @@
-# Data for the Historical Demographics of American Religion
+# Historical Demographics of U.S. Religion
 
 This repository contains demographic data about American religion drawn
 from historical sources.

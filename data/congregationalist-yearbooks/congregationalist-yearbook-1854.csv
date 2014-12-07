@@ -115,7 +115,7 @@ date,association,city,state,church,organized,members,minister,ordained,settled,r
 1853-06,Essex South Association,Danvers,MA,Third Church,1844,81,James Fletcher,,1849,,The Year-book of the American Congregational Union for the Year 1854 (p. 49)
 1853-06,Essex South Association,Essex,MA,,1681,150,R. Crowell,,1814,,The Year-book of the American Congregational Union for the Year 1854 (p. 49)
 1853-06,Essex South Association,Gloucester,MA,Harbor,1829,129,,,,,The Year-book of the American Congregational Union for the Year 1854 (p. 49)
-1853-06,Essex South Association,Gloucester,MA,North,1930,42,Edwin Seabury,,,,The Year-book of the American Congregational Union for the Year 1854 (p. 49)
+1853-06,Essex South Association,Gloucester,MA,North,1830,42,Edwin Seabury,,,,The Year-book of the American Congregational Union for the Year 1854 (p. 49)
 1853-06,Essex South Association,Gloucester,MA,West,1829,40,Levi Wheaton,,1850,,The Year-book of the American Congregational Union for the Year 1854 (p. 49)
 1853-06,Essex South Association,Hamilton,MA,,1714,156,J. H. Mordough,,1850,,The Year-book of the American Congregational Union for the Year 1854 (p. 49)
 1853-06,Essex South Association,Ipswich,MA,South,1747,207,Daniel Fitz,,1826,,The Year-book of the American Congregational Union for the Year 1854 (p. 49)
@@ -398,65 +398,65 @@ date,association,city,state,church,organized,members,minister,ordained,settled,r
 1853-06,Taunton Association,Taunton,MA,Trinitarian Congregational Church,1821,364,E. Maltby,,1826,,The Year-book of the American Congregational Union for the Year 1854 (p. 58)
 1853-06,Taunton Association,Taunton,MA,"West, First Church",1637,100,Alvan Cobb,,1815,,The Year-book of the American Congregational Union for the Year 1854 (p. 58)
 1853-06,Taunton Association,Taunton,MA,Winslow Church,1837,158,S. H. Emery,,1837,,The Year-book of the American Congregational Union for the Year 1854 (p. 58)
-1853-06,Vineyard Sound Association,Barnstable,MA,West,1634,61,H. Carlton,,,,
-1853-06,Vineyard Sound Association,Barnstable,MA,Centreville,1825,83,E. Bacon,,1840,,
-1853-06,Vineyard Sound Association,Chilmark,MA,,1715,21,N. Cobb,,,,
-1853-06,Vineyard Sound Association,Falmouth,MA,First Church,1708,236,H. B. Hooker,,1837,,
-1853-06,Vineyard Sound Association,Falmouth,MA,East,1821,44,A. C. Childs,,,,
-1853-06,Vineyard Sound Association,Falmouth,MA,North,1833,98,Cyrus Mann,,,,
-1853-06,Vineyard Sound Association,Falmouth,MA,"East, Second Church",1849,49,S. F. Beard,,,,
-1853-06,Vineyard Sound Association,Cotuit,MA,Herring Pond,1670,25,P. Fish,,1811,,
-1853-06,Vineyard Sound Association,Sandwich,MA,[First Congregational Church],1638,105,E. Wells,,1847,,
-1853-06,Vineyard Sound Association,Sandwich,MA,Monument Church,1833,44,,,,,
-1853-06,Vineyard Sound Association,Tisbury,MA,Holmes Hole,1844,20,W. H. Sturtevant,,,,
-1853-06,Vineyard Sound Association,Tisbury,MA,West,1673,54,S. Cole,,,,
-1853-06,Woburn Association,Bedford,MA,,1730,172,,,,,
-1853-06,Woburn Association,Billerica,MA,,1821,58,J. G. D. Stearns,,1843,,
-1853-06,Woburn Association,Burlington,MA,,1735,50,E. Moody,,,,
-1853-06,Woburn Association,Carlisle,MA,,1781,53,J. Lawrence,,1853,,
-1853-06,Woburn Association,Medford,MA,,1823,145,E. P. Marvin,,1852,,
-1853-06,Woburn Association,Reading,MA,North,1720,64,T. Newton,,1853,,
-1853-06,Woburn Association,Reading,MA,Old South Church,1771,127,L. Whiting,,1851,,
-1853-06,Woburn Association,Reading,MA,Bethesda Church,1849,148,W. H. Beecher,,1853,,
-1853-06,Woburn Association,South Reading,MA,,1645,129,Reuben Emerson,,1804,,
-1853-06,Woburn Association,Stoneham,MA,,1729,128,W. C. Whitcomb,,1850,,
-1853-06,Woburn Association,West Cambridge,MA,,1842,96,Francis Horton,,1848,,
-1853-06,Woburn Association,Wilmington,MA,,1733,111,J. E. Swallow,,1851,,
-1853-06,Woburn Association,Winchester,MA,,1840,197,R. I. Robinson,,1852,,
-1853-06,Woburn Association,Woburn,MA,First Church,1642,445,Jonathan Edwards,,1848,,
-1853-06,Woburn Association,Woburn,MA,North,1849,49,G. T. Dole,,1852,,
-1853-06,Worcester Central Association,Auburn,MA,,1776,150,Charles Chamberlain,,1851,,
-1853-06,Worcester Central Association,Barre,MA,,1827,196,C. M. Nichols,,1851,,
-1853-06,Worcester Central Association,Berlin,MA,,1779,121,,,,,
-1853-06,Worcester Central Association,Boylston,MA,,1743,122,William H. Sandford,,1832,,
-1853-06,Worcester Central Association,Chilton,MA,,1844,181,,,,,
-1853-06,Worcester Central Association,Holden,MA,,1742,341,William P. Paine,,1833,,
-1853-06,Worcester Central Association,Leicester,MA,,1721,222,John Nelson; A. C. Denison,,1812; 1851,,
-1853-06,Worcester Central Association,Northboro,MA,,1832,89,S. S. Ashley,,1852,,
-1853-06,Worcester Central Association,Oxford,MA,,1721,222,Horatio Bardwell,,1836,,
-1853-06,Worcester Central Association,Paxton,MA,,1767,108,William Phipps,,1840,,
-1853-06,Worcester Central Association,Princeton,MA,,1764,126,H. Wickes,,1852,,
-1853-06,Worcester Central Association,Rutland,MA,,1727,185,,,,,
-1853-06,Worcester Central Association,Shrewsbury,MA,,1723,259,N. W. Williams,,1849,,
-1853-06,Worcester Central Association,Sterling,MA,,1852,37,W. B. Greene,,,,
-1853-06,Worcester Central Association,Westboro,MA,,1724,389,Daniel R. Cady,,1849,,
-1853-06,Worcester Central Association,West Boylston,MA,,1796,247,Joseph W. Cross,,1840,,
-1853-06,Worcester Central Association,Worcester,MA,First Parish,1719,363,Horace James,,1853,,
-1853-06,Worcester Central Association,Worcester,MA,Calvinist Church,1820,332,Seth Sweetser,,1838,,
-1853-06,Worcester Central Association,Worcester,MA,Union Church,1836,434,Elam Smally,,1838,,
-1853-06,Worcester Central Association,Worcester,MA,Salem Street,1848,194,George Bushnell,,1848,,
-1853-06,Worcester North Association,Ashburnham,MA,[First Congregational Church],1760,147,F. A. Fiske,,,,
-1853-06,Worcester North Association,Ashburnham,MA,North,1845,58,J. D. Wesly,,,,
-1853-06,Worcester North Association,Athol,MA,,1750,144,J. F. Norton,,,,
-1853-06,Worcester North Association,Gardner,MA,First Church,1786,62,J. C. Paine,,,,
-1853-06,Worcester North Association,Gardner,MA,Second Church,1826,140,A. Stowell,,,,
-1853-06,Worcester North Association,Hubbardston,MA,,1770,150,C. W. Allen,,,,
-1853-06,Worcester North Association,New Salem,MA,,1845,24,W. H. Hayward,,,,
-1853-06,Worcester North Association,Petersham,MA,,1830,112,A. B. Foster,,,,
-1853-06,Worcester North Association,Phillipston,MA,,1785,185,A. E. P. Perkins,,,,
-1853-06,Worcester North Association,Royalston,MA,First Church,1766,109,E. W. Bullard,,,,
-1853-06,Worcester North Association,Royalston,MA,South,1837,70,George Goodyear,,,,
-1853-06,Worcester North Association,Templeton,MA,,1832,128,Lewis Sabin,,,,
-1853-06,Worcester North Association,Westminster,MA,,1744,310,O. H. White,,,,
-1853-06,Worcester North Association,Winchendon,MA,First Church,1762,106,John Storrs,,,,
-1853-06,Worcester North Association,Winchendon,MA,North Church,1843,131,A. P. Marvin,,,,
+1853-06,Vineyard Sound Association,Barnstable,MA,West,1634,61,H. Carlton,,,,The Year-book of the American Congregational Union for the Year 1854 (p. 58)
+1853-06,Vineyard Sound Association,Barnstable,MA,Centreville,1825,83,E. Bacon,,1840,,The Year-book of the American Congregational Union for the Year 1854 (p. 58)
+1853-06,Vineyard Sound Association,Chilmark,MA,,1715,21,N. Cobb,,,,The Year-book of the American Congregational Union for the Year 1854 (p. 58)
+1853-06,Vineyard Sound Association,Falmouth,MA,First Church,1708,236,H. B. Hooker,,1837,,The Year-book of the American Congregational Union for the Year 1854 (p. 58)
+1853-06,Vineyard Sound Association,Falmouth,MA,East,1821,44,A. C. Childs,,,,The Year-book of the American Congregational Union for the Year 1854 (p. 58)
+1853-06,Vineyard Sound Association,Falmouth,MA,North,1833,98,Cyrus Mann,,,,The Year-book of the American Congregational Union for the Year 1854 (p. 58)
+1853-06,Vineyard Sound Association,Falmouth,MA,"East, Second Church",1849,49,S. F. Beard,,,,The Year-book of the American Congregational Union for the Year 1854 (p. 58)
+1853-06,Vineyard Sound Association,Cotuit,MA,Herring Pond,1670,25,P. Fish,,1811,,The Year-book of the American Congregational Union for the Year 1854 (p. 58)
+1853-06,Vineyard Sound Association,Sandwich,MA,[First Congregational Church],1638,105,E. Wells,,1847,,The Year-book of the American Congregational Union for the Year 1854 (p. 58)
+1853-06,Vineyard Sound Association,Sandwich,MA,Monument Church,1833,44,,,,,The Year-book of the American Congregational Union for the Year 1854 (p. 58)
+1853-06,Vineyard Sound Association,Tisbury,MA,Holmes Hole,1844,20,W. H. Sturtevant,,,,The Year-book of the American Congregational Union for the Year 1854 (p. 58)
+1853-06,Vineyard Sound Association,Tisbury,MA,West,1673,54,S. Cole,,,,The Year-book of the American Congregational Union for the Year 1854 (p. 58)
+1853-06,Woburn Association,Bedford,MA,,1730,172,,,,,The Year-book of the American Congregational Union for the Year 1854 (p. 59)
+1853-06,Woburn Association,Billerica,MA,,1821,58,J. G. D. Stearns,,1843,,The Year-book of the American Congregational Union for the Year 1854 (p. 59)
+1853-06,Woburn Association,Burlington,MA,,1735,50,E. Moody,,,,The Year-book of the American Congregational Union for the Year 1854 (p. 59)
+1853-06,Woburn Association,Carlisle,MA,,1781,53,J. Lawrence,,1853,,The Year-book of the American Congregational Union for the Year 1854 (p. 59)
+1853-06,Woburn Association,Medford,MA,,1823,145,E. P. Marvin,,1852,,The Year-book of the American Congregational Union for the Year 1854 (p. 59)
+1853-06,Woburn Association,Reading,MA,North,1720,64,T. Newton,,1853,,The Year-book of the American Congregational Union for the Year 1854 (p. 59)
+1853-06,Woburn Association,Reading,MA,Old South Church,1771,127,L. Whiting,,1851,,The Year-book of the American Congregational Union for the Year 1854 (p. 59)
+1853-06,Woburn Association,Reading,MA,Bethesda Church,1849,148,W. H. Beecher,,1853,,The Year-book of the American Congregational Union for the Year 1854 (p. 59)
+1853-06,Woburn Association,South Reading,MA,,1645,129,Reuben Emerson,,1804,,The Year-book of the American Congregational Union for the Year 1854 (p. 59)
+1853-06,Woburn Association,Stoneham,MA,,1729,128,W. C. Whitcomb,,1850,,The Year-book of the American Congregational Union for the Year 1854 (p. 59)
+1853-06,Woburn Association,West Cambridge,MA,,1842,96,Francis Horton,,1848,,The Year-book of the American Congregational Union for the Year 1854 (p. 59)
+1853-06,Woburn Association,Wilmington,MA,,1733,111,J. E. Swallow,,1851,,The Year-book of the American Congregational Union for the Year 1854 (p. 59)
+1853-06,Woburn Association,Winchester,MA,,1840,197,R. I. Robinson,,1852,,The Year-book of the American Congregational Union for the Year 1854 (p. 59)
+1853-06,Woburn Association,Woburn,MA,First Church,1642,445,Jonathan Edwards,,1848,,The Year-book of the American Congregational Union for the Year 1854 (p. 59)
+1853-06,Woburn Association,Woburn,MA,North,1849,49,G. T. Dole,,1852,,The Year-book of the American Congregational Union for the Year 1854 (p. 59)
+1853-06,Worcester Central Association,Auburn,MA,,1776,150,Charles Chamberlain,,1851,,The Year-book of the American Congregational Union for the Year 1854 (pp. 59-60)
+1853-06,Worcester Central Association,Barre,MA,,1827,196,C. M. Nichols,,1851,,The Year-book of the American Congregational Union for the Year 1854 (pp. 59-60)
+1853-06,Worcester Central Association,Berlin,MA,,1779,121,,,,,The Year-book of the American Congregational Union for the Year 1854 (pp. 59-60)
+1853-06,Worcester Central Association,Boylston,MA,,1743,122,William H. Sandford,,1832,,The Year-book of the American Congregational Union for the Year 1854 (pp. 59-60)
+1853-06,Worcester Central Association,Chilton,MA,,1844,181,,,,,The Year-book of the American Congregational Union for the Year 1854 (pp. 59-60)
+1853-06,Worcester Central Association,Holden,MA,,1742,341,William P. Paine,,1833,,The Year-book of the American Congregational Union for the Year 1854 (pp. 59-60)
+1853-06,Worcester Central Association,Leicester,MA,,1721,222,John Nelson; A. C. Denison,,1812; 1851,,The Year-book of the American Congregational Union for the Year 1854 (pp. 59-60)
+1853-06,Worcester Central Association,Northboro,MA,,1832,89,S. S. Ashley,,1852,,The Year-book of the American Congregational Union for the Year 1854 (pp. 59-60)
+1853-06,Worcester Central Association,Oxford,MA,,1721,222,Horatio Bardwell,,1836,,The Year-book of the American Congregational Union for the Year 1854 (pp. 59-60)
+1853-06,Worcester Central Association,Paxton,MA,,1767,108,William Phipps,,1840,,The Year-book of the American Congregational Union for the Year 1854 (pp. 59-60)
+1853-06,Worcester Central Association,Princeton,MA,,1764,126,H. Wickes,,1852,,The Year-book of the American Congregational Union for the Year 1854 (pp. 59-60)
+1853-06,Worcester Central Association,Rutland,MA,,1727,185,,,,,The Year-book of the American Congregational Union for the Year 1854 (pp. 59-60)
+1853-06,Worcester Central Association,Shrewsbury,MA,,1723,259,N. W. Williams,,1849,,The Year-book of the American Congregational Union for the Year 1854 (pp. 59-60)
+1853-06,Worcester Central Association,Sterling,MA,,1852,37,W. B. Greene,,,,The Year-book of the American Congregational Union for the Year 1854 (pp. 59-60)
+1853-06,Worcester Central Association,Westboro,MA,,1724,389,Daniel R. Cady,,1849,,The Year-book of the American Congregational Union for the Year 1854 (pp. 59-60)
+1853-06,Worcester Central Association,West Boylston,MA,,1796,247,Joseph W. Cross,,1840,,The Year-book of the American Congregational Union for the Year 1854 (pp. 59-60)
+1853-06,Worcester Central Association,Worcester,MA,First Parish,1719,363,Horace James,,1853,,The Year-book of the American Congregational Union for the Year 1854 (pp. 59-60)
+1853-06,Worcester Central Association,Worcester,MA,Calvinist Church,1820,332,Seth Sweetser,,1838,,The Year-book of the American Congregational Union for the Year 1854 (pp. 59-60)
+1853-06,Worcester Central Association,Worcester,MA,Union Church,1836,434,Elam Smally,,1838,,The Year-book of the American Congregational Union for the Year 1854 (pp. 59-60)
+1853-06,Worcester Central Association,Worcester,MA,Salem Street,1848,194,George Bushnell,,1848,,The Year-book of the American Congregational Union for the Year 1854 (pp. 59-60)
+1853-06,Worcester North Association,Ashburnham,MA,[First Congregational Church],1760,147,F. A. Fiske,,1831,,The Year-book of the American Congregational Union for the Year 1854 (p. 60)
+1853-06,Worcester North Association,Ashburnham,MA,North,1845,58,J. D. Wesly,,,,The Year-book of the American Congregational Union for the Year 1854 (p. 60)
+1853-06,Worcester North Association,Athol,MA,,1750,144,J. F. Norton,,1852,,The Year-book of the American Congregational Union for the Year 1854 (p. 60)
+1853-06,Worcester North Association,Gardner,MA,First Church,1786,62,J. C. Paine,,1848,,The Year-book of the American Congregational Union for the Year 1854 (p. 60)
+1853-06,Worcester North Association,Gardner,MA,Second Church,1826,140,A. Stowell,,,,The Year-book of the American Congregational Union for the Year 1854 (p. 60)
+1853-06,Worcester North Association,Hubbardston,MA,,1770,150,C. W. Allen,,1852,,The Year-book of the American Congregational Union for the Year 1854 (p. 60)
+1853-06,Worcester North Association,New Salem,MA,,1845,24,W. H. Hayward,,1848,,The Year-book of the American Congregational Union for the Year 1854 (p. 60)
+1853-06,Worcester North Association,Petersham,MA,,1830,112,A. B. Foster,,1853,,The Year-book of the American Congregational Union for the Year 1854 (p. 60)
+1853-06,Worcester North Association,Phillipston,MA,,1785,185,A. E. P. Perkins,,1844,,The Year-book of the American Congregational Union for the Year 1854 (p. 60)
+1853-06,Worcester North Association,Royalston,MA,First Church,1766,109,E. W. Bullard,,1852,,The Year-book of the American Congregational Union for the Year 1854 (p. 60)
+1853-06,Worcester North Association,Royalston,MA,South,1837,70,George Goodyear,,1849,,The Year-book of the American Congregational Union for the Year 1854 (p. 60)
+1853-06,Worcester North Association,Templeton,MA,,1832,128,Lewis Sabin,,1837,,The Year-book of the American Congregational Union for the Year 1854 (p. 60)
+1853-06,Worcester North Association,Westminster,MA,,1744,310,O. H. White,,1851,,The Year-book of the American Congregational Union for the Year 1854 (p. 60)
+1853-06,Worcester North Association,Winchendon,MA,First Church,1762,106,John Storrs,,1849,,The Year-book of the American Congregational Union for the Year 1854 (p. 60)
+1853-06,Worcester North Association,Winchendon,MA,North Church,1843,131,A. P. Marvin,,1844,,The Year-book of the American Congregational Union for the Year 1854 (p. 60)

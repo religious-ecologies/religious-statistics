@@ -10,8 +10,8 @@ data <- lapply(files, read.csv, stringsAsFactors = FALSE) %>%
   rbind_all
 
 cities <- data %>%
-  group_by(city, state) %>%
-  summarize(place = paste(city, state)[1])
+  group_by(city, state, church) %>%
+  summarize(place = paste(church, city, state)[1])
 
 geo  <- geocode(cities$place)
 

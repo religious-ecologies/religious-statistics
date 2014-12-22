@@ -69,8 +69,8 @@ data <- data %>%
 
 
 url <- function(page) {
-  paste0("https://archive.org/stream/americancongrega04amer#page/"
-         page,"/mode/1up")
+  paste0("https://archive.org/stream/americancongrega04amer#page/",
+         page, "/mode/1up")
 }
 
 data <- data %>%

@@ -1,7 +1,6 @@
-# Historical Demographics of U.S. Religion
+# Religious Statistics in the United States
 
-This repository contains demographic data about American religion drawn
-from historical sources.
+This repository contains statistics about American religion drawn from historical sources.
 
 Lincoln A. Mullen | <lincoln@lincolnmullen.com> |
 http://lincolnmullen.com

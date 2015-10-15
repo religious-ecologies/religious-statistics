@@ -1,4 +1,4 @@
-diocese,date.erected,date.metropolitan,rite
+diocese,date_erected,date_metropolitan,rite
 "Alexandria-Cornwall, Ontario","January 21, 1890",,Latin
 "Amos, Quebec","December 3, 1938",,Latin
 "Antigonish, Nova Scotia","August 23, 1886",,Latin
@@ -70,9 +70,3 @@ diocese,date.erected,date.metropolitan,rite
 "Whitehorse, Yukon","July 13, 1967",,Latin
 "Winnipeg, Manitoba","December 4, 1915","December 4, 1915",Latin
 "Winnipeg, Manitoba","November 3, 1956",,Byzantine
-
-# Citation: http://www.catholic-hierarchy.org/country/dca2.html
-#
-# Explanation: "Diocese" is the name of the diocese, with the name of the province when necessary to clear up ambiguity. "Date.erected" is the date that the diocese was created. "Date.metropolitan" is the date the diocese became a metropolitan see or sometimes just an archdiocese. "Rite" is the ritual observed in the diocese. Regions or institutions with ordinary jurisdiction but not episcopal character are not included. In one case a diocese was suppressed, but that is not noted here, since it existed during the time to be mapped. The Diocese of Victoria was formerly the Diocese of Vancouver Island, in the disputed border territory.
-#
-# Data entry: Lincoln Mullen

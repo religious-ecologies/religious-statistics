@@ -1,4 +1,4 @@
-diocese,date.erected,date.metropolitan,rite
+diocese,date_erected,date_metropolitan,rite
 "Acapulco, Guerrero","March 18, 1958","February 10, 1983",Latin
 "Aguascalientes, Aguascalientes","August 27, 1899",,Latin
 "Antequera, Oaxaca","June 21, 1535","June 23, 1891",Latin
@@ -87,9 +87,3 @@ Eparchy of Nuestra Señora del Paraíso en México,"February 27, 1988",,Byzantin
 "Yucatán, Yucatán","November 19, 1561","November 11, 1906",Latin
 "Zacatecas, Zacatecas","January 26, 1863",,Latin
 "Zamora, Michoacán","January 26, 1863",,Latin
-
-# Citation: http://www.catholic-hierarchy.org/country/dmx.html
-#
-# Explanation: "Diocese" is the name of the diocese, with the name of the province when necessary to clear up ambiguity. "Date.erected" is the date that the diocese was created. "Date.metropolitan" is the date the diocese became a metropolitan see or sometimes just an archdiocese. "Rite" is the ritual observed in the diocese. Regions or institutions with ordinary jurisdiction but not episcopal character are not included.
-#
-# Data entry: Lincoln Mullen

@@ -1,0 +1,356 @@
+"diocese","date_erected","date_metropolitan","rite","lon","lat"
+"Baltimore, Maryland","1789-04-06","1808-04-08","Latin",-76.6122,39.2904
+"New Orleans, Louisiana","1793-04-25","1850-07-19","Latin",-90.0715,29.9511
+"Boston, Massachusetts","1808-04-08","1875-02-12","Latin",-71.0598,42.3584
+"Louisville, Kentucky","1808-04-08","1937-12-10","Latin",-85.7585,38.2527
+"New York, New York","1808-04-08","1850-07-19","Latin",-74.006,40.7144
+"Philadelphia, Pennsylvania","1808-04-08","1875-02-12","Latin",-75.1638,39.9523
+"Richmond, Virginia","1820-06-19",NA,"Latin",-77.436,37.5407
+"Charleston, South Carolina","1820-07-11",NA,"Latin",-79.9309,32.7766
+"Cincinnati, Ohio","1821-06-19","1850-07-19","Latin",-84.512,39.1031
+"St. Louis, Missouri","1826-07-18","1847-07-20","Latin",-90.1994,38.627
+"Mobile, Alabama","1829-05-15","1980-07-29","Latin",-88.0431,30.6944
+"Birmingham, Alabama","1969-06-28",NA,"Latin",-86.8025,33.5207
+"Detroit, Michigan","1833-03-08","1937-05-22","Latin",-83.0458,42.3314
+"Indianapolis, Indiana","1834-04-12","1944-10-21","Latin",-86.1581,39.7684
+"Dubuque, Iowa","1837-07-28","1893-06-15","Latin",-90.6646,42.5006
+"Nashville, Tennessee","1837-07-28",NA,"Latin",-86.7833,36.1667
+"Jackson, Mississippi","1837-07-28",NA,"Latin",-90.1848,32.2988
+"Los Angeles, California","1840-04-27","1936-07-11","Latin",-118.244,34.0522
+"Pittsburgh","1843-08-11",NA,"Latin",-79.9959,40.4406
+"Hartford, Connecticut","1843-09-18","1953-08-06","Latin",-72.6851,41.7637
+"Chicago, Illinois","1843-11-28","1880-09-10","Latin",-87.6298,41.8781
+"Little Rock, Arkansas","1843-11-28",NA,"Latin",-92.2896,34.7465
+"Milwaukee, Wisconsin","1843-11-28","1875-02-12","Latin",-87.9065,43.0389
+"Portland, Oregon","1846-07-24","1850-07-19","Latin",-122.676,45.5235
+"Albany, New York","1847-04-23",NA,"Latin",-73.7562,42.6526
+"Buffalo, New York","1847-04-23",NA,"Latin",-78.8784,42.8864
+"Cleveland, Ohio","1847-04-23",NA,"Latin",-81.6954,41.4995
+"Galveston-Houston, Texas","1847-04-23","2004-12-29","Latin",-95.3694,29.7602
+"Seattle, Washington","1850-05-31","1951-06-23","Latin",-122.332,47.6062
+"Savannah, Georgia","1850-07-03",NA,"Latin",-81.0998,32.0835
+"St. Paul-Minneapolis, Minnesota","1850-07-19","1888-05-04","Latin",-93.201,44.9375
+"Wheeling-Charleston, West Virginia","1850-07-19",NA,"Latin",-81.6331,38.3451
+"Erie, Pennsylvania","1853-07-15",NA,"Latin",-80.0851,42.1292
+"Alexandria, Louisiana","1853-07-15",NA,"Latin",-92.4451,31.3113
+"Brooklyn, New York","1853-07-29",NA,"Latin",-73.95,40.65
+"Burlington, Vermont","1853-07-29",NA,"Latin",-73.2121,44.4759
+"Covington, Kentucky","1853-07-29",NA,"Latin",-84.5086,39.0837
+"Newark, New Jersey","1853-07-29","1917-12-10","Latin",-74.1724,40.7357
+"Portland, Maine","1853-07-29",NA,"Latin",-70.2553,43.6615
+"San Francisco, California","1853-07-29","1853-07-29","Latin",-122.419,37.7749
+"Santa Fe, New Mexico","1853-07-29","1875-02-12","Latin",-105.938,35.687
+"Springfield, Illinois","1853-07-29",NA,"Latin",-89.6501,39.7817
+"Marquette, Michigan","1857-01-09",NA,"Latin",-87.3956,46.5476
+"Fort Wayne-South Bend, Indiana","1857-09-22",NA,"Latin",-85.2202,41.0541
+"Sacramento, California","1868-02-03",NA,"Latin",-121.494,38.5816
+"La Crosse, Wisconsin","1868-02-08",NA,"Latin",-91.2396,43.8014
+"Columbus, Ohio","1868-03-03",NA,"Latin",-82.9988,39.9612
+"Green Bay, Wisconsin","1868-03-03",NA,"Latin",-88.0198,44.5192
+"Harrisburg, Pennsylvania","1868-03-03",NA,"Latin",-76.8844,40.2737
+"Rochester, New York","1868-03-03",NA,"Latin",-77.6109,43.161
+"Wilmington, Delaware","1868-03-09",NA,"Latin",-75.5467,39.7458
+"Scranton, Pennsylvania","1868-11-05",NA,"Latin",-75.6624,41.409
+"St. Augustine, Florida","1870-03-11",NA,"Latin",-81.3132,29.8943
+"Springfield, Massachusetts","1870-06-14",NA,"Latin",-72.5898,42.1015
+"Providence, Rhode Island","1872-01-31",NA,"Latin",-71.4128,41.824
+"Ogdensburg, New York","1872-02-15",NA,"Latin",-75.4863,44.6942
+"San Antonio, Texas","1874-09-03","1926-08-03","Latin",-98.4936,29.4241
+"Peoria, Illinois","1875-02-12",NA,"Latin",-89.589,40.6936
+"Kansas City, Kansas","1877-05-22","1952-08-09","Latin",-94.6275,39.1141
+"Kansas City-St. Joseph, Missouri","1880-09-10",NA,"Latin",-94.8365,39.7579
+"Davenport, Iowa","1881-05-08",NA,"Latin",-90.5776,41.5236
+"Trenton, New Jersey","1881-07-15",NA,"Latin",-74.7429,40.2171
+"Grand Rapids, Michigan","1882-05-19",NA,"Latin",-85.6681,42.9634
+"Helena, Montana","1884-03-07",NA,"Latin",-112.027,46.5958
+"Manchester, New Hampshire","1884-04-15",NA,"Latin",-71.4548,42.9956
+"Omaha, Nebraska","1885-10-02","1945-08-07","Latin",-95.998,41.2524
+"Syracuse, New York","1886-11-20",NA,"Latin",-76.1474,43.0481
+"Belleville, Illinois","1887-01-07",NA,"Latin",-89.984,38.5201
+"Lincoln, Nebraska","1887-08-02",NA,"Latin",-96.6817,40.8069
+"Salina, Kansas","1887-08-02",NA,"Latin",-97.6114,38.8403
+"Wichita, Kansas","1887-08-02",NA,"Latin",-97.3361,37.6889
+"Denver, Colorado","1887-08-08","1941-11-15","Latin",-104.985,39.7376
+"St. Cloud, Minnesota","1889-09-22",NA,"Latin",-94.1632,45.5579
+"Duluth, Minnesota","1889-10-03",NA,"Latin",-92.1005,46.7867
+"Fargo, North Dakota","1889-11-12",NA,"Latin",-96.7898,46.8772
+"Sioux Falls, South Dakota","1889-11-12",NA,"Latin",-96.7003,43.55
+"Winona, Minnesota","1889-11-26",NA,"Latin",-91.6404,44.0479
+"Dallas, Texas","1890-07-15",NA,"Latin",-96.8005,32.7801
+"Fort Worth, Texas","1969-08-09",NA,"Latin",-97.3208,32.7254
+"Salt Lake City, Utah","1891-01-27",NA,"Latin",-111.891,40.7608
+"Boise City, Idaho","1893-08-25",NA,"Latin",-116.215,43.6187
+"Tucson, Arizona","1897-05-08",NA,"Latin",-110.926,32.2217
+"Altoona-Johnstown, Pennsylvania","1901-05-30",NA,"Latin",-78.5163,40.3557
+"Sioux City, Iowa","1902-01-15",NA,"Latin",-96.4003,42.5
+"Rapid City, South Dakota","1902-08-04",NA,"Latin",-103.231,44.0805
+"Baker, Oregon","1903-06-19",NA,"Latin",-117.834,44.7749
+"Fall River, Massachusetts","1904-03-12",NA,"Latin",-71.155,41.7015
+"Great Falls-Billings, Montana","1904-05-18",NA,"Latin",-109.766,46.6291
+"Superior, Wisconsin","1905-05-03",NA,"Latin",-92.1041,46.7208
+"Oklahoma City, Oklahoma","1905-08-23","1972-12-13","Latin",-97.5164,35.4676
+"Tulsa, Oklahoma","1972-12-13",NA,"Latin",-95.9928,36.154
+"Rockford, Illinois","1908-09-27",NA,"Latin",-89.094,42.2711
+"Bismarck, North Dakota","1909-12-31",NA,"Latin",-100.784,46.8083
+"Crookston, Minnesota","1909-12-31",NA,"Latin",-96.6094,47.7746
+"Toledo, Ohio","1910-04-15",NA,"Latin",-83.5552,41.6639
+"Des Moines, Iowa","1911-08-12",NA,"Latin",-93.6091,41.6005
+"Grand Island, Nebraska","1912-03-08",NA,"Latin",-98.342,40.9264
+"Corpus Christi, Texas","1912-03-23",NA,"Latin",-97.3964,27.8006
+"Spokane, Washington","1913-12-17",NA,"Latin",-117.426,47.6588
+"El Paso, Texas","1914-03-03",NA,"Latin",-106.487,31.7587
+"Lafayette, Louisiana","1918-01-11",NA,"Latin",-92.0198,30.2241
+"Monterey, California","1840-04-27",NA,"Latin",-121.895,36.6002
+"Fresno, California","1967-10-06",NA,"Latin",-119.773,36.7468
+"Raleigh, North Carolina","1924-12-12",NA,"Latin",-78.6382,35.7796
+"Amarillo, Texas","1926-08-03",NA,"Latin",-101.831,35.222
+"Reno, Nevada","1931-03-27",NA,"Latin",-119.814,39.5296
+"San Diego, California","1936-07-01",NA,"Latin",-117.157,32.7153
+"Lansing, Michigan","1937-05-22",NA,"Latin",-84.5555,42.7325
+"Camden, New Jersey","1937-12-09",NA,"Latin",-75.1196,39.9259
+"Owensboro, Kentucky","1937-12-09",NA,"Latin",-87.1112,37.7719
+"Paterson, New Jersey","1937-12-09",NA,"Latin",-74.1718,40.9168
+"Saginaw, Michigan","1938-02-26",NA,"Latin",-83.9508,43.4195
+"Washington, District of Columbia","1939-07-22","1939-07-22","Latin",-77.0365,38.9072
+"Gallup, New Mexico","1939-12-16",NA,"Latin",-108.743,35.5281
+"Honolulu, Hawaii","1941-09-10",NA,"Latin",-157.858,21.3069
+"Pueblo, Colorado","1941-11-15",NA,"Latin",-104.609,38.2544
+"Youngstown, Ohio","1943-05-15",NA,"Latin",-80.6495,41.0998
+"Evansville, Indiana","1944-10-21",NA,"Latin",-87.5711,37.9716
+"Lafayette, Indiana","1944-10-21",NA,"Latin",-86.8753,40.4167
+"Steubenville, Ohio","1944-10-21",NA,"Latin",-80.634,40.3698
+"Madison, Wisconsin","1946-03-12",NA,"Latin",-89.4012,43.0731
+"Austin, Texas","1947-11-15",NA,"Latin",-97.7431,30.2672
+"Joliet, Illinois","1948-12-11",NA,"Latin",-88.0817,41.525
+"Worcester, Massachusetts","1950-01-14",NA,"Latin",-71.8023,42.2626
+"Greensburg, Pennsylvania","1951-03-10",NA,"Latin",-79.5389,40.3015
+"Dodge City, Kansas","1951-03-19",NA,"Latin",-100.017,37.7528
+"Juneau, Alaska","1951-06-23",NA,"Latin",-134.42,58.3019
+"Yakima, Washington","1951-06-23",NA,"Latin",-120.506,46.6021
+"Bridgeport, Connecticut","1953-08-06",NA,"Latin",-73.1952,41.1865
+"Norwich, Connecticut","1953-08-06",NA,"Latin",-72.0759,41.5243
+"Atlanta, Georgia","1956-07-02","1962-02-21","Latin",-84.388,33.749
+"Jefferson City, Missouri","1956-07-02",NA,"Latin",-92.1735,38.5767
+"Springfield-Cape Girardeau, Missouri","1956-07-02",NA,"Latin",-89.5181,37.3059
+"Gary, Indiana","1957-02-25",NA,"Latin",-87.3464,41.5934
+"Rockville Centre, New York","1957-04-06",NA,"Latin",-73.6412,40.6587
+"New Ulm, Minnesota","1958-01-03",NA,"Latin",-94.4593,44.3144
+"Miami, Florida","1958-08-13","1958-05-25","Latin",-80.2264,25.789
+"Allentown, Pennsylvania","1961-01-28",NA,"Latin",-75.4902,40.6084
+"Baton Rouge, Louisiana","1961-07-20",NA,"Latin",-91.1403,30.4583
+"San Angelo, Texas","1961-10-16",NA,"Latin",-100.437,31.4638
+"Oakland, California","1962-02-21",NA,"Latin",-122.271,37.8044
+"Santa Rosa, California","1962-02-21",NA,"Latin",-122.714,38.4405
+"Stockton, California","1962-02-21",NA,"Latin",-121.291,37.9577
+"Fairbanks, Alaska","1962-08-08",NA,"Latin",-147.716,64.8378
+"Philadelphia, Pennsylvania","1924-05-08","1958-07-10","Byzantine",-75.1638,39.9523
+"Stamford, Connecticut","1958-07-10",NA,"Byzantine",-73.5387,41.0534
+"Chicago, Illinois","1961-08-14",NA,"Byzantine",-87.6298,41.8781
+"Pittsburgh, Pennsylvania","1963-07-06","1969-02-21","Byzantine",-79.9959,40.4406
+"Passaic, New Jersey","1963-07-06",NA,"Byzantine",-74.1285,40.8568
+"San Juan, Puerto Rico","1511-08-11","1960-04-30","Latin",-66.1057,18.4663
+"Ponce, Puerto Rico","1924-11-21",NA,"Latin",-66.6141,18.0111
+"Arecibo, Puerto Rico","1960-07-30",NA,"Latin",-66.7157,18.4724
+"Anchorage, Alaska","1966-01-22","1966-01-22","Latin",-149.9,61.2181
+"Arlington, Virginia","1974-05-28",NA,"Latin",-77.1068,38.88
+"Beaumont, Texas","1966-06-25",NA,"Latin",-94.1266,30.0802
+"Biloxi, Mississippi","1977-03-01",NA,"Latin",-88.8853,30.396
+"Brownsville, Texas","1965-07-10",NA,"Latin",-97.4975,25.9017
+"Charlotte, North Carolina","1971-11-12",NA,"Latin",-80.8431,35.2271
+"Cheyenne, Wyoming","1887-08-02",NA,"Latin",-104.82,41.14
+"Colorado Springs, Colorado","2083-10-19",NA,"Latin",-104.821,38.8339
+"Gaylord, Michigan","1970-12-19",NA,"Latin",-84.6748,45.0275
+"Phoenix, Arizona","1981-12-03",NA,"Byzantine",-112.074,33.4484
+"Houma-Thibodaux, Louisiana","1977-03-02",NA,"Latin",-90.7188,29.5889
+"Kalamazoo, Michigan","1970-12-19",NA,"Latin",-85.5872,42.2917
+"Knoxville, Tennessee","1988-05-27",NA,"Latin",-83.9207,35.9606
+"Lake Charles, Louisiana","1980-01-29",NA,"Latin",-93.2174,30.2266
+"Laredo, Texas","2000-07-03",NA,"Latin",-99.5075,27.5064
+"Las Cruces","1982-08-17",NA,"Latin",-106.764,32.3199
+"Las Vegas, Nevada","1995-03-21",NA,"Latin",-115.173,36.1146
+"Lexington, Kentucky","1988-01-14",NA,"Latin",-84.5037,38.0406
+"Lubbock, Texas","1983-03-25",NA,"Latin",-101.855,33.5779
+"Memphis, Tennessee","1970-06-20",NA,"Latin",-90.049,35.1495
+"Metuchen, New Jersey","1981-11-19",NA,"Latin",-74.3632,40.5432
+"Newton, Massachusetts","1976-06-28",NA,"Byzantine",-71.2092,42.337
+"Orange, California","1976-03-24",NA,"Latin",-117.853,33.7878
+"Newark, New Jersey","1995-11-06",NA,"Antiochian",-74.1724,40.7357
+"Los Angeles","1994-02-19",NA,"Antiochian",-118.244,34.0522
+"New York, New York","2005-09-12",NA,"Armenian",-74.006,40.7144
+"Palm Beach, Florida","1984-06-16",NA,"Latin",-80.0364,26.7056
+"Parma, Ohio","1969-02-21",NA,"Byzantine",-81.7229,41.4048
+"Pensacola, Tallahassee","1975-10-01",NA,"Latin",-84.2783,30.4388
+"Phoenix, Arizona","1969-06-28",NA,"Latin",-112.074,33.4484
+"Canton, Ohio","1987-03-26",NA,"Byzantine",-81.3784,40.7989
+"Parma, Ohio","1983-12-05",NA,"Byzantine",-81.7229,41.4048
+"Brooklyn, New York","1966-01-10",NA,"Antiochian",-73.95,40.65
+"St. Petersburg, Florida","1968-03-02",NA,"Latin",-82.64,27.7731
+"San Diego, California","2002-05-21",NA,"Chaldean",-117.157,32.7153
+"Virgin Islands","1977-04-20",NA,"Latin",-64.8963,18.3358
+"Chicago, Illinois","2001-03-13",NA,"Chaldean",-87.6298,41.8781
+"Detroit, Michigan","1985-08-03",NA,"Chaldean",-83.0458,42.3314
+"San Bernardino, California","1978-07-14",NA,"Latin",-117.29,34.1083
+"San Jose, California","1981-01-27",NA,"Latin",-121.895,37.3394
+"Shreveport, Louisiana","1986-06-16",NA,"Latin",-93.7502,32.5252
+"Tyler, Texas","1986-12-12",NA,"Latin",-95.3011,32.3513
+"Venice, Florida","1984-06-16",NA,"Latin",-82.4543,27.0998
+"Victoria, Texas","1982-04-13",NA,"Latin",-97.0036,28.8053
+"Alexandria-Cornwall, Ontario","1890-01-21",NA,"Latin",-74.7123,45.0187
+"Amos, Quebec","1938-12-03",NA,"Latin",-78.1125,48.565
+"Antigonish, Nova Scotia","1886-08-23",NA,"Latin",-61.9928,45.6227
+"Baie-Comeau, Quebec","1986-07-14",NA,"Latin",-68.1504,49.2213
+"Bathurst, New Brunswick","1860-05-08",NA,"Latin",-65.6513,47.6184
+"Calgary, Alberta","1912-11-30",NA,"Latin",-114.058,51.0453
+"Charlottetown, Prince Edward Island","1829-08-11",NA,"",-63.1311,46.2382
+"Chicoutimi, Quebec","1878-05-28",NA,"Latin",-71.0619,48.4222
+"Churchill-Baie d'Hudson, Manitoba","1968-01-29",NA,"Latin",-98.8139,53.7609
+"Corner Brook and Labrador, Newfoundland","1904-02-18",NA,"Latin",-57.9394,48.9432
+"Edmonton, Alberta","1871-09-22","1912-11-30","Latin",-113.491,53.5444
+"Edmonton, Alberta","1948-01-19",NA,"Byzantine",-113.491,53.5444
+"Edmundston, New Brunswick","1944-12-16",NA,"Latin",-68.3267,47.369
+"Gaspe, Quebec","1922-05-05",NA,"Latin",-64.4869,48.8316
+"Gatineau, Quebec","1963-04-27","1990-10-31","Latin",-75.7013,45.4765
+"Grand Falls, Newfoundland","1856-02-29",NA,"Latin",-55.6505,48.929
+"Grouard-McLennan, Alberta","1967-07-13","1967-07-13","Latin",-116.907,55.7109
+"Halifax-Yarmouth, Nova Scotia","1842-02-15","1852-05-04","Latin",-64.7224,44.0472
+"Hamilton, Ontario","1856-02-29",NA,"Latin",-79.8661,43.25
+"Hearst, Ontario","1938-12-03",NA,"Latin",-83.667,49.688
+"Joliette, Quebec","1904-01-27",NA,"Latin",-73.4392,46.0232
+"Kamloops, British Columbia","1945-12-22",NA,"Latin",-120.327,50.6745
+"Keewatin-Le Pas, Manitoba","1967-07-13",NA,"Latin",-101.241,53.8183
+"Kingston, Ontario","1826-01-27","1889-12-28","Latin",-76.486,44.2312
+"London, Ontario","1855-02-21",NA,"Latin",-81.2432,42.987
+"Mackenzie-Fort Smith, Northwest Territory","1967-07-13",NA,"Latin",NA,NA
+"Mar Addai of Toronto","2011-06-10",NA,"Chaldean",-79.3832,43.6532
+"Moncton, New Brunswick","1936-02-22","1936-02-22","Latin",-64.7782,46.0878
+"Mont-Laurier, Quebec","1913-04-21",NA,"Latin",-75.4974,46.5527
+"Montreal, Quebec","1836-05-13","1886-06-08","Latin",-73.554,45.5087
+"Moosonee, Ontario","1967-07-13",NA,"Latin",-80.64,51.2731
+"Nelson, British Columbia","1936-02-22",NA,"Latin",-117.295,49.4928
+"New Westminster, British Columbia","1974-06-27",NA,"Byzantine",-122.911,49.2057
+"Nicolet, Quebec","1885-07-10",NA,"Latin",-72.6192,46.2274
+"Ottawa, Ontario","1847-06-25","1886-06-08","Latin",-75.6972,45.4215
+"Pembroke, Ontario","1898-05-04",NA,"Latin",-77.1109,45.8267
+"Peterborough, Ontario","1882-07-11",NA,"Latin",-78.3197,44.3091
+"Prince-Albert, Saskatchewan","1907-12-02",NA,"Latin",-105.753,53.2033
+"Prince George, British Columbia","1967-07-13",NA,"Latin",-122.75,53.9171
+"Quebec, Quebec","1674-10-01","1819-01-12","Latin",-71.2428,46.8033
+"Regina, Saskatchewan","1910-03-04","1915-12-04","Latin",-104.607,50.4547
+"Rimouski, Quebec","1867-01-15","1846-02-09","Latin",-68.5167,48.4333
+"Rouyn-Noranda, Quebec","1973-11-29",NA,"Latin",-79.0188,48.2342
+"Saint-Boniface, Manitoba","1847-06-04",NA,"Latin",-97.0601,49.8626
+"Saint Catharines, Ontario","1958-11-22",NA,"Latin",-79.2469,43.1594
+"Sainte-Anne-de-la-Pocatiere, Quebec","1951-06-23",NA,"Latin",-70.0405,47.3286
+"Saint-Hyacinthe, Quebec","1852-06-08",NA,"Latin",-72.9563,45.6307
+"Saint-Jean-Longueuil, Quebec","1933-06-09",NA,"Latin",-73.5049,45.5345
+"Saint-Jerome, Quebec","1951-06-23",NA,"Latin",-74.0049,45.7754
+"Saint John, New Brunswick","1842-09-30",NA,"Latin",-66.0633,45.2733
+"Saint John's, Newfoundland","1847-06-04","1904-02-08","Latin",-52.7128,47.5605
+"Saint-Maron de Montreal","1982-08-27",NA,"Antiochian",-73.6668,45.56
+"Saint Paul in Alberta","1948-07-17",NA,"Latin",-111.295,53.9911
+"Saint-Sauveur de Montreal","1984-09-01",NA,"Byzantine",-73.6719,45.5348
+"Toronto, Ontario","1980-10-13",NA,"Byzantine",-79.3832,43.6532
+"Gravelbourg, Saskatchewan","1930-01-31",NA,"Latin",-106.557,49.8757
+"Saskatoon, Saskatchewan","1933-06-09",NA,"Latin",-106.648,52.1344
+"Saskatoon, Sasketchewan","1956-11-03",NA,"Byzantine",-106.648,52.1344
+"Sault Sainte Marie, Ontario","1904-09-16",NA,"Latin",-84.3453,46.4953
+"Sherbrooke, Quebec","1874-08-28","1951-03-02","Latin",-71.8824,45.401
+"Thunder Bay, Ontario","1952-04-29",NA,"Latin",-89.2477,48.3809
+"Timmins, Ontario","1915-12-31",NA,"Latin",-81.3305,48.4758
+"Toronto, Ontario","1841-12-17","1870-03-18","Latin",-79.3832,43.6532
+"Toronto, Ontario","1956-11-03",NA,"Byzantine",-79.3832,43.6532
+"Trois Rivieres, Quebec","1852-06-08",NA,"Latin",-72.5433,46.3432
+"Valleyfield, Quebec","1892-04-05",NA,"Latin",-74.1331,45.2501
+"Vancouver, British Columbia","1890-09-02","1908-09-19","Latin",-123.114,49.2612
+"Victoria, British Columbia","1846-07-24","1903-06-19","Latin",-123.366,48.4284
+"Whitehorse, Yukon","1967-07-13",NA,"Latin",-135.057,60.7212
+"Winnipeg, Manitoba","1915-12-04","1915-12-04","Latin",-97.1375,49.8998
+"Winnipeg, Manitoba","1956-11-03",NA,"Byzantine",-97.1375,49.8998
+"Acapulco, Guerrero","1958-03-18","1983-02-10","Latin",-99.8816,16.8638
+"Aguascalientes, Aguascalientes","1899-08-27",NA,"Latin",-102.291,21.8785
+"Antequera, Oaxaca","1535-06-21","1891-06-23","Latin",-96.7158,17.0692
+"Apatzingan, Michoacan","1962-04-30",NA,"Latin",-102.35,19.0833
+"Atlacomulco, Mexico","1984-11-03",NA,"Latin",-99.0385,19.3977
+"Autlan, Jalisco","1961-01-28",NA,"Latin",-104.367,19.7708
+"Campeche, Campeche","1895-03-24",NA,"Latin",-90.5349,19.8301
+"Chihuahua, Chihuahua","1891-06-23","1958-11-22","Latin",-106.074,28.6306
+"Chilpancingo-Chilapa, Guerrero","1863-03-16",NA,"Latin",-99.3896,17.5818
+"Ciudad Altamirano, Guerrero","1964-10-27",NA,"Latin",-100.667,18.3583
+"Ciudad Guzman, Jalisco","1972-03-25",NA,"Latin",-103.469,19.705
+"Ciudad Juarez, Chihuahua","1957-04-10",NA,"Latin",-106.483,31.7388
+"Ciudad Lázaro Cárdenas, Michoacán","1985-10-11",NA,"Latin",-102.213,17.9694
+"Ciudad Obregón, Sonora","1959-06-20",NA,"Latin",-109.939,27.4939
+"Ciudad Valles, San Luís Potosí","1960-11-27",NA,"Latin",-99.0044,21.9884
+"Ciudad Victoria, Tamaulipas","1964-12-21",NA,"Latin",-99.1411,23.7369
+"Tampico, Tamaulipas","1870-03-12",NA,"Latin",-97.8534,22.2945
+"Coatzacoalcos, Veracruz","1984-03-14",NA,"Latin",-94.4601,18.1248
+"Colima, Colima","1881-12-11",NA,"Latin",-103.733,19.2452
+"Córdoba, Veracruz","2000-04-15",NA,"Latin",-96.9238,18.8839
+"Cuauhtémoc-Madera, Chihuahua","1995-11-17",NA,"Latin",-106.061,28.6119
+"Cuautitlán, México","1979-02-05",NA,"Latin",-99.181,19.6722
+"Cuernavaca, Morelos","1891-06-23",NA,"Latin",-99.2342,18.9186
+"Culiacán, Sinaloa","1959-02-16",NA,"Latin",-107.385,24.8048
+"Durango, Durango","1620-09-28","1891-06-23","Latin",-104.653,24.0277
+"Ecatepec, México","1995-06-28",NA,"Latin",-99.0507,19.6018
+"Ensenada, Baja California Norte","2007-01-26",NA,"Latin",-116.606,31.8596
+"Gómez Palacio, Durango","2008-11-25",NA,"Latin",-103.492,25.5681
+"Guadalajara, Jalisco","1548-07-13","1863-01-26","Latin",-103.344,20.6736
+"Hermosillo, Sonora","1779-05-07","1963-07-13","Latin",-110.963,29.0737
+"Huajuapan de León, Oaxaca","1902-04-25",NA,"Latin",-97.7808,17.8047
+"Huautla, Oaxaca","1972-10-08",NA,"Latin",-96.8437,18.1308
+"Huejutla, Hidalgo","1922-11-24",NA,"Latin",-98.4189,21.1392
+"Irapuato, Guanajuato","2004-01-03",NA,"Latin",-101.354,20.6787
+"Jalapa, Veracruz","1863-03-19","1951-06-29","Latin",-96.9102,19.5438
+"La Paz en la Baja California Sur","1988-03-21",NA,"Latin",-110.313,24.1426
+"León, Guanajuato","1863-01-26","2006-11-25","Latin",-101.661,21.135
+"Linares, Nuevo León","1962-04-30",NA,"Latin",-99.5667,24.8597
+"Matamoros, Tamaulipas","1958-02-16",NA,"Latin",-97.5027,25.869
+"Matehuala, San Luís Potosí","1997-05-28",NA,"Latin",-100.643,23.6448
+"Mazatlán, Sinaloa","1958-11-22",NA,"Latin",-106.411,23.2494
+"Mexicali, Baja California Norte","1966-03-25",NA,"Latin",-115.452,32.6245
+"México, Federal District","1530-09-02","1546-02-12","Latin",-99.1013,19.2465
+"Monterrey, Nuevo León","1777-12-15","1891-06-23","Latin",-100.309,25.6732
+"Morelia, Michoacán","1536-08-11","1863-01-26","Latin",-101.195,19.706
+"Netzahualcóyotl, México","1979-02-05",NA,"Latin",-99.0248,19.4038
+"Eparchy of Nuestra Señora de los Mártires del Libano en México","1995-11-06",NA,"Antiochian",-102.553,23.6345
+"Eparchy of Nuestra Señora del Paraíso en México","1988-02-27",NA,"Byzantine",-102.553,23.6345
+"Nuevo Casas Grandes, Chihuahua","2000-06-03",NA,"Latin",-107.9,30.4199
+"Nuevo Laredo, Tamaulipas","1989-11-06",NA,"Latin",-99.5562,27.467
+"Orizaba, Veracruz","2000-04-15",NA,"Latin",-97.1,18.85
+"Papantla, Puebla","1922-11-24",NA,"Latin",-98.1291,19.038
+"Parral, Chihuahua","1992-05-11",NA,"Latin",-105.236,27.2357
+"Piedras Negras, Coahuila","2003-01-08",NA,"Latin",-100.523,28.7
+"Puebla de los Ángeles, Puebla","1525-10-13","1903-08-11","Latin",-98.2062,19.0413
+"Puerto Escondido, Oaxaca","2003-11-08",NA,"Latin",-97.0694,15.8655
+"Querétaro, Querétaro","1863-01-26",NA,"Latin",-100.39,20.5888
+"Saltillo, Coahuila","1891-06-23",NA,"Latin",-100.995,25.4267
+"San Andrés Tuxtla, Veracruz","1959-05-23",NA,"Latin",-95.2175,18.4466
+"San Cristóbal de Las Casas, Chiapas","1539-03-19",NA,"Latin",-92.6376,16.737
+"San Juan de los Lagos, Jalisco","1972-03-25",NA,"Latin",-102.332,21.2491
+"San Luis Potosí, San Luis Potosí","1854-08-31","1988-11-05","Latin",-100.986,22.1565
+"Tabasco, Tabasco","1880-05-25",NA,"Latin",-102.913,21.8648
+"Tacámbaro, Michoacán","1913-07-26",NA,"Latin",-101.457,19.2356
+"Tapachula, Chiapas","1957-06-19",NA,"Latin",-92.2609,14.9112
+"Tarahumara, Chihuahua","1993-12-20",NA,"Latin",-106.113,28.7349
+"Tehuacán, Puebla","1962-01-13",NA,"Latin",-97.4,18.4667
+"Tehuantepec, Oaxaca","1891-06-23",NA,"Latin",-95.2389,16.3244
+"Tenancingo, México","2009-11-26",NA,"Latin",-99.5868,18.9598
+"Teotihuacán, México","2008-12-03",NA,"Latin",-98.8721,19.6853
+"Tepic, Nayarit","1891-06-23",NA,"Latin",-104.895,21.5042
+"Texcoco, México","1960-04-30",NA,"Latin",-99.1333,19.4194
+"Tijuana, Baja California Norte","1963-07-13","2006-11-25","Latin",-117.038,32.5149
+"Tlalnepantla, México","1964-01-13","1989-06-17","Latin",-99.1907,19.5345
+"Tlapa, Guerrero","1992-01-04",NA,"Latin",-98.5764,17.5461
+"Tlaxcala, Tlaxcala","1959-05-23",NA,"Latin",-98.2375,19.3182
+"Toluca, México","1950-06-04",NA,"Latin",-99.6453,19.3009
+"Torreón, Coahuila","1957-06-19",NA,"Latin",-103.407,25.5428
+"Tula, Hidalgo","1961-02-27",NA,"Latin",-99.3444,20.0523
+"Tulancingo, Hidalgo","1863-01-26","2006-11-25","Latin",-98.368,20.0844
+"Tuxpan, Veracruz","1962-06-09",NA,"Latin",-97.4063,20.9561
+"Tuxtepec, Oaxaca","1979-01-08",NA,"Latin",-96.1232,18.0882
+"Tuxtla Gutiérrez, Chiapas","1964-10-27","2006-11-25","Latin",-93.1271,16.7604
+"Valle de Chalco, México","2003-07-08",NA,"Latin",-99.1332,19.4326
+"Veracruz, Veracruz","1962-06-09",NA,"Latin",-96.1342,19.1738
+"Yucatán, Yucatán","1561-11-19","1906-11-11","Latin",-89.0943,20.7099
+"Zacatecas, Zacatecas","1863-01-26",NA,"Latin",-102.583,22.7709
+"Zamora, Michoacán","1863-01-26",NA,"Latin",-102.283,20

@@ -10,7 +10,6 @@ The file `catholic-dioceses.csv` is the primary data file, containing dioceses i
 ## Fields 
 
 - `diocese` is the name of the diocese, with the name of the state when necessary to clear up ambiguity
-- `date_erected` is the date that the diocese was created. 
-`date.metropolitan` is the date the diocese became a metropolitan see or sometimes just an archdiocese.
+- `date_erected` is the date that the diocese was created. `date_metropolitan` is the date the diocese became a metropolitan see or sometimes just an archdiocese.
 - `rite` is the ritual observed in the diocese. Regions or institutions with ordinary jurisdiction but not episcopal character are not included.
 - `lon` and `lat` are the longitude and latitude of the city for which the see is named.

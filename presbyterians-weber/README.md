@@ -1,4 +1,6 @@
-Data in this directory is from this source:
+## Presbyterians statis, 1826--1926
+
+## Sources
 
 Weber, Herman C. *Presbyterian Statistics Through One Hundred Year, 
 1826--1926: Tabulated, Visualized, and Interpreted*. Philadelphia: The 

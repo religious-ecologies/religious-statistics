@@ -1,6 +1,6 @@
 # Historical Statistics of Religion in America
 
-This repository contains statistics about American religion drawn from historical sources.
+This repository contains statistics about American religion drawn from historical sources. For links to the sources and work in progress, [see this page](http://notebook.lincolnmullen.com/Religious%20statistics%20of%20the%20United%20States) in my research wiki.
 
 ## Citation
 

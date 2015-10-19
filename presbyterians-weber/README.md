@@ -1,4 +1,4 @@
-## Presbyterians statis, 1826--1926
+# Presbyterians statistics, 1826--1926
 
 ## Sources
 

@@ -10,3 +10,4 @@ outputs/
 .Rproj.user
 demographics-religion.Rproj
 .Rhistory
+.httr-oauth

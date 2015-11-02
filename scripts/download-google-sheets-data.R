@@ -1,7 +1,9 @@
+#!/usr/bin/env Rscript --vanilla
 # This script downloads CSV files from Google Sheets and saves them to the
 # appropriate place in the repository
 
 library("googlesheets")
+library("magrittr")
 
 # Methodists
 "1Ql2-sHAY3BuBmmW3LsX54e3oBUYmqMfLfLsAIsgZoGc" %>%
